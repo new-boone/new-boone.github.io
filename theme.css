@@ -92,6 +92,8 @@ input[value="Publish Theme"] {
 	margin: 1em;
 }
 
+#id_name, #id_leader_name { width: 190px; }
+
 
 /* Throne Page */
 #header { 
