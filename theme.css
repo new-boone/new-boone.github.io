@@ -27,6 +27,7 @@ a, a:visited {
 
 #middle {
 	overflow: inherit;
+	min-height: calc(100vh - 125px);
 }
 
 #header-navigation, #header-navigation-2nd-level {
@@ -93,8 +94,8 @@ a, a:visited {
 }
 
 .chooser-nav-class {
-	width: 300px;
-	padding: 20px 0 0;
+	width: 300px !important;
+	padding: 20px 0 0 !important;
 }
 
 #footer {
