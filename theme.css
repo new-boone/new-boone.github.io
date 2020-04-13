@@ -89,4 +89,15 @@ a, a:visited {
 
 .google_ads {
 	margin: 0 auto;
+	margin-left: auto !important;
+}
+
+.chooser-nav-class {
+	width: 300px;
+	padding: 20px 0 0;
+}
+
+#footer {
+	width: auto;
+	font-size: 0.7em;
 }
