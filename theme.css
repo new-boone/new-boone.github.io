@@ -73,7 +73,7 @@ a, a:visited {
 }
 
 #ircchat {
-	width: 97%;
+	width: 97% !important;
 	border-radius: 5px;
 	background-color: #eeeeee !important;
 	color: #111111 !important;
@@ -124,8 +124,8 @@ a, a:visited {
 }
 
 #overlay {
-	float: unset;
-	width: auto;
+	float: unset !important;
+	width: auto !important;
 }
 
 .game-header {
