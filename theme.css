@@ -525,3 +525,7 @@ th[colspan="7"] { display: none; }
 	padding-left: 15px;
 }
 
+/* Test */
+body {
+	background: darkgray;
+}
