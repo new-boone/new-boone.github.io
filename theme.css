@@ -13,8 +13,16 @@ a, a:visited {
 	text-decoration: none;
 }
 
+#inner-container {
+	width: 100%;
+	position: unset;
+	margin-top: 0;
+}
+
 #header {
-	height: 50px;
+	height: 45px;
+	width: auto;
+	padding: 0 15px;
 }
 
 #middle {
@@ -22,7 +30,7 @@ a, a:visited {
 }
 
 #header-navigation, #header-navigation-2nd-level {
-	position: static;
+	position: unset;
 	width: auto;
 }
 
@@ -35,9 +43,18 @@ a, a:visited {
 	font-size: 0.7em;
 }
 
+.navigation a, .navigation a:visited {
+	color: #eeeeee;
+	text-decoration: none;
+}
+
 #account-container {
-	position: static;
+	position: unset;
 	font-size: 0.7em;
+}
+
+#account-header {
+	margin: 1px 10px;
 }
 
 #account-details {
@@ -68,4 +85,8 @@ a, a:visited {
 	padding: 20px;
 	width: auto !important;
 	border-bottom: 1px solid lightgray !important;
+}
+
+.google_ads {
+	margin: 0 auto;
 }
