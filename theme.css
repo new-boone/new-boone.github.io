@@ -8,31 +8,7 @@ body {
 	color: #eeeeee;
 }
 
-#inner-container {
-	width: 100%;
-}
-
-#header {
-	width: auto;
-}
-
-#ircchat {
-	width: auto !important;
-}
-
-#left-column {
-	float: none;
-	width: 100%;
-}
-
-#game-navigation {
-	width: 16%;
-}
-
-.game-header {
-	width: auto;
-}
-
-.game-content {
-	width: 67%;
+a, a:visited {
+	color: dodgerblue;
+	text-decoration: none;
 }
