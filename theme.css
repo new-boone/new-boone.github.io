@@ -124,13 +124,18 @@ a, a:visited {
 }
 
 #overlay {
-	float: unset !important;
-	width: auto !important;
+	width: 60% !important;
+	margin-top: 10px !important;
 }
 
 .game-header {
-	float: unset;
-	width: auto;
+	width: 60%;
+	font-size: 0.8em;
+	margin: 20px 0;
+}
+
+#throne-game-message, #throne-monarch-message {
+	margin: 50px 0;
 }
 
 .game-content {
