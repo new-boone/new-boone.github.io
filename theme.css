@@ -7,3 +7,28 @@ body {
 	font-size: 2.5em;
 	color: #eeeeee;
 }
+
+#inner-container {
+	width: 100%;
+}
+
+#ircchat {
+	width: 90%;
+}
+
+#left-column {
+	float: none;
+	width: 100%;
+}
+
+#game-navigation {
+	width: 16%;
+}
+
+.game-header {
+	width: auto;
+}
+
+.game-content {
+	width: 67%;
+}
