@@ -4,7 +4,7 @@
 body {
 	background: #111111;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #eeeeee;
 }
 
@@ -13,8 +13,15 @@ a, a:visited {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-	body {
-		font-size: 5em;
-	}
+#header-navigation {
+	position: static;
+	width: auto;
+}
+
+#header-navigation div {
+	margin: 0 15px 0;
+}
+
+.navigation {
+	padding: 0;
 }
