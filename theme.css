@@ -17,6 +17,10 @@ a, a:visited {
 	height: 50px;
 }
 
+#middle {
+	overflow: inherit;
+}
+
 #header-navigation, #header-navigation-2nd-level {
 	position: static;
 	width: auto;
