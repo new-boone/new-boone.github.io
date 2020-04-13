@@ -17,7 +17,7 @@ body {
 }
 
 #ircchat {
-	width: 90%;
+	width: auto !important;
 }
 
 #left-column {
