@@ -73,11 +73,12 @@ a, a:visited {
 }
 
 #ircchat {
+	width: 97%;
 	border-radius: 5px;
 	background-color: #eeeeee !important;
 	color: #111111 !important;
 	font-size: 0.7em;
-	margin: 0 0 20px 0 !important;
+	margin: 0 auto 20px !important;
 	padding: 5px 5px 25px 0 !important;
 }
 
@@ -104,6 +105,36 @@ a, a:visited {
 
 .divider {
 	height: 10px;
+}
+
+#game-navigation {
+	width: 300px;
+}
+
+#game-navigation .current-date {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#game-navigation .navigation {
+	margin-bottom: 20px;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	text-align: left;
+}
+
+#overlay {
+	float: unset;
+	width: auto;
+}
+
+.game-header {
+	float: unset;
+	width: auto;
+}
+
+.game-content {
+	width: 60%;
 }
 
 #footer {
