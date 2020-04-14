@@ -127,20 +127,21 @@ a, a:visited {
 }
 
 #botlinks, #botupdate {
-    left: calc(5% + 90px) !important;
-    margin-top: 0px !important;
-    top: 11px !important;
-    z-index: -1 !important;
-    border-radius: 0 !important;
-    margin-left: 0 !important;
-    background: #111111;
-    border: none;
-    outline: 1px dashed #a1e882;
-    font-size: 0.4em !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 2px 5px 0;
-    line-height: 2em;
+	left: calc(5% + 105px) !important;
+	margin-top: 0px !important;
+	top: 10px !important;
+	z-index: -1 !important;
+	border-radius: 0 !important;
+	margin-left: 0 !important;
+	background: #111111;
+	border: none;
+	outline: 1px dashed #a1e882;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.4em !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0 5px;
+	line-height: 2em;
 }
 
 #left-column {
@@ -167,6 +168,7 @@ a, a:visited {
 	padding: 8px 0 0 10px;
 	line-height: 1.5em;
 	width: calc(20% - 10px) !important;
+	font-size: 0.9em;
 }
 
 #irconline hr {
@@ -176,7 +178,7 @@ a, a:visited {
 
 #ircchat center {
 	padding: 0 0 5px;
-	margin-top: -16px;
+	margin-top: -13px;
 }
 
 #irccontainer {
