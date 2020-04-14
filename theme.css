@@ -101,13 +101,13 @@ a, a:visited {
 }
 
 #toggler {
-	background-color: transparent;
-	width: auto;
+	background-color: transparent !important;
+	width: auto !important;
 	border: 1px solid gray;
-	border-radius: 0;
-	top: 8px;
-	left: calc(5% + 10px);
-	margin-left: 0;
+	border-radius: 0 !important;
+	top: 8px !important;
+	left: calc(5% + 10px) !important;
+	margin-left: 0 !important;
 	text-transform: uppercase;
 	padding: 0 10px;
 }
@@ -187,8 +187,12 @@ a, a:visited {
 	width: 60%;
 }
 
-.advice-message {
-	color: lawngreen;
+.good, .advice-message {
+	color: #a1e882;
+}
+
+.bad {
+	color: #e86161;
 }
 
 #footer {
