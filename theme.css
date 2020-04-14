@@ -38,7 +38,8 @@ a, a:visited {
 #header {
 	height: 45px;
 	width: auto;
-	font-size: 0.5em;
+	font-size: 0.4em;
+	letter-spacing: 1px;
 }
 
 #middle {
@@ -49,7 +50,7 @@ a, a:visited {
 #header-navigation, #header-navigation-2nd-level {
 	position: unset;
 	width: auto;
-	margin-left: 110px;
+	margin-top: 25px;
 	text-transform: uppercase;
 }
 
@@ -107,11 +108,14 @@ a, a:visited {
 	width: auto !important;
 	border: 1px solid gray;
 	border-radius: 0 !important;
-	top: 8px !important;
+	top: 10px !important;
 	left: calc(5% + 10px) !important;
 	margin-left: 0 !important;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 2px 5px 0;
+	font-size: 0.4em;
+	letter-spacing: 1px;
+	line-height: 2em;
 }
 
 #left-column {
