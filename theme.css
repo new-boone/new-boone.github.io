@@ -73,10 +73,11 @@ a, a:visited {
 
 #account-details {
 	background: #111111;
-	font-size: 1.4em;
-	line-height: 1.8em;
-	padding: 10px 20px;
-	right: 5%;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	right: calc(5% + 10px);
 	top: 35px;
 	border: 1px solid gray;
 }
@@ -85,7 +86,7 @@ a, a:visited {
 	padding: 0;
 	margin-bottom: 10px;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	border-bottom: 1px solid #eeeeee;
 }
 
@@ -113,9 +114,26 @@ a, a:visited {
 	margin-left: 0 !important;
 	text-transform: uppercase;
 	padding: 2px 5px 0;
-	font-size: 0.4em;
+	font-size: 0.4em !important;
 	letter-spacing: 1px;
 	line-height: 2em;
+}
+
+#botlinks {
+    left: calc(14% + 2px) !important;
+    margin-top: 0px !important;
+    top: 11px !important;
+    z-index: -1 !important;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    background: #111111;
+    border: none;
+    outline: 1px dashed #a1e882;
+    font-size: 0.4em !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 5px 0;
+    line-height: 2em;
 }
 
 #left-column {
