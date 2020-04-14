@@ -159,7 +159,7 @@ a, a:visited {
 }
 
 #ircchat table {
-	border-collapse: initial;
+	border-spacing: 10px 0;
 }
 
 #irconline {
@@ -225,8 +225,7 @@ a, a:visited {
 
 #overlay {
 	width: 70% !important;
-	margin-top: 10px !important;
-	margin-left: 0;
+	margin-left: 0 !important;
 }
 
 .game-header {
