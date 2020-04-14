@@ -159,7 +159,7 @@ a, a:visited {
 }
 
 #ircchat table {
-	border-spacing: 10px 0;
+	border-spacing: 10px 0 !important;
 }
 
 #irconline {
