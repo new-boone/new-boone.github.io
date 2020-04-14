@@ -119,8 +119,8 @@ a, a:visited {
 	line-height: 2em;
 }
 
-#botlinks {
-    left: calc(14% + 2px) !important;
+#botlinks, #botupdate {
+    left: calc(5% + 90px) !important;
     margin-top: 0px !important;
     top: 11px !important;
     z-index: -1 !important;
@@ -221,7 +221,7 @@ a, a:visited {
 }
 
 .bad {
-	color: #e86161;
+	color: #f56767;
 }
 
 #footer {
