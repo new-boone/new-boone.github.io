@@ -178,7 +178,8 @@ a, a:visited {
 }
 
 #game-navigation {
-	width: 300px;
+	width: 15%;
+	margin-right: 0;
 }
 
 #game-navigation .current-date {
@@ -194,16 +195,17 @@ a, a:visited {
 }
 
 #resource-bar {
-	width: 60%;
+	width: 70%;
 }
 
 #overlay {
-	width: 60% !important;
+	width: 70% !important;
 	margin-top: 10px !important;
+	margin-left: 0;
 }
 
 .game-header {
-	width: 60%;
+	width: 70%;
 	font-size: 0.8em;
 	margin: 20px 0;
 }
@@ -213,7 +215,12 @@ a, a:visited {
 }
 
 .game-content {
-	width: 60%;
+	width: 70%;
+	padding: 0;
+}
+
+#right-column {
+	width: 15%;
 }
 
 .good, .advice-message {
