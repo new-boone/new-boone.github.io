@@ -1,5 +1,7 @@
 @import url("default-theme.css");
 
+.google_ads, #game-navigation, #resource-bar, #overlay, .game-header, .game-content { outline: 1px dashed; }
+
 /* Test */
 body {
 	background: #111111;
@@ -114,6 +116,7 @@ a, a:visited {
 
 #left-column {
 	width: 100%;
+	float: none;
 }
 
 #ircchat {
@@ -166,6 +169,10 @@ a, a:visited {
 	font-size: 0.9em;
 	line-height: 1.2em;
 	text-align: left;
+}
+
+#resource-bar {
+	width: 60%;
 }
 
 #overlay {
