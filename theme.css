@@ -235,3 +235,9 @@ a, a:visited {
 	width: auto;
 	font-size: 0.7em;
 }
+
+@media only screen and (max-width: 600px) {
+	#game-navigation .navigation {
+		font-size: 2.9em;
+	}
+}
