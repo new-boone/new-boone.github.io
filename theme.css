@@ -26,12 +26,12 @@ a, a:visited {
 	width: 100%;
 	position: unset;
 	margin-top: 0;
+	padding: 0 30px;
 }
 
 #header {
 	height: 45px;
 	width: auto;
-	padding: 0 15px;
 	font-size: 0.5em;
 }
 
@@ -46,16 +46,20 @@ a, a:visited {
 }
 
 #header-navigation div, #header-navigation-2nd-level div {
-	margin: 10px;
+	margin: 0 5px;
 }
 
 #account-container {
 	position: unset;
-	margin-top: -5px;
 }
 
 #account-header {
-	margin: 1px 10px;
+	top: 1px;
+	right: -50px;
+}
+
+#account-header .down-arrow {
+	top: 15px;
 }
 
 #account-details {
