@@ -8,6 +8,10 @@ body {
 	color: #eeeeee;
 }
 
+h1 {
+	font-size: 1.5em;
+}
+
 a, a:visited {
 	color: #ffd17a;
 	text-decoration: none;
@@ -28,7 +32,7 @@ a, a:visited {
 	height: 45px;
 	width: auto;
 	padding: 0 15px;
-	font-size: 0.7em;
+	font-size: 0.5em;
 }
 
 #middle {
@@ -47,7 +51,7 @@ a, a:visited {
 
 #account-container {
 	position: unset;
-	font-size: 0.7em;
+	margin-top: -5px;
 }
 
 #account-header {
@@ -56,12 +60,11 @@ a, a:visited {
 
 #account-details {
 	background: #111111;
-	font-size: 0.9em;
-	line-height: 3em;
-	padding: 10px 25px;
-	right: 35px;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	padding: 10px 20px;
+	right: 20px;
 	border: 1px solid gray;
-	margin-top: 5px;
 }
 
 #account-details .account-title {
@@ -117,11 +120,12 @@ a, a:visited {
 
 .chooser-nav-class {
 	width: 300px !important;
-	padding: 20px 0 0 !important;
+	padding: 10px 0 0 !important;
+	font-size: 0.7em;
 }
 
 .divider {
-	height: 10px;
+	height: 5px;
 }
 
 #game-navigation {
