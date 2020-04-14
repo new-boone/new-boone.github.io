@@ -13,6 +13,11 @@ a, a:visited {
 	text-decoration: none;
 }
 
+#header-navigation a, #header-navigation a:visited {
+	color: #eeeeee;
+	text-decoration: none;
+}
+
 #inner-container {
 	width: 100%;
 	position: unset;
@@ -39,14 +44,9 @@ a, a:visited {
 	margin: 10px;
 }
 
-.navigation {
+#header-navigation .navigation {
 	padding: 0;
 	font-size: 0.7em;
-}
-
-.navigation a, .navigation a:visited {
-	color: #eeeeee;
-	text-decoration: none;
 }
 
 #account-container {
@@ -140,6 +140,10 @@ a, a:visited {
 
 .game-content {
 	width: 60%;
+}
+
+.advice-message {
+	color: lawngreen;
 }
 
 #footer {
