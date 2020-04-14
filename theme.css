@@ -9,11 +9,11 @@ body {
 }
 
 a, a:visited {
-	color: dodgerblue;
+	color: #ffd17a;
 	text-decoration: none;
 }
 
-#header-navigation a, #header-navigation a:visited {
+#header a, #header a:visited {
 	color: #eeeeee;
 	text-decoration: none;
 }
@@ -60,8 +60,29 @@ a, a:visited {
 
 #account-details {
 	background: #111111;
-	font-size: 1em;
+	font-size: 0.9em;
 	line-height: 3em;
+	padding: 10px 25px;
+	right: 35px;
+	border: 1px solid gray;
+	margin-top: 5px;
+}
+
+#account-details .account-title {
+	padding: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.3em;
+	border-bottom: 1px solid #eeeeee;
+}
+
+#account-details .account-summary {
+	margin-bottom: 10px;
+}
+
+#account-details .account-signout {
+	padding: 0;
+	margin-top: 10px;
 }
 
 .account-name {
