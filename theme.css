@@ -28,6 +28,7 @@ a, a:visited {
 	height: 45px;
 	width: auto;
 	padding: 0 15px;
+	font-size: 0.7em;
 }
 
 #middle {
@@ -42,11 +43,6 @@ a, a:visited {
 
 #header-navigation div, #header-navigation-2nd-level div {
 	margin: 10px;
-}
-
-#header-navigation .navigation {
-	padding: 0;
-	font-size: 0.7em;
 }
 
 #account-container {
