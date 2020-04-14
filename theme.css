@@ -52,7 +52,7 @@ a, a:visited {
 
 #middle {
 	overflow: inherit;
-	min-height: calc(100vh - 125px);
+	min-height: calc(100vh - 150px);
 }
 
 #header-navigation, #header-navigation-2nd-level {
