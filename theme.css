@@ -146,15 +146,24 @@ a, a:visited {
 	border-radius: 5px;
 	background-color: #eeeeee !important;
 	color: #111111 !important;
-	font-size: 0.7em;
+	font-size: 0.6em;
+	letter-spacing: 0.5px;
 	margin: 0 auto 20px !important;
-	padding: 5px 5px 25px 0 !important;
+	padding: 0 !important;
+}
+
+#ircchat br {
+	display: none;
+}
+
+#ircchat center {
+	padding: 5px 0 3px;
 }
 
 #irccontainer {
 	border: none !important;
-	padding: 20px;
-	width: auto !important;
+	padding: 0 0 0 5px;
+	width: calc(100% - 5px) !important;
 	border-bottom: 1px solid lightgray !important;
 }
 
