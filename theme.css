@@ -1,5 +1,5 @@
 @import url("default-theme.css");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
 
 .google_ads, #game-navigation, #resource-bar, #overlay, .game-header, .game-content { outline: 1px dashed; }
 
