@@ -261,7 +261,7 @@ a, a:visited {
 }
 
 #overlay input {
-	width: 80%;
+	width: 60%;
 	margin: 0 5px;
 }
 
@@ -280,7 +280,7 @@ a, a:visited {
 	font-size: 1.1em;
 }
 
-#orderslink {
+#orders a {
 	font-size: 0.8em;
 	margin: 0 10px;
 }
