@@ -186,8 +186,6 @@ a, a:visited {
 	letter-spacing: 0.5px;
 	padding: 0 !important;
 	margin-bottom: 10px;
-	position: absolute !important;
-	top: 0 !important;
 }
 
 #ircchat table {
@@ -247,6 +245,7 @@ a, a:visited {
 	position: sticky;
 	top: 20px;
 	float: none;
+	margin-top: -692px;
 }
 
 #game-navigation .current-date {
@@ -261,7 +260,6 @@ a, a:visited {
 
 #resource-bar {
 	width: 70%;
-	margin-top: -692px;
 	margin-left: 15%;
 }
 
