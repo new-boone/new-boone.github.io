@@ -37,6 +37,7 @@ input {
 
 input:focus {
 	outline: 1px solid gray;
+	padding: 0;
 }
 
 button {
