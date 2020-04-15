@@ -297,6 +297,7 @@ a, a:visited {
 	float: none;
 	padding: 10px 0;
 	background: #222222;
+	margin: 0 auto;
 }
 
 .game-header h1, .game-header a {
