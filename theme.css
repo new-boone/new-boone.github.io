@@ -34,7 +34,7 @@ button {
 	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
 	padding: 0;
-	margin: 0 10px;
+	margin: 0 5px;
 }
 
 a, a:visited {
@@ -247,13 +247,13 @@ a, a:visited {
 	height: 50px;
 	line-height: 50px;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 10px !important;
 	margin-bottom: 10px;
 }
 
 #overlay input {
-	width: 50%;
-	margin-left: 5px;
+	width: 60%;
+	margin-left: 0 5px;
 }
 
 .game-header {
