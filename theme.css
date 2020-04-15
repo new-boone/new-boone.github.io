@@ -159,10 +159,6 @@ a, a:visited {
 	padding: 0 !important;
 }
 
-#showchat {
-	height: 150px !important;
-}
-
 #ircchat table {
 	border-collapse: separate !important;
 	border-spacing: 10px !important;
@@ -233,7 +229,7 @@ a, a:visited {
 #overlay {
 	width: 70% !important;
 	margin-left: auto !important;
-	float: none;
+	float: none !important;
 	color: #111111 !important;
 }
 
@@ -247,6 +243,7 @@ a, a:visited {
 	font-size: 0.8em;
 	float: none;
 	margin: 0 auto;
+	height: 30px;
 }
 
 #throne-game-message, #throne-monarch-message {
