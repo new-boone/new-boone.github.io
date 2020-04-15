@@ -249,7 +249,7 @@ a, a:visited {
 	position: sticky;
 	top: 20px;
 	float: none;
-	height: 755px;
+	height: 780px;
 }
 
 #game-navigation .current-date {
@@ -265,7 +265,7 @@ a, a:visited {
 #resource-bar {
 	width: 70%;
 	margin-left: 15%;
-	margin-top: -755px;
+	margin-top: -780px;
 }
 
 #resource-bar tbody {
