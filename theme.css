@@ -41,6 +41,14 @@ input:focus {
 	height: 20px;
 }
 
+form p {
+	text-align: center !important;
+	text-transform: uppercase;
+	color: #ffd17a;
+	font-size: 0.8em;
+	letter-spacing: 0.5px;
+}
+
 button {
 	border: none;
 	border-bottom: 1px dashed gray;
@@ -355,7 +363,11 @@ a, a:visited {
 }
 
 .game-content p span::before {
-	content: "•"
+	content: "•";
+}
+
+.game-content p span.checked::before {
+	content: "";
 }
 
 #right-column {
