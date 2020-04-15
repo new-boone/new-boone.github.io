@@ -1,7 +1,7 @@
 @import url("default-theme.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand&display=swap');
 
-.google_ads, #game-navigation, #resource-bar, #overlay, .game-header, .game-content { outline: 1px dashed; }
+.google_ads, #game-navigation, #resource-bar, .game-header, .game-content { outline: 1px dashed; }
 
 /* Test */
 body {
@@ -29,10 +29,12 @@ input {
 
 button {
 	border: none;
+	border-bottom: 1px dashed gray;
 	background: transparent;
 	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
-	padding: 0 10px;
+	padding: 0;
+	margin: 0 10px;
 }
 
 a, a:visited {
@@ -245,9 +247,12 @@ a, a:visited {
 	margin-left: auto !important;
 	float: none !important;
 	color: #111111 !important;
-	text-align: center;
+	text-align: center !important;
 	height: 50px;
 	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #overlay input {
