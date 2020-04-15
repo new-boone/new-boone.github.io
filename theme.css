@@ -24,6 +24,7 @@ h2 {
 thead th {
 	font-weight: bold;
 	color: #ffd17a;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 }
 
@@ -311,6 +312,7 @@ a, a:visited {
 	width: 70%;
 	padding: 0;
 	margin-left: 15%;
+	float: none;
 }
 
 #right-column {
