@@ -1,8 +1,6 @@
 @import url("default-theme.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
 
-#game-navigation, #resource-bar, #orders, .game-header, .game-content, #throne-game-message, #throne-monarch-message { outline: 1px dashed; }
-
 /* Test */
 body {
 	background: #111111;
@@ -296,7 +294,6 @@ a, a:visited {
 	font-size: 0.8em;
 	float: none;
 	margin: 0 auto;
-	height: 30px;
 }
 
 .game-header h1, .game-header a {
