@@ -366,7 +366,7 @@ a, a:visited {
 	content: "•";
 }
 
-.game-content p span.checked::before {
+.checker span::before {
 	content: "";
 }
 
