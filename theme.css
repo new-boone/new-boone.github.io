@@ -223,6 +223,8 @@ a, a:visited {
 .google_ads {
 	margin: 30px auto 20px;
 	margin-left: auto !important;
+	height: auto !important;
+	padding-top: 0 !important;
 }
 
 .chooser-nav-class {
@@ -317,7 +319,7 @@ a, a:visited {
 
 #right-column {
 	width: 15%;
-	margin-top: -800px;
+	margin-top: -640px;
 }
 
 .good, .advice-message {
