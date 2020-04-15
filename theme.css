@@ -253,6 +253,9 @@ a, a:visited {
 #game-navigation .current-date {
 	margin-bottom: 20px;
 	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 #game-navigation .navigation {
@@ -293,7 +296,9 @@ a, a:visited {
 	width: 70%;
 	font-size: 0.8em;
 	float: none;
-	margin: 0 auto;
+	margin: 20px auto;
+	padding: 10px 0;
+	background: #222222;
 }
 
 .game-header h1, .game-header a {
@@ -319,6 +324,10 @@ a, a:visited {
 	font-size: 0.9em;
 	max-height: 200px;
 	overflow-y: overlay;
+}
+
+#throne-monarch-message {
+	margin: 10px 0 30px;
 }
 
 .game-content h2:first-child {
