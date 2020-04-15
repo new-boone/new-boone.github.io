@@ -49,6 +49,19 @@ form p {
 	letter-spacing: 0.5px;
 }
 
+form input[type=submit] {
+	width: 30%;
+	text-align: center;
+	background: #ffd17a;
+	border-radius: 5px;
+	outline: none;
+	height: 40px;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
 button {
 	border: none;
 	border-bottom: 1px dashed gray;
