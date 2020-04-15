@@ -295,7 +295,6 @@ a, a:visited {
 .game-header {
 	width: 70%;
 	float: none;
-	padding: 10px 0;
 	background: #222222;
 	margin: 0 auto;
 }
@@ -303,13 +302,13 @@ a, a:visited {
 .game-header h1, .game-header a {
 	display: inline-block;
 	float: none;
-	margin: 0 10px;
-	font-size: 1.1em;
+	margin: 5px;
+	font-size: 1em;
 }
 
 #orders a {
 	font-size: 0.8em;
-	margin: 0 10px;
+	margin: 10px;
 }
 
 .game-content {
