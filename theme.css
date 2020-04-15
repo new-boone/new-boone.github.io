@@ -22,7 +22,8 @@ h2 {
 }
 
 input {
-	border: 1px solid gray;
+	border: none;
+	outline: 1px solid gray;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -30,6 +31,8 @@ button {
 	border: none;
 	background: transparent;
 	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	padding: 0 10px;
 }
 
 a, a:visited {
@@ -242,11 +245,14 @@ a, a:visited {
 	margin-left: auto !important;
 	float: none !important;
 	color: #111111 !important;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
 }
 
 #overlay input {
-	width: 100%;
-	border: none;
+	width: 50%;
+	margin-left: 5px;
 }
 
 .game-header {
