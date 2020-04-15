@@ -1,7 +1,7 @@
 @import url("default-theme.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
 
-.google_ads, #game-navigation, #resource-bar, #orders, .game-header, .game-content { outline: 1px dashed; }
+#game-navigation, #resource-bar, #orders, .game-header, .game-content, #throne-game-message, #throne-monarch-message { outline: 1px dashed; }
 
 /* Test */
 body {
@@ -311,15 +311,22 @@ a, a:visited {
 	margin: 0 10px;
 }
 
-#throne-game-message, #throne-monarch-message {
-	margin: 50px 0;
-}
-
 .game-content {
 	width: 70%;
 	padding: 0;
 	margin-left: 15%;
 	float: none;
+}
+
+#throne-game-message, #throne-monarch-message {
+	font-size: 0.8em;
+	max-height: 200px;
+	overflow-y: overlay;
+}
+
+.game-content h2:first-child {
+	text-transform: uppercase;
+	font-size: 1.2em;
 }
 
 #right-column {
