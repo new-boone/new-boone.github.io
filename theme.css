@@ -31,14 +31,14 @@ input {
 	outline: 1px solid gray;
 	font-family: 'Quicksand', sans-serif;
 	padding: 0 3px;
-	height: 30px;
+	height: 20px;
 }
 
 input:focus {
 	border: none;
 	outline: 1px dashed gray;
 	padding: 0 3px;
-	height: 30px;
+	height: 20px;
 }
 
 button {
@@ -208,8 +208,8 @@ a, a:visited {
 }
 
 #ircchat center {
-	padding: 0 0 5px;
-	margin-top: -13px;
+	padding: 0 0 8px 0;
+	margin-top: -10px;
 }
 
 #ircchat input {
@@ -280,15 +280,15 @@ a, a:visited {
 	float: none !important;
 	color: #111111 !important;
 	text-align: center !important;
-	height: 50px;
-	line-height: 50px;
+	height: 38px;
+	line-height: 38px;
 	border-radius: 5px;
 	margin-top: 10px !important;
 	margin-bottom: 10px;
 }
 
 #overlay input {
-	width: 60%;
+	width: 45%;
 	margin: 0 5px;
 }
 
