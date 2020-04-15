@@ -50,7 +50,7 @@ form p {
 }
 
 form input[type=submit] {
-	width: 30%;
+	width: 100%;
 	text-align: center;
 	background: #ffd17a;
 	border-radius: 5px;
