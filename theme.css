@@ -294,9 +294,7 @@ a, a:visited {
 
 .game-header {
 	width: 70%;
-	font-size: 0.8em;
 	float: none;
-	margin: 20px auto 10px;
 	padding: 10px 0;
 	background: #222222;
 }
