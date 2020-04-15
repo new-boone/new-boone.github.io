@@ -25,6 +25,11 @@ input {
 	border: none;
 	outline: 1px solid gray;
 	font-family: 'Quicksand', sans-serif;
+	padding: 0 3px;
+}
+
+input:focus {
+	outline: 1px solid gray;
 }
 
 button {
@@ -197,6 +202,10 @@ a, a:visited {
 	margin-top: -13px;
 }
 
+#ircchat input {
+	width: 35%;
+}
+
 #irccontainer {
 	border: none !important;
 	padding: 0 0 0 5px;
@@ -252,8 +261,8 @@ a, a:visited {
 }
 
 #overlay input {
-	width: 60%;
-	margin-left: 0 5px;
+	width: 80%;
+	margin: 0 5px;
 }
 
 .game-header {
