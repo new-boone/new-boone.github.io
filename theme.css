@@ -322,8 +322,6 @@ a, a:visited {
 
 #throne-game-message, #throne-monarch-message {
 	font-size: 0.9em;
-	max-height: 200px;
-	overflow-y: overlay;
 }
 
 #throne-game-message {
