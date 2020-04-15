@@ -27,11 +27,6 @@ thead th {
 	font-size: 1.1em;
 }
 
-tbody {
-	font-size: 0.8em;
-	letter-spacing: 1px;
-}
-
 input {
 	border: none;
 	outline: 1px solid gray;
@@ -243,8 +238,10 @@ a, a:visited {
 	width: calc(15% - 20px);
 	margin-right: 0;
 	padding-left: 20px;
+	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: 20px;
+	float: none;
 }
 
 #game-navigation .current-date {
@@ -259,6 +256,13 @@ a, a:visited {
 
 #resource-bar {
 	width: 70%;
+	margin-top: -772px;
+	margin-left: 15%;
+}
+
+#resource-bar tbody {
+	font-size: 0.8em;
+	letter-spacing: 1px;
 }
 
 #overlay {
@@ -306,6 +310,7 @@ a, a:visited {
 .game-content {
 	width: 70%;
 	padding: 0;
+	margin-left: 15%;
 }
 
 #right-column {
