@@ -186,6 +186,8 @@ a, a:visited {
 	letter-spacing: 0.5px;
 	padding: 0 !important;
 	margin-bottom: 10px;
+	position: absolute !important;
+	top: 0 !important;
 }
 
 #ircchat table {
@@ -218,7 +220,6 @@ a, a:visited {
 	border: none !important;
 	padding: 0 0 0 5px;
 	width: calc(100% - 5px) !important;
-	display: none !important;
 }
 
 .google_ads {
