@@ -334,8 +334,12 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
+.game-content tr:nth-child(odd) {
+	background-color: #222222;
+}
+
 .game-content tr:nth-child(even) {
-	background-color: #f2f2f2;
+	background-color: #333333;
 }
 
 #right-column {
