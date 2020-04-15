@@ -329,6 +329,15 @@ a, a:visited {
 	font-size: 1.2em;
 }
 
+.game-content h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.game-content tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
 #right-column {
 	width: 15%;
 	margin-top: -620px;
