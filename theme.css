@@ -349,7 +349,7 @@ a, a:visited {
 }
 
 .game-content span::before {
-	content: "•"
+	content: "  • "
 }
 
 #right-column {
