@@ -221,7 +221,7 @@ a, a:visited {
 }
 
 .google_ads {
-	margin: 30px auto;
+	margin: 30px auto 20px;
 	margin-left: auto !important;
 }
 
@@ -317,6 +317,7 @@ a, a:visited {
 
 #right-column {
 	width: 15%;
+	margin-top: -1523px;
 }
 
 .good, .advice-message {
