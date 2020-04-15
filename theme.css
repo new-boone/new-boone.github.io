@@ -59,6 +59,7 @@ form input[type=submit] {
 	font-size: 0.9em;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 button {
