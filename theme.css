@@ -160,7 +160,7 @@ a, a:visited {
 }
 
 #showchat {
-	height: 150px;
+	height: 150px !important;
 }
 
 #ircchat table {
@@ -232,12 +232,21 @@ a, a:visited {
 
 #overlay {
 	width: 70% !important;
-	margin-left: 0 !important;
+	margin-left: auto !important;
+	float: none;
+	color: #111111 !important;
+}
+
+#overlay input {
+	width: 100%;
+	border: none;
 }
 
 .game-header {
 	width: 70%;
 	font-size: 0.8em;
+	float: none;
+	margin: 0 auto;
 }
 
 #throne-game-message, #throne-monarch-message {
