@@ -296,7 +296,7 @@ a, a:visited {
 	width: 70%;
 	font-size: 0.8em;
 	float: none;
-	margin: 20px auto;
+	margin: 20px auto 10px;
 	padding: 10px 0;
 	background: #222222;
 }
@@ -324,6 +324,10 @@ a, a:visited {
 	font-size: 0.9em;
 	max-height: 200px;
 	overflow-y: overlay;
+}
+
+#throne-game-message {
+	margin-top: 20px;
 }
 
 #throne-monarch-message {
@@ -354,7 +358,7 @@ a, a:visited {
 	margin: 5px 10px 30px 20px;
 }
 
-.game-content span::before {
+.game-content p span::before {
 	content: "•"
 }
 
