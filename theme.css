@@ -241,8 +241,6 @@ a, a:visited {
 .game-header {
 	width: 70%;
 	font-size: 0.8em;
-	float: none;
-	margin: 0 auto;
 	height: 30px;
 }
 
