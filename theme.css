@@ -349,7 +349,8 @@ a, a:visited {
 }
 
 .game-content span::before {
-	content: "  • "
+	padding-left: 5px;
+	content: "•"
 }
 
 #right-column {
