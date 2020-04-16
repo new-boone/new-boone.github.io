@@ -360,12 +360,14 @@ a, a:visited {
 
 .game-content h2:first-child {
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 1.4rem;
 }
 
 .game-content h2 {
-	font-size: 1em;
+	font-size: 1.8rem;
+	line-height: 2rem;
 	text-transform: uppercase;
+	margin-bottom: 5px;
 }
 
 .game-content tr:nth-child(even) {
@@ -422,7 +424,7 @@ a, a:visited {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 
 #right-column {
