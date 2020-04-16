@@ -26,6 +26,10 @@ thead th {
 	font-size: 1.1em;
 }
 
+td br {
+	display: none;
+}
+
 input {
 	border: none;
 	outline: 1px solid gray;
@@ -57,7 +61,7 @@ form input[type=submit] {
 	outline: none;
 	height: 40px;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -372,6 +376,16 @@ a, a:visited {
 
 .game-content .throne-notice, .game-content p {
 	margin: 5px 10px 30px 20px;
+}
+
+#10thief, #10proc, #100proc, #calc {
+	width: 100px;
+	height: 22px;
+	line-height:22px;
+	margin: 0 3px 2px;
+	padding: 0;
+	border-radius: 2px;
+	font-size: 1rem;
 }
 
 #right-column {
