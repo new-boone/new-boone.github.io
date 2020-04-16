@@ -83,6 +83,7 @@ input[name=change_kingdom] {
 #10thief {
 	font-size: 1.4rem;
 	width: 80px;
+	color: blue;
 }
 
 button {
