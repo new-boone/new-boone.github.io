@@ -55,7 +55,9 @@ form p {
 }
 
 input[name=build], input[name=do_thief_operation], input[name=reassign], 
-input[name=allocate], input[name=train] {
+input[name=allocate], input[name=train], input[value=Cast spell], input[value=Prepare Military], 
+input[value=Search], input[value=Apply Orders!], input[value=Delete checked], 
+input[value=Submit Post], input[value=Vote] {
 	width: 100%;
 	text-align: center !important;
 	background: #ffd17a;
