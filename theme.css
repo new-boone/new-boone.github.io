@@ -81,9 +81,11 @@ input[name=change_kingdom] {
 }
 
 [id='10thief'], #calc { 
-	font-size: 1.4rem;
-	width: 100px;
-	color: blue;
+	font-size: 1.4rem !important;
+	width: 100px !important;
+	height: 20px !important;
+	padding: 0 !important;
+	border-radius: 3px !important;
 }
 
 button {
