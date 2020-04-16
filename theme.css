@@ -380,12 +380,16 @@ a, a:visited {
 	margin-top: -620px;
 }
 
-.good, .advice-message {
+.good, .protected, .advice-message {
 	color: #a1e882;
 }
 
-.bad, .negative {
+.bad, .monarch, .negative {
 	color: #f56767;
+}
+
+.you {
+	color: #ffd17a;
 }
 
 #aidnum {
