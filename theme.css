@@ -54,7 +54,8 @@ form p {
 	letter-spacing: 0.5px;
 }
 
-input[name=build], input[name=do_thief_operation] {
+.button, input[name=build], input[name=do_thief_operation], input[name=reassign], 
+input[name=allocate], input[name=train] {
 	width: 100%;
 	text-align: center !important;
 	background: #ffd17a;
