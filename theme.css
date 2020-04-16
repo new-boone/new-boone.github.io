@@ -80,11 +80,12 @@ input[name=change_kingdom] {
 	padding: 0 !important;
 }
 
-[id='10thief'], #calc { 
+[id='10thief'], [id='10proc'], [id='100proc'], #calc { 
 	font-size: 1.4rem !important;
 	width: 100px !important;
 	height: 20px !important;
 	padding: 0 !important;
+	margin: 0 5px !important;
 	border-radius: 3px !important;
 }
 
