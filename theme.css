@@ -5,7 +5,7 @@
 body {
 	background: #111111;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	letter-spacing: 0.1px;
 	color: #eeeeee;
 }
@@ -347,7 +347,7 @@ a, a:visited {
 }
 
 #throne-game-message, #throne-monarch-message {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 #throne-game-message {
@@ -360,7 +360,7 @@ a, a:visited {
 
 .game-content h2:first-child {
 	text-transform: uppercase;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 
 .game-content h2 {
@@ -377,7 +377,7 @@ a, a:visited {
 .game-content .advice-message {
 	text-align: center;
 	margin: 30px 0;
-	font-size: 0.9em;
+	font-size: 1.4rem;
 }
 
 .game-content .throne-notice, .game-content p {
@@ -424,7 +424,7 @@ a, a:visited {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 
 #right-column {
