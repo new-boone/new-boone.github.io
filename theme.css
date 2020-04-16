@@ -54,11 +54,6 @@ form p {
 	letter-spacing: 0.5px;
 }
 
-form input[type=submit]#10thief {
-	font-size: 1.4rem;
-	width: 80px;
-}
-
 input[type=submit] {
 	text-align: center !important;
 	background: #ffd17a;
@@ -83,6 +78,11 @@ input[name=change_kingdom] {
 	border-radius: 3px !important;
 	margin-left: 5px !important;
 	padding: 0 !important;
+}
+
+#10thief {
+	font-size: 1.4rem;
+	width: 80px;
 }
 
 button {
