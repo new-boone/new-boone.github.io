@@ -54,7 +54,7 @@ form p {
 	letter-spacing: 0.5px;
 }
 
-form input[type=submit] {
+input[type=submit] {
 	text-align: center !important;
 	background: #ffd17a;
 	border-radius: 5px;
@@ -66,8 +66,8 @@ form input[type=submit] {
 	font-size: 2rem;
 }
 
-form input#10thief {
-	width: 100px !important;
+input[name=change_kingdom] {
+	width: 1.3rem !important;
 }
 
 button {
