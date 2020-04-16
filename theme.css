@@ -304,16 +304,18 @@ a, a:visited {
 	float: none !important;
 	color: #111111 !important;
 	text-align: center !important;
-	height: 38px;
 	line-height: 38px;
 	border-radius: 5px;
-	margin-top: 10px !important;
-	margin-bottom: 10px;
 }
 
 #overlay input {
 	width: 45%;
 	margin: 0 5px;
+}
+
+#overlay table {
+	font-size: 1.3rem;
+	line-height: 1.3rem;
 }
 
 .game-header {
