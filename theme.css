@@ -80,13 +80,11 @@ input[name=change_kingdom] {
 	padding: 0 !important;
 }
 
-form input[type=submit id=calc] {
+[id='10thief'], #calc { 
 	font-size: 1.4rem;
-	width: 80px;
+	width: 100px;
 	color: blue;
 }
-
-#calc { color: blue; }
 
 button {
 	border: none;
@@ -461,7 +459,7 @@ a, a:visited {
 }
 
 .you {
-	color: purple;
+	color: cyan;
 }
 
 #aidnum {
