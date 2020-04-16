@@ -67,6 +67,11 @@ input[name=allocate], input[name=train] {
 	font-weight: bold;
 }
 
+#10thief, #10proc, #100proc, #calc {
+	width: 100px;
+	font-size: 1.4rem;
+}
+
 button {
 	border: none;
 	border-bottom: 1px dashed gray;
