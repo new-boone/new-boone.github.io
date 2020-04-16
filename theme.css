@@ -385,7 +385,7 @@ a, a:visited {
 	width: auto;
 }
 
-input#10thief.button, input#10proc.button, input#100proc.button, input#calc.button, input#change-kingdom-button {
+form input[type=submit]#10thief, input#10proc.button, input#100proc.button, input#calc.button, form input[type=submit]#change-kingdom-button {
 	width: 100px;
 	height: 22px;
 	line-height:22px;
