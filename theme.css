@@ -66,6 +66,10 @@ form input[type=submit] {
 	font-size: 2rem;
 }
 
+form input[type=submit]#10thief {
+	width: 100px;
+}
+
 button {
 	border: none;
 	border-bottom: 1px dashed gray;
