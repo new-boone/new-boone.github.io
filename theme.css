@@ -53,7 +53,7 @@ form p {
 	letter-spacing: 0.5px;
 }
 
-input[name=do_thief_operation] {
+input[name=build], input[name=do_thief_operation] {
 	width: 100%;
 	text-align: center !important;
 	background: #ffd17a;
@@ -383,16 +383,6 @@ a, a:visited {
 
 .game-content form.change-kingdom .change-kingdom-heading, .game-content form.change-kingdom .change-kingdom-form {
 	width: auto;
-}
-
-#10thief, form #10proc, input#100proc.button, input#calc.button, form #change-kingdom-button {
-	width: 100px;
-	height: 22px;
-	line-height:22px;
-	margin: 0 3px 2px;
-	padding: 0;
-	border-radius: 2px;
-	font-size: 1rem;
 }
 
 #right-column {
