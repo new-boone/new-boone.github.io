@@ -65,6 +65,10 @@ input[name=build], input[name=do_thief_operation] {
 	font-weight: bold;
 }
 
+#change-kingdom-button {
+	
+}
+
 button {
 	border: none;
 	border-bottom: 1px dashed gray;
@@ -381,8 +385,20 @@ a, a:visited {
 	margin: 5px 10px 30px 20px;
 }
 
-.game-content form.change-kingdom .change-kingdom-heading, .game-content form.change-kingdom .change-kingdom-form {
-	width: auto;
+.change-kingdom-form {
+	top:28px;
+}
+
+.two-digit-input {
+	width: 20px;
+	margin-left: 50px;
+}
+
+#change-kingdom-button {
+	height: 21px;
+	width: 30px;
+	margin: 0 0 0 10px;
+	text-transform: uppercase;
 }
 
 #right-column {
