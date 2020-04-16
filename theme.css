@@ -385,7 +385,7 @@ a, a:visited {
 }
 
 .change-kingdom-heading {
-	width: 80%;
+	width: 80% !important;
 	padding: 5px;
 	margin: 5px;
 }
@@ -396,9 +396,9 @@ a, a:visited {
 }
 
 .change-kingdom-nav a {
-	width: 65px !important;
-	font-size: 1.3rem;
-	margin: 10px 50px 7px
+	width: 70px !important;
+	font-size: 1.3rem !important;
+	margin: 0 20px;
 }
 
 .change-kingdom-form {
@@ -416,10 +416,6 @@ a, a:visited {
 	width: 30px;
 	margin: 0 0 0 10px;
 	text-transform: uppercase;
-}
-
-.reportable {
-	margin: 18px 0;
 }
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
