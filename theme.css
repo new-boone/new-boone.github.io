@@ -41,14 +41,6 @@ input:focus {
 	height: 20px;
 }
 
-form p {
-	text-align: center !important;
-	text-transform: uppercase;
-	color: #ffd17a;
-	font-size: 0.8em;
-	letter-spacing: 0.5px;
-}
-
 form input[type=submit] {
 	width: 100%;
 	text-align: center;
