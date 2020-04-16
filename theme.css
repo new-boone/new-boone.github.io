@@ -23,7 +23,8 @@ thead th {
 	font-weight: bold;
 	color: #ffd17a;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.1em;
+	text-transform: uppercase;
+	font-size: 1.4rem;
 }
 
 td br {
@@ -346,7 +347,7 @@ a, a:visited {
 }
 
 #throne-game-message, #throne-monarch-message {
-	font-size: 0.9em;
+	font-size: 1.2rem;
 }
 
 #throne-game-message {
@@ -393,7 +394,7 @@ a, a:visited {
 }
 
 .change-kingdom-nav a {
-	width: 65px;
+	width: 65px !important;
 	font-size: 1.3rem;
 	margin: 10px 50px 7px
 }
