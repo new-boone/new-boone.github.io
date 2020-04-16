@@ -54,7 +54,7 @@ form p {
 	letter-spacing: 0.5px;
 }
 
-input[type=submit] {
+form input[type=submit] {
 	text-align: center !important;
 	background: #ffd17a;
 	border-radius: 5px;
@@ -73,7 +73,7 @@ input[type=submit] {
 }
 
 input[name=change_kingdom] {
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	width: 30px !important;
 	height: 20px !important;
 	border-radius: 3px;
