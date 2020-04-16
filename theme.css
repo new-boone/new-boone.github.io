@@ -67,7 +67,7 @@ input[type=submit] {
 }
 
 input[name=change_kingdom] {
-	width: 1.3rem !important;
+	font-size: 1.3rem !important;
 }
 
 button {
@@ -413,13 +413,6 @@ a, a:visited {
 .two-digit-input {
 	width: 20px;
 	outline: none;
-}
-
-#change-kingdom-button {
-	height: 21px;
-	width: 30px;
-	margin: 0 0 0 10px;
-	text-transform: uppercase;
 }
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
