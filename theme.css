@@ -468,7 +468,7 @@ a, a:visited {
 }
 
 .news-intra-kingdom-conflict::before {
-	content: "⚐";
+	content: "✁";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -494,21 +494,18 @@ a, a:visited {
 
 .news-ritual::before {
 	content: "☥";
-	color: yellow;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔";
-	color: green;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
-	content: "✚";
-	color: #ff968f;
+	content: "⚖";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -520,7 +517,7 @@ a, a:visited {
 }
 
 .news-province-modification::before {
-	content: "⚜";
+	content: "⚙";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
