@@ -464,6 +464,7 @@ a, a:visited {
 
 .news-incident-type {
 	height: auto;
+	padding-left: 10px;
 }
 
 .news-incident-date {
