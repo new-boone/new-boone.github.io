@@ -463,12 +463,13 @@ a, a:visited {
 }
 
 .news-actions-by-our-kingdom::before {
-	content: U+02694;
+	content: "⚔";
 	color: green;
 }
 
 .news-ritual::before {
-	content: U+0269A;
+	content: "U+0269A";
+	color: yellow;
 }
 
 .news-obituaries::before {
@@ -514,7 +515,7 @@ a, a:visited {
 }
 
 .you {
-	color: cyan;
+	color: pink;
 }
 
 #aidnum {
