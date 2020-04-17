@@ -481,7 +481,7 @@ a, a:visited {
 
 .news-actions-against-our-kingdom::before {
 	content: "⚔";
-	color: red;
+	color: #f56767;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -494,18 +494,21 @@ a, a:visited {
 
 .news-ritual::before {
 	content: "☥";
+	color: #ffd17a;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔";
+	color: #45b8ff;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
 	content: "✛";
+	color: #ff938c;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
