@@ -232,7 +232,7 @@ a, a:visited {
 	border-radius: 5px;
 	background-color: #eeeeee !important;
 	color: #111111 !important;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	letter-spacing: 0.5px;
 	padding: 0 !important;
 	margin-bottom: 10px;
@@ -240,14 +240,14 @@ a, a:visited {
 
 #ircchat table {
 	border-collapse: separate !important;
-	border-spacing: 10px !important;
+	border-spacing: 5px !important;
 }
 
 #irconline {
 	padding: 8px 0 0 10px;
 	line-height: 1.5em;
 	width: calc(20% - 10px) !important;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 #irconline hr {
