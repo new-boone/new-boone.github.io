@@ -8,7 +8,6 @@ body {
 	font-size: 1.5rem;
 	letter-spacing: 0.1px;
 	color: #eeeeee;
-	height: 100vh;
 }
 
 h1 {
@@ -190,7 +189,7 @@ a, a:visited {
 }
 
 #content-area {
-	padding-top: 40px !important;
+	padding-top: 5px !important;
 }
 
 #toggler {
@@ -208,12 +207,12 @@ a, a:visited {
 	line-height: 2em;
 	width: 85px !important;
 	position: sticky !important;
-	margin-top: -78vh !important;
+	margin-top: -100% !important;
 	z-index: 2 !important;
 }
 
 #botlinks, #botupdate {
-	left: calc(5% + 105px) !important;
+	left: calc(5% + 108px) !important;
 	top: 10px !important;
 	border-radius: 0 !important;
 	margin-left: 0 !important;
@@ -227,9 +226,8 @@ a, a:visited {
 	padding: 0 5px;
 	line-height: 2em;
 	position: sticky !important;
-	margin-top: -19px !important;
 	z-index: 1 !important;
-	width: 100px;
+	width: fit-content;
 }
 
 #left-column {
