@@ -496,21 +496,21 @@ a, a:visited {
 
 .news-ritual::before {
 	content: "☥";
-	color: #ffd17a;
+	color: #ffaa00;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔";
-	color: #45b8ff;
+	color: #00bfff;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
 	content: "✛";
-	color: #ffa8a8;
+	color: #ff7d9d;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
