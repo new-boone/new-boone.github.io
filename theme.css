@@ -457,6 +457,11 @@ a, a:visited {
 	font-size: 1.5rem;
 }
 
+.news-actions-by-our-kingdom::before {
+	content: "+";
+	color: cyan;
+}
+
 .news-incident-type {
 	height: auto;
 }
