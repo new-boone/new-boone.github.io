@@ -463,20 +463,20 @@ a, a:visited {
 }
 
 .news-actions-by-our-kingdom::before {
-	content: "x";
+	content: U+02694;
 	color: green;
 }
 
 .news-ritual::before {
-	content: "☥";
+	content: U+0269A;
 }
 
 .news-obituaries::before {
-	content: "♰";
+	content: U+0271D;
 }
 
 .news-aid::before {
-	content: "+";
+	content: U+0271A;
 	color: #ff968f;
 }
 
