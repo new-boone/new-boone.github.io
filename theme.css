@@ -362,8 +362,8 @@ a, a:visited {
 .game-header h1, .game-header a {
 	display: inline-block;
 	float: none;
-	margin: 3px;
-	font-size: 1.3rem;
+	margin: 5px;
+	font-size: 1.5rem;
 }
 
 #orders a {
