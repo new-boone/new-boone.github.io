@@ -205,14 +205,15 @@ a, a:visited {
 	font-size: 0.6em !important;
 	letter-spacing: 2px;
 	line-height: 2em;
-	width: max-content !important;
+	width: 83px !important;
+	position: -webkit-sticky !important;
 	position: sticky !important;
 	margin-top: -1000% !important;
 	z-index: 2 !important;
 }
 
 #botlinks, #botupdate {
-	left: calc(5% + 104px) !important;
+	left: calc(5% + 105px) !important;
 	top: 10px !important;
 	border-radius: 0 !important;
 	margin-left: 0 !important;
@@ -225,6 +226,7 @@ a, a:visited {
 	letter-spacing: 2px;
 	padding: 0 5px;
 	line-height: 2em;
+	position: -webkit-sticky !important;
 	position: sticky !important;
 	z-index: 1 !important;
 	width: max-content;
