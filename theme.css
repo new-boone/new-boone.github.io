@@ -503,14 +503,14 @@ a, a:visited {
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔";
-	color: #00bfff;
+	color: #6bdfff;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
 	content: "✛";
-	color: #ff7d9d;
+	color: #ff8cc6;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
