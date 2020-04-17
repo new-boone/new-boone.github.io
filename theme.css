@@ -474,7 +474,8 @@ a, a:visited {
 }
 
 .news-relations::before {
-	content: "⚐";
+	content: "☮";
+	color: #ffe77a;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -487,7 +488,8 @@ a, a:visited {
 }
 
 .news-dragon::before {
-	content: "⚕";
+	content: "♅";
+	color: #7fc975;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -508,7 +510,7 @@ a, a:visited {
 
 .news-aid::before {
 	content: "✛";
-	color: #ff938c;
+	color: #ffa8a8;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
