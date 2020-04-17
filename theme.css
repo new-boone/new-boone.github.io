@@ -207,7 +207,7 @@ a, a:visited {
 	line-height: 2em;
 	width: 85px !important;
 	position: sticky !important;
-	margin-top: -100% !important;
+	margin-top: -1000% !important;
 	z-index: 2 !important;
 }
 
@@ -483,7 +483,7 @@ a, a:visited {
 }
 
 .you {
-	color: pink;
+	color: #ffd17a;
 }
 
 #aidnum {
