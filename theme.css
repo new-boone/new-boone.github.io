@@ -462,23 +462,67 @@ a, a:visited {
 	font-size: 1.5rem;
 }
 
-.news-actions-by-our-kingdom::before {
+.news-legend span {
+	font-size: 1.2rem;
+	margin: 0 5px
+}
+
+.news-intra-kingdom-conflict::before {
+	content: "⚮";
+	font-size: 1.5rem;
+	padding: 0 5px;
+}
+
+.news-relations::before {
+	content: "☮";
+	font-size: 1.5rem;
+	padding: 0 5px;
+}
+
+.news-actions-against-our-kingdom::before {
 	content: "⚔";
-	color: green;
+	color: red;
+	font-size: 1.5rem;
+	padding: 0 5px;
+}
+
+.news-dragon::before {
+	content: "⚕";
+	font-size: 1.5rem;
+	padding: 0 5px;
 }
 
 .news-ritual::before {
-	content: "U+0269A";
+	content: "⚚";
 	color: yellow;
+	font-size: 1.5rem;
+	padding: 0 5px;
 }
 
-.news-obituaries::before {
-	content: U+0271D;
+.news-actions-by-our-kingdom::before {
+	content: "⚔";
+	color: green;
+	font-size: 1.5rem;
+	padding: 0 5px;
 }
 
 .news-aid::before {
-	content: U+0271A;
+	content: "✚";
 	color: #ff968f;
+	font-size: 1.5rem;
+	padding: 0 5px;
+}
+
+.news-obituaries::before {
+	content: "✝";
+	font-size: 1.5rem;
+	padding: 0 5px;
+}
+
+.news-province-modification::before {
+	content: "⚜";
+	font-size: 1.5rem;
+	padding: 0 5px;
 }
 
 .news-incident-type {
