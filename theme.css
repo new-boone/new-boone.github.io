@@ -205,7 +205,7 @@ a, a:visited {
 	font-size: 0.6em !important;
 	letter-spacing: 2px;
 	line-height: 2em;
-	width: 85px !important;
+	width: max-content !important;
 	position: sticky !important;
 	margin-top: -1000% !important;
 	z-index: 2 !important;
@@ -227,7 +227,7 @@ a, a:visited {
 	line-height: 2em;
 	position: sticky !important;
 	z-index: 1 !important;
-	width: fit-content;
+	width: max-content;
 	color: #ffd17a;
 }
 
