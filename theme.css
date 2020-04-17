@@ -367,13 +367,16 @@ a, a:visited {
 	float: none;
 	background: #222222;
 	margin: 15px auto 10px;
+	white-space: nowrap;
 }
 
 .game-header h1, .game-header a {
 	display: inline-block;
 	float: none;
-	margin: 5px;
-	font-size: 1.3rem;
+	margin: 0 2px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: 5px 0;
 }
 
 #orders a {
