@@ -218,7 +218,7 @@ a, a:visited {
 	margin-left: 0 !important;
 	background: #111111;
 	border: none;
-	outline: 1px dashed #a1e882;
+	outline: 1px dashed #ffd17a;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.6em !important;
 	text-transform: uppercase;
@@ -228,6 +228,7 @@ a, a:visited {
 	position: sticky !important;
 	z-index: 1 !important;
 	width: fit-content;
+	color: #ffd17a;
 }
 
 #left-column {
