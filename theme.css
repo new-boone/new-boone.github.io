@@ -458,13 +458,20 @@ a, a:visited {
 }
 
 .news-actions-by-our-kingdom::before {
-	content: "+";
+	content: "x";
 	color: cyan;
+}
+
+.news-aid::before {
+	content: "+";
+	color: red;
 }
 
 .news-incident-type {
 	height: auto;
-	padding-left: 10px;
+	width: auto;
+	padding: 0;
+	font-size: 2rem;
 }
 
 .news-incident-date {
