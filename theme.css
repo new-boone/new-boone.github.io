@@ -188,9 +188,12 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
+#content-area {
+	padding-top: 40px !important;
+}
+
 #toggler {
-	background-color: transparent !important;
-	width: auto !important;
+	background-color: #111111 !important;
 	border: 1px solid gray;
 	border-radius: 0 !important;
 	top: 9px !important;
@@ -202,13 +205,15 @@ a, a:visited {
 	font-size: 0.6em !important;
 	letter-spacing: 2px;
 	line-height: 2em;
+	width: 85px !important;
+	position: sticky !important;
+	margin-top: -640px !important;
+	z-index: 2 !important;
 }
 
 #botlinks, #botupdate {
 	left: calc(5% + 105px) !important;
-	margin-top: 0px !important;
 	top: 10px !important;
-	z-index: -1 !important;
 	border-radius: 0 !important;
 	margin-left: 0 !important;
 	background: #111111;
@@ -220,6 +225,10 @@ a, a:visited {
 	letter-spacing: 2px;
 	padding: 0 5px;
 	line-height: 2em;
+	position: sticky !important;
+	margin-top: -19px !important;
+	z-index: 1 !important;
+	width: 100px;
 }
 
 #left-column {
@@ -290,7 +299,6 @@ a, a:visited {
 #game-navigation {
 	width: calc(15% - 20px);
 	margin-right: 0;
-	padding-left: 20px;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 20px;
