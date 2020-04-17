@@ -213,7 +213,7 @@ a, a:visited {
 }
 
 #botlinks, #botupdate {
-	left: calc(5% + 105px) !important;
+	left: calc(5% + 104px) !important;
 	top: 10px !important;
 	border-radius: 0 !important;
 	margin-left: 0 !important;
