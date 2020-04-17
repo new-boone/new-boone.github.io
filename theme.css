@@ -510,14 +510,14 @@ a, a:visited {
 
 .news-aid::before {
 	content: "✛";
-	color: #ffa8a8;
+	color: #ff7a7a;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
 	content: "✝";
-	color: #b5b5b5;
+	color: #cfcfcf;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
