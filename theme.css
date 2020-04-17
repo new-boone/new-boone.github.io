@@ -475,7 +475,7 @@ a, a:visited {
 
 .news-relations::before {
 	content: "☮";
-	color: #ffe77a;
+	color: #ffcc00;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -496,7 +496,7 @@ a, a:visited {
 
 .news-ritual::before {
 	content: "☥";
-	color: #ffaa00;
+	color: #ffb700;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -562,7 +562,11 @@ a, a:visited {
 }
 
 .you {
-	color: pink;
+	color: #6bdfff;
+}
+
+.chamberlain {
+	color: #ffb700;
 }
 
 #aidnum {
