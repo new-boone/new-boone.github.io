@@ -459,7 +459,7 @@ a, a:visited {
 
 .news-actions-by-our-kingdom::before {
 	content: "x";
-	color: cyan;
+	color: green;
 }
 
 .news-aid::before {
@@ -468,10 +468,10 @@ a, a:visited {
 }
 
 .news-incident-type {
-	height: auto;
-	width: auto;
+	height: 20px;
+	width: 20px;
 	padding: 0;
-	font-size: 2rem;
+	font-size: 1.6rem;
 }
 
 .news-incident-date {
