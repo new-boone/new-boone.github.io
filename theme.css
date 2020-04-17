@@ -467,9 +467,17 @@ a, a:visited {
 	color: green;
 }
 
+.news-ritual::before {
+	content: "☥";
+}
+
+.news-obituaries::before {
+	content: "♰";
+}
+
 .news-aid::before {
 	content: "+";
-	color: #ff7e75;
+	color: #ff968f;
 }
 
 .news-incident-type {
