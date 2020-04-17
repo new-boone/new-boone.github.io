@@ -448,6 +448,11 @@ a, a:visited {
 	width: 130px;
 }
 
+.message {
+	outline: 1px dashed;
+	padding: 2em;
+}
+
 #right-column {
 	width: 15%;
 	margin-top: -620px;
