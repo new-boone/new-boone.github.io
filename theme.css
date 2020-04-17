@@ -232,7 +232,7 @@ a, a:visited {
 	border-radius: 5px;
 	background-color: #eeeeee !important;
 	color: #111111 !important;
-	font-size: 0.9em;
+	font-size: 1.3rem;
 	letter-spacing: 0.5px;
 	padding: 0 !important;
 	margin-bottom: 10px;
@@ -247,7 +247,7 @@ a, a:visited {
 	padding: 8px 0 0 10px;
 	line-height: 1.5em;
 	width: calc(20% - 10px) !important;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
 #irconline hr {
@@ -311,6 +311,12 @@ a, a:visited {
 	text-align: left;
 }
 
+.munkbutton {
+	outline: none;
+	border-radius: 3px;
+	margin: 0 0 5px 0;
+}
+
 #resource-bar {
 	width: 70%;
 	margin-left: 15%;
@@ -325,16 +331,19 @@ a, a:visited {
 
 #overlay {
 	width: 70% !important;
+	margin-top: 0 !important;
 	margin-left: auto !important;
 	float: none !important;
 	color: #111111 !important;
 	text-align: center !important;
-	line-height: 38px;
+	line-height: 35px;
 	border-radius: 5px;
+	font-size: 1rem;
+	padding-top: 3px;
 }
 
 #overlay input {
-	width: 45%;
+	width: 40%;
 	margin: 0 5px;
 }
 
@@ -353,13 +362,13 @@ a, a:visited {
 .game-header h1, .game-header a {
 	display: inline-block;
 	float: none;
-	margin: 5px;
-	font-size: 1em;
+	margin: 3px;
+	font-size: 1.3rem;
 }
 
 #orders a {
-	font-size: 0.8em;
-	margin: 10px;
+	font-size: 1.2rem;
+	margin: 3px;
 }
 
 .game-content {
