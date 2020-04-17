@@ -487,13 +487,13 @@ a, a:visited {
 }
 
 .news-dragon::before {
-	content: "⚕";
+	content: "🐲";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-ritual::before {
-	content: "⚚";
+	content: "☥";
 	color: yellow;
 	font-size: 1.5rem;
 	padding: 0 5px;
