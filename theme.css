@@ -405,6 +405,14 @@ a, a:visited {
 	margin: 10px 0 30px;
 }
 
+#throne-game-message p {
+	display: none;
+}
+
+#throne-game-message p:focus + #throne-game-message p {
+	display: block;
+}
+
 .game-content h2:first-child {
 	text-transform: uppercase;
 	font-size: 2rem;
