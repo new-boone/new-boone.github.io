@@ -46,6 +46,10 @@ input[type="checkbox"] {
 	vertical-align: middle;
 }
 
+input[type="number"] {
+	width: 50px;
+}
+
 input:focus {
 	border: none;
 	outline: 1px dashed gray;
@@ -582,6 +586,11 @@ a, a:visited {
 .news-incident-report {
 	text-align: left;
 }
+
+#btnExplore {
+	width: 200%;
+	margin-left: calc(-98% - 8px);
+	margin-bottom: 0;
 
 .message {
 	outline: 1px dashed;
