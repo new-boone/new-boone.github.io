@@ -415,8 +415,12 @@ a, a:visited {
 	font-size: 2rem;
 }
 
+.game-content h2:nth-child(2) {
+	font-size: 1.4rem;
+}
+
 .game-content h2 {
-	line-height: 2rem;
+	text-transform: uppercase;
 	margin-bottom: 5px;
 }
 
