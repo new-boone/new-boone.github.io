@@ -41,6 +41,11 @@ input {
 	border-radius: 3px;
 }
 
+input[type="checkbox"] {
+	height: 15px;
+	vertical-align: middle;
+}
+
 input:focus {
 	border: none;
 	outline: 1px dashed gray;
@@ -410,18 +415,10 @@ a, a:visited {
 	margin: 20px 0;
 }
 
-.game-content h2:first-child {
-	text-transform: uppercase;
-	font-size: 2rem;
-}
-
-.game-content h2:nth-child(2) {
-	font-size: 1.4rem;
-}
-
 .game-content h2 {
 	text-transform: uppercase;
 	margin-bottom: 5px;
+	font-size: 1.5rem;
 }
 
 .game-content tr:nth-child(even) {
