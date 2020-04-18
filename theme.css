@@ -472,7 +472,8 @@ a, a:visited {
 }
 
 #clone_kingdom th {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
 }
 
 .order-icon {
@@ -482,6 +483,8 @@ a, a:visited {
 
 .order-icon::before {
 	content: "⇅";
+	font-weight: normal;
+	padding-left: 2px;
 }
 
 .news-legend span {
