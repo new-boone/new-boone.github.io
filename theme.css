@@ -36,7 +36,7 @@ input {
 	border: none;
 	outline: none;
 	font-family: 'Quicksand', sans-serif;
-	padding: 0 3px;
+	padding: 3px;
 	margin: 0 1px;
 	border-radius: 3px;
 }
@@ -495,11 +495,11 @@ a, a:visited {
 
 /* News */
 .news-legend {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #news {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .news-legend span {
