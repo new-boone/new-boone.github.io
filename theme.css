@@ -390,10 +390,11 @@ a, a:visited {
 	padding: 0;
 	margin-left: 15%;
 	float: none;
+	font-size: 1.4rem;
 }
 
 #throne-game-message, #throne-monarch-message {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 
 #throne-game-message {
@@ -406,11 +407,11 @@ a, a:visited {
 
 .game-content h2:first-child {
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .game-content h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	line-height: 2rem;
 	text-transform: uppercase;
 	margin-bottom: 5px;
@@ -460,6 +461,7 @@ a, a:visited {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
+	font-size: 1.4rem;
 }
 
 .game-content th, .game-content td {
