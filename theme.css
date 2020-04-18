@@ -298,7 +298,6 @@ a, a:visited {
 .chooser-nav-class {
 	width: 300px !important;
 	padding: 10px 0 0 !important;
-	font-size: 0.7em;
 }
 
 .divider {
@@ -530,7 +529,7 @@ a, a:visited {
 
 .news-dragon::before {
 	content: "♅";
-	color: #7fc975;
+	color: #a1e882;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -551,14 +550,14 @@ a, a:visited {
 
 .news-aid::before {
 	content: "✛";
-	color: #ff7a7a;
+	color: ##ff9999
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
 	content: "✝";
-	color: #cfcfcf;
+	color: #bababa;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -592,6 +591,12 @@ a, a:visited {
 #right-column {
 	width: 15%;
 	margin-top: -620px;
+}
+
+.advice-message {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.4rem;
+	font-weight: normal;
 }
 
 .good, .protected, .advice-message {
