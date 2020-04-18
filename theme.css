@@ -46,15 +46,14 @@ input[type="checkbox"] {
 	vertical-align: middle;
 }
 
-input[type="number"] {
-	width: 50px;
+input[type="text"] {
+	outline: 1px solid gray;
 }
 
 input:focus {
 	border: none;
 	outline: 1px dashed gray;
 	padding: 0 3px;
-	height: 20px;
 }
 
 form p {
@@ -483,6 +482,7 @@ a, a:visited {
 #clone_kingdom th {
 	font-size: 1.2rem;
 	letter-spacing: 0;
+	text-transform: none;
 }
 
 .order-icon {
@@ -587,10 +587,17 @@ a, a:visited {
 	text-align: left;
 }
 
+/* Explore */
 #btnExplore {
 	width: 200%;
 	margin-left: calc(-98% - 8px);
 	margin-bottom: 0;
+}
+
+/* Growth */
+.four-digit-input {
+	width: 30px;
+}
 
 .message {
 	outline: 1px dashed;
