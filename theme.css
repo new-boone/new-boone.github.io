@@ -480,6 +480,10 @@ a, a:visited {
 	width: 0;
 }
 
+.order-icon::before {
+	content: "↕";
+}
+
 .news-legend span {
 	font-size: 1rem;
 	margin: 0 5px
