@@ -409,7 +409,7 @@ a, a:visited {
 	display: none;
 }
 
-#throne-game-message p:focus + #throne-game-message p {
+#throne-game-message h2:focus + #throne-game-message p {
 	display: block;
 }
 
