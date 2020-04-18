@@ -405,6 +405,10 @@ a, a:visited {
 	margin: 10px 0 30px;
 }
 
+#throne-game-message h2 {
+	cursor: pointer;
+}
+
 #throne-game-message p {
 	display: none;
 }
