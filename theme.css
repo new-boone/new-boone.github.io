@@ -395,26 +395,19 @@ a, a:visited {
 
 #throne-game-message, #throne-monarch-message {
 	font-size: 1.4rem;
+	outline: 1px dashed #ffd17a;
+	padding: 10px;
+	overflow: auto;
 }
 
 #throne-game-message {
 	margin-top: 20px;
+	height: 100px;
 }
 
 #throne-monarch-message {
-	margin: 10px 0 30px;
-}
-
-#throne-game-message h2 {
-	cursor: pointer;
-}
-
-#throne-game-message p {
-	display: none;
-}
-
-#throne-game-message h2:focus + #throne-game-message p {
-	display: block;
+	margin: 20px 0;
+	height: 200px;
 }
 
 .game-content h2:first-child {
@@ -423,9 +416,7 @@ a, a:visited {
 }
 
 .game-content h2 {
-	font-size: 2rem;
 	line-height: 2rem;
-	text-transform: uppercase;
 	margin-bottom: 5px;
 }
 
