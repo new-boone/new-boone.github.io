@@ -39,7 +39,6 @@ input {
 	padding: 0 3px;
 	margin: 0 1px;
 	border-radius: 3px;
-	height: 20px;
 }
 
 input:focus {
@@ -491,6 +490,15 @@ a, a:visited {
 	content: "⇅";
 	font-weight: normal;
 	padding-left: 2px;
+}
+
+/* News */
+.news-legend {
+	margin-bottom: 10px;
+}
+
+#news {
+	margin-top: 10px;
 }
 
 .news-legend span {
