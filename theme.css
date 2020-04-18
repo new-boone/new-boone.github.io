@@ -462,6 +462,10 @@ a, a:visited {
 	font-size: 1.5rem;
 }
 
+#clone_kingdom {
+	width: 70%;
+}
+
 .news-legend span {
 	font-size: 1rem;
 	margin: 0 5px
