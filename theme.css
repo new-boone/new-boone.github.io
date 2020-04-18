@@ -47,7 +47,7 @@ input[type="checkbox"] {
 }
 
 input[type="text"] {
-	outline: 1px solid gray;
+	outline: none;
 }
 
 input:focus {
@@ -365,7 +365,6 @@ a, a:visited {
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
-	outline: 1px solid gray;
 }
 
 #overlay table {
