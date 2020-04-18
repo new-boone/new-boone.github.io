@@ -405,12 +405,10 @@ a, a:visited {
 
 #throne-game-message {
 	margin-top: 20px;
-	height: 100px;
 }
 
 #throne-monarch-message {
 	margin: 20px 0;
-	height: 200px;
 }
 
 .game-content h2:first-child {
