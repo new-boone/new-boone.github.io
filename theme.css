@@ -25,6 +25,7 @@ thead th {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size: 1.4rem;
+	white-space: nowrap;
 }
 
 td br {
@@ -459,15 +460,6 @@ a, a:visited {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
-	font-size: 1.5rem;
-}
-
-.game-content table.two-solumn-stats th {
-	width: 15%;
-}
-
-.game-content table.two-solumn-stats td {
-	width: 35%;
 }
 
 .game-content th, .game-content td {
@@ -477,6 +469,15 @@ a, a:visited {
 #clone_kingdom td {
 	font-size: 1.3rem;
 	padding: 5px 0;
+}
+
+#clone_kingdom th {
+	font-size: 1.3rem;
+}
+
+.order-icon {
+	height: 0;
+	width: 0;
 }
 
 .news-legend span {
