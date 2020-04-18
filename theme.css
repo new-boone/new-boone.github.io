@@ -48,9 +48,8 @@ input[type="checkbox"] {
 
 input:focus {
 	border: none;
-	outline: 1px dashed gray;
 	padding: 0 3px;
-	height: 20px;
+	height: 22px;
 }
 
 form p {
@@ -280,6 +279,7 @@ a, a:visited {
 
 #ircchat input {
 	width: 35%;
+	border: 1px dashed gray;
 }
 
 #irccontainer {
@@ -361,6 +361,7 @@ a, a:visited {
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
+	border: 1px dashed gray;
 }
 
 #overlay table {
