@@ -23,7 +23,7 @@ thead th {
 	font-weight: bold;
 	color: #ffd17a;
 	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	font-size: 1.4rem;
 	white-space: nowrap;
 }
@@ -44,10 +44,6 @@ input {
 input[type="checkbox"] {
 	height: 15px;
 	vertical-align: middle;
-}
-
-input[type="text"] {
-	outline: none;
 }
 
 input:focus {
