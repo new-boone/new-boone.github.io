@@ -34,9 +34,11 @@ td br {
 
 input {
 	border: none;
-	outline: 1px solid gray;
+	outline: none;
 	font-family: 'Quicksand', sans-serif;
 	padding: 0 3px;
+	margin: 0 1px;
+	border-radius: 3px;
 	height: 20px;
 }
 
@@ -356,6 +358,7 @@ a, a:visited {
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
+	outline: 1px solid gray;
 }
 
 #overlay table {
