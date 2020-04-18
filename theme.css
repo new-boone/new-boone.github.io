@@ -462,10 +462,12 @@ a, a:visited {
 	font-size: 1.5rem;
 }
 
-#clone_kingdom td {
+.game-content th, .game-content td {
 	padding: 0;
+}
+
+#clone_kingdom td {
 	font-size: 1.3rem;
-	text-align: right;
 }
 
 .news-legend span {
