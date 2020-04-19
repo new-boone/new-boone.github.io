@@ -730,8 +730,8 @@ form input[type=submit], .button-link {
 	width: 70%;
 	margin: 10px auto;
 	text-transform: uppercase;
-	padding: 5px 0 20px 0;
-	color: #f56767;
+	padding: 0 0 25px 0;
+	color: #ffd17a;
 }
 
 .message {
