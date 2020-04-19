@@ -28,15 +28,12 @@ thead th {
 	white-space: nowrap;
 }
 
-td br {
-	display: none;
-}
-
 .selector {
 	padding-left: 0 !important;
 	width: 179px !important;
 	font-size: 1.2rem !important;
 	border-radius: 5px;
+	text-indent: 10px;
 }
 
 input {
@@ -61,6 +58,10 @@ input:focus {
 
 .two-digit-input, .four-digit-input {
 	width: 45px;
+}
+
+.three-digit-input {
+	width: 173px;
 }
 
 .max {
