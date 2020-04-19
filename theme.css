@@ -683,14 +683,14 @@ strong {
 }
 
 .warning {
-	text-align: center;
-	margin: 20px 0;
+	text-align: center !important;
+	margin: 20px 0 !important;
 }
 
 /* Forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
-	padding: 0 0 30px 0;
+	padding: 10px;
 }
 
 #id_subject {
@@ -704,6 +704,10 @@ strong {
 
 .mail-view br {
 	display: block;
+}
+
+.mail-view p {
+	margin: 0;
 }
 
 /* Misc. */
