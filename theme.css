@@ -725,6 +725,15 @@ form input[type=submit], .button-link {
 }
 
 /* Misc. */
+#loadstatus {
+	outline: 1px dashed;
+	width: 70%;
+	margin: 10px auto;
+	text-transform: uppercase;
+	padding: 5px 0 20px 0;
+	color: #f56767;
+}
+
 .message {
 	outline: 1px dashed;
 	padding: 2em;
