@@ -753,7 +753,7 @@ form input[type=submit], .button-link {
 }
 
 .preference-box .advice-message {
-	10px 0 !important;
+	margin: 10px 0 !important;
 }
 
 /* Misc. */
