@@ -621,7 +621,7 @@ a, a:visited {
 /* Explore */
 #btnExplore {
 	width: 168%;
-	margin-left: -68%;
+	margin-left: -68% !important;
 	margin-bottom: 0;
 }
 
