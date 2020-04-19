@@ -115,7 +115,7 @@ input[name=change_kingdom] {
 
 form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
 	font-size: 1.3rem !important;
-	width: 68px !important;
+	width: 65px !important;
 	height: 22px !important;
 	padding: 0 !important;
 	margin: 0 0 3px 5px !important;
@@ -642,6 +642,12 @@ input[name="reassign"], input[name="allocate"] {
 
 .scientist-type div.selector select, .scientist-type div.selector option, .scientist-type div.selector span {
 	width: 158px !important;
+}
+
+/* Military */
+.data th {
+	font-size: 1rem !important;
+	font-weight: normal !important;
 }
 
 /* Wizards */
