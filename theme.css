@@ -94,11 +94,6 @@ input[type=submit] {
 	height: 40px;
 	font-size: 2.5rem;
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 50px !important;
-}
-
-#spellslist {
-	margin-top: -20px !important;
 }
 
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
@@ -620,6 +615,11 @@ a, a:visited {
 /* Growth */
 .scientist-type div.selector select {
 	width: 158px !important;
+}
+
+/* Sciences */
+input[name="reassign"], input[name="allocate"] {
+	margin-bottom: 50px;
 }
 
 /* Wizards */
