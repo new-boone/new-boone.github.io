@@ -52,8 +52,8 @@ input {
 	border: none;
 	outline: none;
 	font-family: 'Quicksand', sans-serif;
-	padding: 3px;
-	margin: 0 1px;
+	padding: 3px !important;
+	margin: 0 1px !important;
 	border-radius: 3px;
 }
 
@@ -642,6 +642,11 @@ input[name="reassign"], input[name="allocate"] {
 	display: block;
 }
 
+#autodef {
+	margin-right: 4px important!;
+}
+
+/* Misc. */
 .message {
 	outline: 1px dashed;
 	padding: 2em;
