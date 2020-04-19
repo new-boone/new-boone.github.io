@@ -592,7 +592,7 @@ a, a:visited {
 /* Explore */
 #btnExplore {
 	width: 200%;
-	margin-left: calc(-98% - 8px);
+	margin-left: calc(-92% - 34px);
 	margin-bottom: 0;
 }
 
