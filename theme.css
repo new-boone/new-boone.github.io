@@ -47,6 +47,10 @@ input[type="checkbox"] {
 }
 
 input[type="number"] {
+	width: 30px;
+}
+
+input[type="text"] {
 	width: 60px;
 }
 
