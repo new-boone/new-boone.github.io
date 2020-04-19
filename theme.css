@@ -677,6 +677,10 @@ input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 30px;
 }
 
+#id_land {
+	margin-left: -31px !important;
+}
+
 /* Mail */
 strong {
 	font-size: 1.5rem;
