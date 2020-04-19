@@ -52,6 +52,15 @@ input:focus {
 	height: 22px;
 }
 
+.two-digit-input, .four-digit-input {
+	width: 45px;
+}
+
+.max {
+	padding: 3px 5px;
+	font-weight: bold;
+}
+
 form p {
 	text-align: center !important;
 	text-transform: uppercase;
@@ -589,10 +598,6 @@ a, a:visited {
 }
 
 /* Growth */
-.two-digit-input, .four-digit-input {
-	width: 45px;
-}
-
 .message {
 	outline: 1px dashed;
 	padding: 2em;
