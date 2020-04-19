@@ -246,8 +246,9 @@ a, a:visited {
 	width: 83px !important;
 	position: -webkit-sticky !important;
 	position: sticky !important;
-	margin-top: -1000% !important;
+	margin-top: -100% !important;
 	z-index: 2 !important;
+	margin-bottom: -100%;
 }
 
 #botlinks, #botupdate {
@@ -269,6 +270,7 @@ a, a:visited {
 	z-index: 1 !important;
 	width: max-content;
 	color: #ffd17a;
+	margin-bottom: -100%;
 }
 
 #left-column {
@@ -353,8 +355,6 @@ a, a:visited {
 	top: 40px;
 	float: left;
 	height: 690px;
-	z-index: 3;
-	background: #111111;
 }
 
 #game-navigation .current-date {
