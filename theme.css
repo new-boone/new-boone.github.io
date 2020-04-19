@@ -738,6 +738,23 @@ form input[type=submit], .button-link {
 	margin: 0;
 }
 
+/* Preferences */
+.preference-box h3 {
+	margin: 0 10px !important;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.preference-box {
+	outline: 1px dashed;
+	padding: 10px 0 !important;
+	margin: 15px 0 !important;
+}
+
+.preference-box .advice-message {
+	10px 0 !important;
+}
+
 /* Misc. */
 #loadstatus {
 	outline: 1px dashed;
