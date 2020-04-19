@@ -32,6 +32,19 @@ td br {
 	display: none;
 }
 
+.selector {
+	padding-left: 0;
+	width: 139px;
+	font-size: 1.3rem;
+	border-radius: 5px;
+}
+
+.selector:active {
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 5px;
+	outline: none;
+}
+
 input {
 	border: none;
 	outline: none;
