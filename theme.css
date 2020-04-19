@@ -661,10 +661,11 @@ input[name="reassign"], input[name="allocate"] {
 /* Mail */
 strong {
 	font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .reportable, .mail-view {
-	width: 100%;
+	width: 100% !important;
 }
 
 .formatted-text {
