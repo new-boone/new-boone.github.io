@@ -647,7 +647,7 @@ input[name="reassign"], input[name="allocate"] {
 }
 
 #calculator-separator {
-	border: none;
+	border-top: none;
 	outline: 1px dashed #ffd17a;
 }
 
