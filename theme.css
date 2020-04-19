@@ -200,7 +200,7 @@ a, a:visited {
 	padding: 10px 15px;
 	right: calc(5% + 10px);
 	top: 35px;
-	border: 1px solid gray;
+	border: 1px dashed gray;
 }
 
 #account-details .account-title {
@@ -208,7 +208,8 @@ a, a:visited {
 	margin-bottom: 5px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 1.2em;
+	text-transform: uppercase;
 	border-bottom: 1px solid #eeeeee;
 }
 
