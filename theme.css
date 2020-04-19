@@ -651,6 +651,26 @@ input[name="reassign"], input[name="allocate"] {
 	outline: 1px dashed #ffd17a;
 }
 
+/* Aid */
+#showaids {
+	text-transform: none;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+/* Mail */
+strong {
+	font-size: 1.5rem;
+}
+
+.reportable, .mail-view {
+	width: 100%;
+}
+
+.formatted-text {
+	outline: 1px dashed #ffd17a;
+	padding: 15px;
+
 /* Misc. */
 .message {
 	outline: 1px dashed;
