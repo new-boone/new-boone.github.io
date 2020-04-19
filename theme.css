@@ -693,6 +693,10 @@ strong {
 	padding: 0 10px;
 }
 
+.pagination {
+	margin-bottom: 30px;
+}
+
 /* Forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
