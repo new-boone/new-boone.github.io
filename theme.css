@@ -235,7 +235,7 @@ a, a:visited {
 	border: 1px solid gray;
 	border-radius: 0 !important;
 	top: 9px !important;
-	left: 5% !important;
+	left: calc(5% + 9px) !important;
 	margin-left: 5% !important;
 	text-transform: uppercase;
 	padding: 0 5px;
@@ -252,7 +252,7 @@ a, a:visited {
 }
 
 #botlinks, #botupdate {
-	left: calc(5% + 95px) !important;
+	left: calc(5% + 104px) !important;
 	top: 10px !important;
 	border-radius: 0 !important;
 	margin-left: 0 !important;
