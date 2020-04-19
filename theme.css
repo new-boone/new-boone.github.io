@@ -333,7 +333,7 @@ a, a:visited {
 }
 
 #chooser-nav {
-	margin: 5% 0;
+	margin: 5% 0 0 0;
 }
 
 #chooser-nav h1 {
@@ -688,12 +688,11 @@ strong {
 }
 
 #id_subject {
-	width: 97%;
+	width: 99%;
 }
 
-#id_body {
-	width: 95%;
-	outline: none;
+.mail-view br {
+	display: block;
 }
 
 /* Misc. */
