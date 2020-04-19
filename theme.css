@@ -23,7 +23,7 @@ thead th {
 	font-weight: bold;
 	color: #ffd17a;
 	font-family: 'Open Sans', sans-serif;
-	text-transform: none;
+	text-transform: uppercase;
 	font-size: 1.4rem;
 	white-space: nowrap;
 }
@@ -460,12 +460,6 @@ a, a:visited {
 	width: 20%;
 }
 
-.two-digit-input {
-	width: 20px;
-	outline: none;
-	border-radius: 3px;
-}
-
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
 	font-size: 1.4rem;
@@ -595,8 +589,8 @@ a, a:visited {
 }
 
 /* Growth */
-.four-digit-input {
-	width: 50px;
+.two-digit-input, .four-digit-input {
+	width: 45px;
 }
 
 .message {
