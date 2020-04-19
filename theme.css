@@ -689,12 +689,16 @@ strong {
 
 .current.page {
 	color: #ffd17a;
-	font-size: 1.5rem;
 	padding: 0 10px;
 }
 
 .pagination {
 	margin-bottom: 30px;
+}
+
+form input[type=submit], .button-link {
+	margin: 0 20px 0 -7px;
+	font-size: 1.3rem;
 }
 
 /* Forum */
