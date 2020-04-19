@@ -19,6 +19,10 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+td br {
+	display: none;
+)
+
 label {
 	white-space: nowrap;
 }
@@ -112,7 +116,7 @@ input[name=change_kingdom] {
 }
 
 [id='10thief'], [id='10proc'], [id='100proc'], #calc { 
-	font-size: 1.4rem !important;
+	font-size: 1.3rem !important;
 	width: 80px !important;
 	height: 22px !important;
 	padding: 0 !important;
@@ -627,6 +631,11 @@ a, a:visited {
 /* Mystics */
 .helptext {
 	font-size: 1rem;
+}
+
+/* War Room */
+.form br {
+	display: block;
 }
 
 .message {
