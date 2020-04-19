@@ -255,7 +255,7 @@ a, a:visited {
 	left: calc(5% + 104px) !important;
 	top: 10px !important;
 	border-radius: 0 !important;
-	margin-left: 0 !important;
+	margin-left: calc(5% + 104px) !important;
 	background: #111111;
 	border: none;
 	outline: 1px dashed #ffd17a;
