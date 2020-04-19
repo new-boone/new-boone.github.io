@@ -377,7 +377,7 @@ a, a:visited {
 #resource-bar {
 	width: 70%;
 	margin-left: 15%;
-	margin-top: -780px;
+	/* margin-top: -780px; */
 	margin-bottom: 15px;
 }
 
