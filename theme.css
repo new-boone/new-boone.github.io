@@ -682,13 +682,24 @@ strong {
 	padding: 15px !important;
 }
 
+.warning {
+	text-align: center;
+	margin: 20px 0;
+}
+
 /* Forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
+	padding: 0 0 30px 0;
 }
 
 #id_subject {
 	width: 99%;
+}
+
+#id_body {
+	width: 95%;
+	outline: none;
 }
 
 .mail-view br {
@@ -716,7 +727,7 @@ strong {
 	color: #a1e882;
 }
 
-.bad, .monarch, .negative {
+.bad, .monarch, .negative, .warning {
 	color: #f56767;
 }
 
