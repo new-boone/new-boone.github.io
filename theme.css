@@ -683,7 +683,7 @@ strong {
 }
 
 /* Forum */
-.game-content table.mail-view tr {
+.game-content table.mail-view tr td {
 	font-size: 1.4rem;
 }
 
