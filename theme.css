@@ -20,7 +20,7 @@ h2 {
 }
 
 label {
-	white-space: no-wrap;
+	white-space: nowrap;
 }
 
 thead th {
