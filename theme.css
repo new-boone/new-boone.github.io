@@ -34,15 +34,9 @@ td br {
 
 .selector {
 	padding-left: 0 !important;
-	width: 139px !important;
-	font-size: 1.3rem !important;
+	width: 179px !important;
+	font-size: 1.2rem !important;
 	border-radius: 5px;
-}
-
-.selector select.focus {
-	font-family: 'Quicksand', sans-serif;
-	border-radius: 5px;
-	outline: none;
 }
 
 input {
