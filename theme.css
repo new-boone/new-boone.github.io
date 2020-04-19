@@ -631,6 +631,7 @@ input[name="reassign"], input[name="allocate"] {
 /* Mystics */
 .helptext {
 	font-size: 1rem;
+	display: block;
 }
 
 /* War Room */
