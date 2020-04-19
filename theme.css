@@ -236,7 +236,7 @@ a, a:visited {
 	border-radius: 0 !important;
 	top: 9px !important;
 	left: calc(5% + 10px) !important;
-	margin-left: calc(5% + 10px) !important;
+	margin-left: 5% !important;
 	text-transform: uppercase;
 	padding: 0 5px;
 	font-family: 'Open Sans', sans-serif;
@@ -352,7 +352,7 @@ a, a:visited {
 	position: sticky;
 	top: 40px;
 	float: left;
-	height: 780px;
+	height: 690px;
 	z-index: 3;
 	background: #111111;
 }
