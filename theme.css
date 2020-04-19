@@ -623,7 +623,7 @@ a, a:visited {
 
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
-	margin-bottom: 50px;
+	margin-bottom: 50px !important;
 }
 
 /* Wizards */
