@@ -39,7 +39,7 @@ td br {
 	border-radius: 5px;
 }
 
-.selector.focus:active {
+.selector select.focus {
 	font-family: 'Quicksand', sans-serif;
 	border-radius: 5px;
 	outline: none;
