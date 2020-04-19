@@ -618,6 +618,11 @@ a, a:visited {
 	text-align: left;
 }
 
+/* Throne */
+.game-content table.three-column-stats th {
+	text-align: center !important;
+}
+
 /* Explore */
 #btnExplore {
 	width: 168%;
