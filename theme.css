@@ -332,9 +332,12 @@ a, a:visited {
 	display: none;
 }
 
+#chooser-nav {
+	margin: 5% 0;
+}
+
 #chooser-nav h1 {
-	font-size: 3.5rem;
-	line-height: 3.5rem;
+	font-size: 2.5rem;
 	margin: 0 0 15px 0;
 }
 
