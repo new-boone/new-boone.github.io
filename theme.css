@@ -46,6 +46,10 @@ input[type="checkbox"] {
 	vertical-align: middle;
 }
 
+input[type="number"] {
+	width: 60px;
+}
+
 input:focus {
 	border: none;
 	padding: 0 3px;
@@ -93,6 +97,10 @@ input[name=change_kingdom] {
 	padding: 0 !important;
 	margin: 0 0 0 5px !important;
 	border-radius: 3px !important;
+}
+
+.repeat {
+	margin-bottom: 20px;
 }
 
 button {
