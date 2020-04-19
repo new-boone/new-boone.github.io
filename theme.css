@@ -646,6 +646,11 @@ input[name="reassign"], input[name="allocate"] {
 	margin-right: 4px important!;
 }
 
+#calculator-separator {
+	border: none;
+	outline: 1px dashed #ffd17a;
+}
+
 /* Misc. */
 .message {
 	outline: 1px dashed;
