@@ -687,6 +687,12 @@ strong {
 	margin: 20px 0 !important;
 }
 
+.current-page {
+	color: #ffd17a;
+	font-size: 1.5rem;
+	padding: 0 10px;
+}
+
 /* Forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
