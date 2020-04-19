@@ -116,7 +116,7 @@ input[name=change_kingdom] {
 
 [id='10thief'], [id='10proc'], [id='100proc'], #calc { 
 	font-size: 1.3rem !important;
-	width: 80px !important;
+	width: 68px !important;
 	height: 22px !important;
 	padding: 0 !important;
 	margin: 0 0 3px 5px !important;
@@ -656,7 +656,7 @@ input[name="reassign"], input[name="allocate"] {
 }
 
 #calculator-separator {
-	border-top: none;
+	border-top: none !important;
 	outline: 1px dashed #ffd17a;
 }
 
@@ -701,10 +701,6 @@ strong {
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
 	padding: 10px;
-}
-
-.mail-view thead tr th:first-child {
-	width: 60%;
 }
 
 #id_subject {
