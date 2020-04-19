@@ -353,6 +353,8 @@ a, a:visited {
 	top: 40px;
 	float: left;
 	height: 780px;
+	z-index: 3;
+	background: #111111;
 }
 
 #game-navigation .current-date {
