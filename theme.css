@@ -235,8 +235,8 @@ a, a:visited {
 	border: 1px solid gray;
 	border-radius: 0 !important;
 	top: 9px !important;
-	left: calc(5% + 9px) !important;
-	margin-left: 5% !important;
+	left: 5% !important;
+	margin-left: calc(5% + 10px) !important;
 	text-transform: uppercase;
 	padding: 0 5px;
 	font-family: 'Open Sans', sans-serif;
