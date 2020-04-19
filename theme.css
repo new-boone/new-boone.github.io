@@ -327,9 +327,15 @@ a, a:visited {
 	padding-top: 0 !important;
 }
 
-.chooser-nav-class {
-	width: 300px !important;
-	padding: 10px 0 0 !important;
+/* Lobby */
+.chooser-nav-class, #chooser-nav .divider {
+	display: none;
+}
+
+#chooser-nav h1 {
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+	margin: 0 0 15px 0;
 }
 
 .divider {
