@@ -46,14 +46,6 @@ input[type="checkbox"] {
 	vertical-align: middle;
 }
 
-input[type="number"] {
-	width: 30px;
-}
-
-input[type="text"] {
-	width: 60px;
-}
-
 input:focus {
 	border: none;
 	padding: 0 3px;
@@ -481,15 +473,14 @@ a, a:visited {
 
 .game-content th, .game-content td {
 	padding: 5px;
+	font-size: 1.2rem;
 }
 
 #clone_kingdom td {
-	font-size: 1.3rem;
 	padding: 5px 0;
 }
 
 #clone_kingdom th {
-	font-size: 1.2rem;
 	letter-spacing: 0;
 	text-transform: none;
 }
@@ -605,7 +596,7 @@ a, a:visited {
 
 /* Growth */
 .four-digit-input {
-	width: 30px;
+	width: 50px;
 }
 
 .message {
