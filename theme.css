@@ -625,6 +625,11 @@ a, a:visited {
 	margin-bottom: 0;
 }
 
+/* Growth */
+#hideshow {
+	margin: 20px !important;
+}
+
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
