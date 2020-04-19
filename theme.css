@@ -621,6 +621,10 @@ input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
 }
 
+.scientist-type select {
+	width: 158px !important;
+}
+
 /* Wizards */
 .game-content ul {
 	text-align: center;
