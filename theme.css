@@ -679,7 +679,21 @@ strong {
 
 .formatted-text {
 	outline: 1px dashed #ffd17a;
-	padding: 15px;
+	padding: 15px !important;
+}
+
+/* Forum */
+.game-content table.mail-view tr {
+	font-size: 1.4rem;
+}
+
+#id_subject {
+	width: 97%;
+}
+
+#id_body {
+	width: 95%;
+	outline: none;
 }
 
 /* Misc. */
