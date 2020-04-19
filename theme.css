@@ -33,13 +33,13 @@ td br {
 }
 
 .selector {
-	padding-left: 0;
-	width: 139px;
-	font-size: 1.3rem;
+	padding-left: 0 !important;
+	width: 139px !important;
+	font-size: 1.3rem !important;
 	border-radius: 5px;
 }
 
-.selector:active {
+.selector.focus:active {
 	font-family: 'Quicksand', sans-serif;
 	border-radius: 5px;
 	outline: none;
