@@ -616,11 +616,6 @@ a, a:visited {
 	margin-bottom: 0;
 }
 
-/* Growth */
-.scientist-type div.selector select {
-	width: 158px !important;
-}
-
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
