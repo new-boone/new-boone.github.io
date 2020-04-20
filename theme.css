@@ -1,7 +1,7 @@
 @import url("default-theme.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
 
-/* Test */
+/* Global */
 body {
 	background: #111111;
 	font-family: 'Quicksand', sans-serif;
@@ -100,29 +100,6 @@ input[type=submit] {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
-	margin: 0;
-	position: static;
-}
-
-input[name=change_kingdom] {
-	font-size: 1.4rem !important;
-	width: 35px !important;
-	height: 22px !important;
-	border-radius: 3px !important;
-	margin-left: 5px !important;
-	padding: 0 !important;
-}
-
-form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
 .repeat {
 	margin-bottom: 20px;
 }
@@ -151,6 +128,33 @@ a, a:visited {
 	padding: 0;
 }
 
+/* Ads */
+.google_ads {
+	margin: 10px auto 0px;
+	margin-left: auto !important;
+	height: auto !important;
+	padding-top: 0 !important;
+}
+
+/* Lobby */
+.chooser-nav-class, #chooser-nav .divider {
+	display: none;
+}
+
+#chooser-nav {
+	margin: 5% 0 0 0;
+}
+
+#chooser-nav h1 {
+	font-size: 2.5rem;
+	margin: 0 0 15px 0;
+}
+
+.divider {
+	height: 5px;
+}
+
+/* Layout */
 #inner-container {
 	width: 90%;
 	position: unset;
@@ -185,208 +189,9 @@ a, a:visited {
 	padding-top: 5px !important;
 }
 
-#toggler {
-	background-color: #111111 !important;
-	border: 1px solid gray;
-	border-radius: 0 !important;
-	top: 9px !important;
-	left: 5% !important;
-	margin-left: calc(5% + 10px) !important;
-	text-transform: uppercase;
-	padding: 0 5px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
-	letter-spacing: 2px;
-	line-height: 2em;
-	width: 83px !important;
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-top: -1000% !important;
-	z-index: 2 !important;
-	margin-bottom: -100%;
-}
-
-#botlinks, #botupdate {
-	left: calc(5% + 104px) !important;
-	top: 10px !important;
-	border-radius: 0 !important;
-	margin-left: calc(5% + 104px) !important;
-	background: #111111;
-	border: none;
-	outline: 1px dashed #ffd17a;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 0 5px;
-	line-height: 2em;
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	z-index: 1 !important;
-	width: max-content;
-	color: #ffd17a;
-	margin-bottom: -100%;
-}
-
 #left-column {
 	width: 100%;
 	float: none;
-}
-
-#ircchat {
-	width: calc(100% - 10px) !important;
-	border-radius: 5px;
-	background-color: #eeeeee !important;
-	color: #111111 !important;
-	font-size: 1.2rem;
-	letter-spacing: 0.5px;
-	padding: 0 !important;
-	margin-bottom: 10px;
-}
-
-#ircchat table {
-	border-collapse: separate !important;
-	border-spacing: 5px !important;
-}
-
-#irconline {
-	padding: 8px 0 0 10px;
-	line-height: 1.5em;
-	width: calc(20% - 10px) !important;
-	font-size: 1rem;
-}
-
-#irconline hr {
-	width: 93%;
-	margin-left: 0;
-}
-
-#ircchat center {
-	padding: 0 0 8px 0;
-	margin-top: -10px;
-}
-
-#ircchat input {
-	width: 35%;
-	border: 1px dashed gray;
-}
-
-#irccontainer {
-	border: none !important;
-	padding: 0 0 0 5px;
-	width: calc(100% - 5px) !important;
-}
-
-.google_ads {
-	margin: 10px auto 0px;
-	margin-left: auto !important;
-	height: auto !important;
-	padding-top: 0 !important;
-}
-
-/* Lobby */
-.chooser-nav-class, #chooser-nav .divider {
-	display: none;
-}
-
-#chooser-nav {
-	margin: 5% 0 0 0;
-}
-
-#chooser-nav h1 {
-	font-size: 2.5rem;
-	margin: 0 0 15px 0;
-}
-
-.divider {
-	height: 5px;
-}
-
-#game-navigation {
-	width: calc(15% - 20px);
-	margin-right: 0;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 40px;
-	float: left;
-	height: 690px;
-}
-
-#game-navigation .current-date {
-	margin-bottom: 20px;
-	text-align: left;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 1.1em;
-}
-
-#game-navigation .navigation {
-	margin-bottom: 20px;
-	text-align: left;
-}
-
-.munkbutton {
-	outline: none;
-	border-radius: 3px;
-	margin: 0 0 5px 0;
-}
-
-#resource-bar {
-	width: 70%;
-	margin-left: 15%;
-	/* margin-top: -780px; */
-	margin-bottom: 15px;
-}
-
-#resource-bar tbody {
-	font-size: 0.8em;
-	letter-spacing: 1px;
-}
-
-#overlay {
-	width: 70% !important;
-	margin-top: 0 !important;
-	margin-left: auto !important;
-	float: none !important;
-	color: #111111 !important;
-	text-align: center !important;
-	line-height: 35px;
-	border-radius: 5px;
-	font-size: 1rem;
-	padding-top: 3px;
-}
-
-#overlay input {
-	width: 40%;
-	margin: 0 5px;
-	border: 1px dashed gray;
-}
-
-#overlay table {
-	font-size: 1.3rem;
-	line-height: 1.3rem;
-}
-
-.game-header {
-	width: 70%;
-	float: none;
-	background: #222222;
-	margin: 15px auto 10px;
-	white-space: nowrap;
-}
-
-.game-header h1, .game-header a {
-	display: inline-block;
-	float: none;
-	margin: 0 2px;
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	padding: 5px 0;
-}
-
-#orders a {
-	font-size: 1.2rem;
-	margin: 5px;
 }
 
 .game-content {
@@ -395,93 +200,6 @@ a, a:visited {
 	margin-left: 15%;
 	float: none;
 	font-size: 1.4rem;
-}
-
-#throne-game-message, #throne-monarch-message {
-	font-size: 1.4rem;
-	outline: 1px dashed #ffd17a;
-	padding: 10px;
-	overflow: auto;
-}
-
-#throne-game-message {
-	margin-top: 20px;
-}
-
-#throne-monarch-message {
-	margin: 20px 0;
-}
-
-.game-content h2 {
-	text-transform: uppercase;
-	margin: 5px 0 !important;
-	font-size: 1.5rem;
-}
-
-.game-content tr:nth-child(even) {
-	background-color: #222222;
-}
-
-.game-content .advice-message {
-	text-align: center;
-	margin: 30px 0;
-	font-size: 1.4rem;
-}
-
-.game-content .throne-notice, .game-content p {
-	margin: 0 10px 15px;
-}
-
-.change-kingdom-heading {
-	width: 80% !important;
-	padding: 5px;
-	margin: 5px;
-}
-
-.change-kingdom-nav {
-	width: 100%;
-	text-align: center;
-}
-
-.change-kingdom-nav a {
-	width: 70px !important;
-	font-size: 1.3rem !important;
-	margin: 0 20px;
-}
-
-.change-kingdom-form {
-	top: 3px !important;
-	width: 20%;
-}
-
-.game-content table.two-column-stats th, .game-content table.two-column-stats td {
-	width: 25%;
-	font-size: 1.4rem;
-}
-
-.game-content th, .game-content td {
-	padding: 5px;
-	font-size: 1.2rem;
-}
-
-#clone_kingdom td {
-	padding: 5px 0;
-}
-
-#clone_kingdom th {
-	letter-spacing: 0;
-	text-transform: none;
-}
-
-.order-icon {
-	height: 0 !important;
-	width: 0 !important;
-}
-
-.order-icon::before {
-	content: "⇅";
-	font-weight: normal;
-	padding-left: 2px;
 }
 
 /* Account */
@@ -543,9 +261,291 @@ a, a:visited {
 	margin-right: 5px;	
 }
 
+/* Bot Intel */
+#toggler {
+	background-color: #111111 !important;
+	border: 1px solid gray;
+	border-radius: 0 !important;
+	top: 9px !important;
+	left: 5% !important;
+	margin-left: calc(5% + 10px) !important;
+	text-transform: uppercase;
+	padding: 0 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em !important;
+	letter-spacing: 2px;
+	line-height: 2em;
+	width: 83px !important;
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	margin-top: -1000% !important;
+	z-index: 2 !important;
+	margin-bottom: -100%;
+}
+
+#botlinks, #botupdate {
+	left: calc(5% + 104px) !important;
+	top: 10px !important;
+	border-radius: 0 !important;
+	margin-left: calc(5% + 104px) !important;
+	background: #111111;
+	border: none;
+	outline: 1px dashed #ffd17a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0 5px;
+	line-height: 2em;
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	z-index: 1 !important;
+	width: max-content;
+	color: #ffd17a;
+	margin-bottom: -100%;
+}
+
+/* Chat */
+#ircchat {
+	width: calc(100% - 10px) !important;
+	border-radius: 5px;
+	background-color: #eeeeee !important;
+	color: #111111 !important;
+	font-size: 1.2rem;
+	letter-spacing: 0.5px;
+	padding: 0 !important;
+	margin-bottom: 10px;
+}
+
+#ircchat table {
+	border-collapse: separate !important;
+	border-spacing: 5px !important;
+}
+
+#irconline {
+	padding: 8px 0 0 10px;
+	line-height: 1.5em;
+	width: calc(20% - 10px) !important;
+	font-size: 1rem;
+}
+
+#irconline hr {
+	width: 93%;
+	margin-left: 0;
+}
+
+#ircchat center {
+	padding: 0 0 8px 0;
+	margin-top: -10px;
+}
+
+#ircchat input {
+	width: 35%;
+	border: 1px dashed gray;
+}
+
+#irccontainer {
+	border: none !important;
+	padding: 0 0 0 5px;
+	width: calc(100% - 5px) !important;
+}
+
+/* Resource Bar */
+#resource-bar {
+	width: 70%;
+	margin-left: 15%;
+	/* margin-top: -780px; */
+	margin-bottom: 15px;
+}
+
+#resource-bar tbody {
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+/* Bot Commands */
+#overlay {
+	width: 70% !important;
+	margin-top: 0 !important;
+	margin-left: auto !important;
+	float: none !important;
+	color: #111111 !important;
+	text-align: center !important;
+	line-height: 35px;
+	border-radius: 5px;
+	font-size: 1rem;
+	padding-top: 3px;
+}
+
+#overlay input {
+	width: 40%;
+	margin: 0 5px;
+	border: 1px dashed gray;
+}
+
+#overlay table {
+	font-size: 1.3rem;
+	line-height: 1.3rem;
+}
+
+/* Game Header */
+.game-header {
+	width: 70%;
+	float: none;
+	background: #222222;
+	margin: 15px auto 10px;
+	white-space: nowrap;
+}
+
+.game-header h1, .game-header a {
+	display: inline-block;
+	float: none;
+	margin: 0 2px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
+
+/* Game Navigation */
+#game-navigation {
+	width: calc(15% - 20px);
+	margin-right: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 40px;
+	float: left;
+	height: 690px;
+}
+
+#game-navigation .current-date {
+	margin-bottom: 20px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#game-navigation .navigation {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.munkbutton {
+	outline: none;
+	border-radius: 3px;
+	margin: 0 0 5px 0;
+}
+
 /* Throne */
+#orders a {
+	font-size: 1.2rem;
+	margin: 5px;
+}
+
+#throne-game-message, #throne-monarch-message {
+	font-size: 1.4rem;
+	outline: 1px dashed #ffd17a;
+	padding: 10px;
+	overflow: auto;
+}
+
+#throne-game-message {
+	margin-top: 20px;
+}
+
+#throne-monarch-message {
+	margin: 20px 0;
+}
+
+.game-content h2 {
+	text-transform: uppercase;
+	margin: 5px 0 !important;
+	font-size: 1.5rem;
+}
+
+.game-content tr:nth-child(even) {
+	background-color: #222222;
+}
+
+.game-content .advice-message {
+	text-align: center;
+	margin: 30px 0;
+	font-size: 1.4rem;
+}
+
+.game-content .throne-notice, .game-content p {
+	margin: 0 10px 15px;
+}
+
 .game-content table.three-column-stats th {
 	text-align: center !important;
+}
+
+/* Kingdom */
+.game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
+	margin: 0;
+	position: static;
+}
+
+input[name=change_kingdom] {
+	font-size: 1.4rem !important;
+	width: 35px !important;
+	height: 22px !important;
+	border-radius: 3px !important;
+	margin-left: 5px !important;
+	padding: 0 !important;
+}
+
+.change-kingdom-heading {
+	width: 80% !important;
+	padding: 5px;
+	margin: 5px;
+}
+
+.change-kingdom-nav {
+	width: 100%;
+	text-align: center;
+}
+
+.change-kingdom-nav a {
+	width: 70px !important;
+	font-size: 1.3rem !important;
+	margin: 0 20px;
+}
+
+.change-kingdom-form {
+	top: 3px !important;
+	width: 20%;
+}
+
+.game-content table.two-column-stats th, .game-content table.two-column-stats td {
+	width: 25%;
+	font-size: 1.4rem;
+}
+
+.game-content th, .game-content td {
+	padding: 5px;
+	font-size: 1.2rem;
+}
+
+#clone_kingdom td {
+	padding: 5px 0;
+}
+
+#clone_kingdom th {
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.order-icon {
+	height: 0 !important;
+	width: 0 !important;
+}
+
+.order-icon::before {
+	content: "⇅";
+	font-weight: normal;
+	padding-left: 2px;
 }
 
 /* News */
@@ -676,6 +676,16 @@ input[name="reassign"], input[name="allocate"] {
 .helptext {
 	font-size: 1rem;
 	display: block;
+}
+
+/* Thievery */
+form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
 }
 
 /* War Room */
