@@ -582,6 +582,10 @@ input[name=change_kingdom] {
 	color: #eeeeee !important;	
 }
 
+#newintel tr:nth-child(odd) {
+	background-color: #111111 !important;	
+}
+
 #newintel tr:nth-child(even) {
 	background-color: #222222 !important;	
 }
