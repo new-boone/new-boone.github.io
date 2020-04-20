@@ -733,6 +733,10 @@ input[name="reassign"], input[name="allocate"] {
 	display: block;
 }
 
+#spellslist {
+	margin-top: 20px;
+}
+
 /* Thievery */
 form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
 	font-size: 1.3rem !important;
