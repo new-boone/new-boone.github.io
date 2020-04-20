@@ -799,11 +799,15 @@ form input[type=submit], .button-link {
 }
 
 .you {
-	color: #6bdfff;
+	color: #ffed78;
 }
 
 .chamberlain {
 	color: #ffd278;
+}
+
+.online {
+	color: #6bdfff;
 }
 
 #aidnum {
