@@ -568,7 +568,6 @@ input[name=change_kingdom] {
 /* Kingdom Intel */
 #newintel {
 	max-height: 80vh;
-	outline: 1px dashed #ffd278;
 }
 
 #newintel .header th, #newintel td {
@@ -580,11 +579,11 @@ input[name=change_kingdom] {
 }
 
 #newintel tr {
-	color: #eeeeee;	
+	color: #eeeeee !important;	
 }
 
 #newintel tr:nth-child(even) {
-	background-color: #222222;	
+	background-color: #222222 !important;	
 }
 
 /* News */
