@@ -181,52 +181,6 @@ a, a:visited {
 	margin: 9px 5px;
 }
 
-#account-container {
-	position: unset;
-}
-
-#account-header {
-	top: 1px;
-	right: 5%;
-}
-
-#account-header .down-arrow {
-	top: 15px;
-}
-
-#account-details {
-	background: #111111;
-	line-height: 2em;
-	padding: 10px 15px;
-	right: calc(5% + 10px);
-	top: 35px;
-	border: 1px dashed gray;
-}
-
-#account-details .account-title {
-	padding: 0;
-	margin-bottom: 5px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	border-bottom: 1px solid #eeeeee;
-}
-
-#account-details .account-summary {
-	margin-bottom: 10px;
-}
-
-#account-details .account-signout {
-	padding: 0;
-	margin-top: 10px;
-}
-
-.account-name {
-	margin: 5px 15px;
-	text-transform: uppercase;
-}
-
 #content-area {
 	padding-top: 5px !important;
 }
@@ -530,6 +484,70 @@ a, a:visited {
 	padding-left: 2px;
 }
 
+/* Account */
+#account-container {
+	position: unset;
+}
+
+#account-header {
+	top: 1px;
+	right: 5%;
+}
+
+#account-header .down-arrow {
+	top: 15px;
+}
+
+#account-details {
+	background: #111111;
+	line-height: 2em;
+	padding: 10px 15px;
+	right: calc(5% + 10px);
+	top: 35px;
+	border: 1px dashed gray;
+}
+
+#account-details .account-title {
+	padding: 0;
+	margin-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #eeeeee;
+}
+
+#account-details .account-summary {
+	margin-bottom: 10px;
+}
+
+#account-details .account-signout {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.account-name {
+	margin: 5px 15px;
+	text-transform: uppercase;
+}
+
+.lobby-panel {
+	width: 70%;
+}
+
+.lobby-panel .form {
+	width: 100%;
+}
+
+.lobby-panel .selector {
+	margin-right: 5px;	
+}
+
+/* Throne */
+.game-content table.three-column-stats th {
+	text-align: center !important;
+}
+
 /* News */
 .news-legend {
 	margin-bottom: 15px;
@@ -619,11 +637,6 @@ a, a:visited {
 
 .news-incident-report {
 	text-align: left;
-}
-
-/* Throne */
-.game-content table.three-column-stats th {
-	text-align: center !important;
 }
 
 /* Explore */
