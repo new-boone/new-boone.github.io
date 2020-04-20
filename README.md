@@ -1,4 +1,4 @@
-Boone's Dark Theme (Updated 2020)
+Boone's Dark Theme (Updated, 2020)
 =====================================
 
 Custom theme designed for Utopia (http://utopia-game.com).
