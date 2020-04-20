@@ -204,8 +204,16 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
+.page-summary {
+	text-align: center;
+	outline: 1px dashed;
+	padding: 10px;
+	width: 50%;
+	margin: 20px auto;
+}
+
 .lobby-panel {
-	width: 70%;
+	width: 50%;
 }
 
 .lobby-panel .form {
