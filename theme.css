@@ -65,6 +65,7 @@ input[type="checkbox"] {
 input:focus {
 	border: none;
 	padding: 0 3px !important;
+	height: 20px;
 }
 
 .two-digit-input, .four-digit-input {
