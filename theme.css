@@ -565,6 +565,28 @@ input[name=change_kingdom] {
 	padding-left: 2px;
 }
 
+/* Kingdom Intel */
+#newintel {
+	max-height: 80vh;
+	outline: 1px dashed #ffd278;
+}
+
+#newintel .header th, #newintel td {
+	font-size: 1rem;
+}
+
+#newintel .header .order-icon {
+	display: inline-block;
+}
+
+#newintel tr {
+	color: #eeeeee;	
+}
+
+#newintel tr:nth-child(even) {
+	background-color: #222222;	
+}
+
 /* News */
 .news-legend {
 	margin-bottom: 15px;
