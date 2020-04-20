@@ -572,10 +572,15 @@ input[name=change_kingdom] {
 
 #newintel .header th, #newintel td {
 	font-size: 1rem;
+	letter-spacing: 1.5px;
 }
 
 #newintel td font {
 	color: #eeeeee !important;
+}
+
+#newintel td img {
+	display: none;
 }
 
 #newintel .header th {
