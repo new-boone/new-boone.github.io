@@ -427,8 +427,8 @@ a, a:visited {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 40px;
-	float: left;
-	height: 690px;
+	font-size: 1.6rem;
+	line-height: 2rem;
 }
 
 #game-navigation .current-date {
