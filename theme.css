@@ -452,9 +452,10 @@ a, a:visited {
 
 #game-navigation img {
 	height: 9px !important;
-	border: 1px dashed;
+	border: 1px solid;
 	margin: 0 5px;
 	vertical-align: unset !important;
+	border-radius: 1px;
 }
 
 /* Throne */
