@@ -896,7 +896,9 @@ form input[type=submit], .button-link {
 #aidnum {
 	color: #f56767;
 	letter-spacing: 1px;
-	font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 
 #footer {
