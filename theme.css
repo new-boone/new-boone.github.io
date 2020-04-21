@@ -450,6 +450,10 @@ a, a:visited {
 	margin: 0 0 5px 0 !important;
 }
 
+#game-navigation img::before {
+	content: "❂";
+}
+
 /* Throne */
 #orders a {
 	font-size: 1.2rem;
