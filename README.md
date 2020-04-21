@@ -7,8 +7,8 @@ Custom theme designed for Utopia (http://utopia-game.com).
 - Clean and minimalistic look.
 - Dark palette that's easy on the eyes.
 
-How To Use Theme
-================
+How To Use
+==========
 
 1. Click on your account name on the top right of the screen, then click on 'Account Settings'.
 2. Under custom theme, enter 'http://boone-theme.github.io/' exactly.
