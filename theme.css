@@ -451,11 +451,8 @@ a, a:visited {
 }
 
 #game-navigation img {
-	height: 9px !important;
-	border: 1px dotted;
-	margin: 0 5px;
-	vertical-align: unset !important;
-	border-radius: 1px;
+	height: 14px !important;
+	margin: 0 3px;
 }
 
 /* Throne */
