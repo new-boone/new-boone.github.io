@@ -899,6 +899,7 @@ form input[type=submit], .button-link {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
 	font-weight: bold;
+	vertical-align: bottom;
 }
 
 #footer {
