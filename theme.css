@@ -452,8 +452,8 @@ a, a:visited {
 
 #game-navigation img {
 	height: 9px !important;
-	border: 1px solid;
-	margin: 0 5px 1px;
+	border: 1px dashed;
+	margin: 0 5px;
 	vertical-align: unset !important;
 }
 
