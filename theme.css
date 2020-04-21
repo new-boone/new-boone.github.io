@@ -316,7 +316,7 @@ a, a:visited {
 	z-index: 1 !important;
 	width: max-content;
 	color: #ffd17a;
-	margin-bottom: -100%;
+	margin-bottom: -1000%;
 }
 
 /* Chat */
