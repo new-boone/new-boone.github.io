@@ -452,7 +452,7 @@ a, a:visited {
 
 #game-navigation img {
 	height: 9px !important;
-	border: 1px solid;
+	border: 1px dotted;
 	margin: 0 5px;
 	vertical-align: unset !important;
 	border-radius: 1px;
@@ -899,7 +899,7 @@ form input[type=submit], .button-link {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
 	font-weight: bold;
-	vertical-align: bottom;
+	vertical-align: top;
 }
 
 #footer {
