@@ -6,7 +6,8 @@ Custom theme designed for Utopia (http://utopia-game.com).
 - Modern design. 
 - Clean and minimalistic look.
 - Dark palette that's easy on the eyes.
-- Mobile friendly (still not responsive due to limitations).
+- Sticky navigation sidebar.
+- Easier to read integrated uMunk intel.
 
 
 How To Use
@@ -20,7 +21,7 @@ How To Use
 Notes
 =====
 
-- No significant changes to monarch, steward or paid pages as I did not have access to them.
+- No detailed changes to monarch, steward or paid pages as I did not have access to them.
 
 
 PHP Error/uMunk Stops Working
