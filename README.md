@@ -6,6 +6,7 @@ Custom theme designed for Utopia (http://utopia-game.com).
 - Modern design. 
 - Clean and minimalistic look.
 - Dark palette that's easy on the eyes.
+- Mobile friendly (albeit not responsive due to limitations).
 
 How To Use
 ==========
@@ -14,10 +15,15 @@ How To Use
 2. Under custom theme, enter 'http://boone-theme.github.io/' exactly.
 3. Click 'Apply', then go through the lobby or relog (instead of hitting backspace).
 
+Notes
+=====
+
+- No significant changes to monarch, steward or paid pages as I did not have access to them.
+
 PHP Error/uMunk Stops Working
 =============================
 
-Occasionally, you will get a php error on your Throne page and uMunk stops working. I suspect this is the result of using any custom theme. To fix this:
+Although this does not seem to occur on mobile browsers, occasionally, you may get a php error on your Throne page and uMunk stops working. I suspect this is the result of using any custom theme. To fix this:
 
 1. Click on your account name on the top right of the screen, then click on 'Account Settings'.
 2. Check 'Remove Custom Theme' checkbox and click 'Apply'.
