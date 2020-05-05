@@ -409,6 +409,10 @@ a, a:visited {
 	line-height: 1.3rem;
 }
 
+#overlay td {
+	font-size: 1rem;
+}
+
 /* Game Header */
 .game-header {
 	width: 70%;
