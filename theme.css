@@ -282,7 +282,7 @@ a, a:visited {
 	border-radius: 0 !important;
 	top: 9px !important;
 	left: 5% !important;
-	margin-left: calc(5% + 10px) !important;
+	margin-left: 10px !important;
 	text-transform: uppercase;
 	padding: 0 5px;
 	font-family: 'Open Sans', sans-serif;
@@ -300,10 +300,10 @@ a, a:visited {
 }
 
 #botlinks, #botupdate {
-	left: calc(5% + 104px) !important;
+	left: 5% !important;
 	top: 10px !important;
 	border-radius: 0 !important;
-	margin-left: calc(5% + 104px) !important;
+	margin-left: 104px !important;
 	background: #111111;
 	border: none;
 	outline: 1px dashed #ffd17a;
