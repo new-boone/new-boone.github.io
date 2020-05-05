@@ -8,6 +8,7 @@ Custom theme designed for Utopia (http://utopia-game.com).
 - Dark palette that's easy on the eyes.
 - Mobile friendly (albeit not responsive due to limitations).
 
+
 How To Use
 ==========
 
@@ -15,10 +16,12 @@ How To Use
 2. Under custom theme, enter 'http://boone-theme.github.io/' exactly.
 3. Click 'Apply', then go through the lobby or relog (instead of hitting backspace).
 
+
 Notes
 =====
 
 - No significant changes to monarch, steward or paid pages as I did not have access to them.
+
 
 PHP Error/uMunk Stops Working
 =============================
