@@ -275,7 +275,7 @@ a, a:visited {
 	height: 5px;
 }
 
-/* Bot Intel 
+/* Bot Intel */
 #toggler {
 	background-color: #111111 !important;
 	border: 1px solid gray;
@@ -290,11 +290,13 @@ a, a:visited {
 	letter-spacing: 2px;
 	line-height: 2em;
 	width: 83px !important;
+	z-index: 2 !important;
+	/*
 	position: -webkit-sticky !important;
 	position: sticky !important;
 	margin-top: -1000% !important;
-	z-index: 2 !important;
 	margin-bottom: -1000%;
+	*/
 }
 
 #botlinks, #botupdate {
@@ -311,14 +313,15 @@ a, a:visited {
 	letter-spacing: 2px;
 	padding: 0 5px;
 	line-height: 2em;
+	z-index: 1 !important;
+	color: #ffd17a;
+	width: max-content;
+	/*
 	position: -webkit-sticky !important;
 	position: sticky !important;
-	z-index: 1 !important;
-	width: max-content;
-	color: #ffd17a;
 	margin-bottom: -1000%;
+	*/
 }
-*/
 
 /* Chat */
 #ircchat {
