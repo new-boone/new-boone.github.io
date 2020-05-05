@@ -6,7 +6,7 @@ Custom theme designed for Utopia (http://utopia-game.com).
 - Modern design. 
 - Clean and minimalistic look.
 - Dark palette that's easy on the eyes.
-- Mobile friendly (albeit not responsive due to limitations).
+- Mobile friendly (still not responsive due to limitations).
 
 
 How To Use
