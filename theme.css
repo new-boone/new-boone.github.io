@@ -896,12 +896,8 @@ form input[type=submit], .button-link {
 	color: #a1e882;
 }
 
-.bad, .monarch, .negative {
+.bad, .monarch, .negative, .warning {
 	color: #f56767;
-}
-
-.warning {
-	color: #ff9999;
 }
 
 .you {
