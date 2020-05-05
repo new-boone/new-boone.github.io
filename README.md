@@ -14,8 +14,8 @@ How To Use
 2. Under custom theme, enter 'http://boone-theme.github.io/' exactly.
 3. Click 'Apply', then go through the lobby or relog (instead of hitting backspace).
 
-Re: PHP Error & uMunk Not Working
-=================================
+PHP Error/uMunk Stops Working
+=============================
 
 Occasionally, you will get a php error on your Throne page and uMunk stops working. I suspect this is the result of using any custom theme. To fix this:
 
