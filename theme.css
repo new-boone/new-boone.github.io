@@ -275,7 +275,7 @@ a, a:visited {
 	height: 5px;
 }
 
-/* Bot Intel */
+/* Bot Intel 
 #toggler {
 	background-color: #111111 !important;
 	border: 1px solid gray;
@@ -318,6 +318,7 @@ a, a:visited {
 	color: #ffd17a;
 	margin-bottom: -1000%;
 }
+*/
 
 /* Chat */
 #ircchat {
