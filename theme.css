@@ -391,6 +391,11 @@ a, a:visited {
 	padding-top: 3px;
 }
 
+#overlay:nth-child(2) {
+	width: 100% !important;
+	border-radius: 0px;
+}
+
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
