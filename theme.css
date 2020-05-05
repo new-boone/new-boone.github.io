@@ -393,7 +393,9 @@ a, a:visited {
 
 #overlay:nth-child(2) {
 	width: 100% !important;
-	border-radius: 0px;
+	padding: 5px;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
 }
 
 #overlay input {
@@ -503,6 +505,10 @@ a, a:visited {
 
 .game-content table.three-column-stats th {
 	text-align: center !important;
+}
+
+.game-content table {
+	margin-bottom: 0 !important;	
 }
 
 /* Kingdom */
