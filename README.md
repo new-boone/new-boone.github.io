@@ -21,7 +21,7 @@ How To Use
 Notes
 =====
 
-- If you don't see any changes, you may have to clear your browser cache (hit CTRL + F5 or manually clear it in browser settings).
+- If you don't see any changes, clear your browser cache (hit CTRL + F5 or manually clear it in browser settings).
 - No detailed changes to monarch, steward or paid pages as I did not have access to them.
 
 
