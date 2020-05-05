@@ -388,14 +388,13 @@ a, a:visited {
 	line-height: 35px;
 	border-radius: 5px;
 	font-size: 1rem;
-	padding-top: 3px;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	letter-spacing: 0.5px;
 }
 
-#overlay:nth-child(2) {
-	width: 100% !important;
-	padding: 5px;
-	letter-spacing: 0.5px;
-	margin-bottom: 20px;
+#overlay p {
+	margin-top: 20px;
 }
 
 #overlay input {
