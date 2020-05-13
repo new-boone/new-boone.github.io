@@ -769,10 +769,17 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 
 #robcalc {
 	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #robcalc br {
 	display: block;
+}
+
+#robcalc span {
+	text-transform: initial;
+	font-weight: normal;
 }
 
 /* War Room */
