@@ -770,7 +770,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 #robcalc {
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 1.1rem;
 }
 
 #robcalc br {
@@ -779,7 +779,8 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 
 #robcalc span {
 	text-transform: initial;
-	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 /* War Room */
