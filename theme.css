@@ -44,8 +44,8 @@ thead th {
 	padding-left: 0 !important;
 	width: 179px !important;
 	font-size: 1.2rem !important;
-	border-radius: 5px;
-	text-indent: 10px;
+	border-radius: 5px !important;
+	text-indent: 10px !important;
 }
 
 input {
@@ -567,11 +567,13 @@ input[name=change_kingdom] {
 
 #clone_kingdom td {
 	padding: 5px 0;
+	font-size: 1.3rem;
 }
 
 #clone_kingdom th {
 	letter-spacing: 0;
 	text-transform: none;
+	font-size: 1.3rem;
 }
 
 .order-icon {
@@ -639,62 +641,55 @@ input[name=change_kingdom] {
 }
 
 .news-intra-kingdom-conflict::before {
-	content: "✁";
+	content: "🗡️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-relations::before {
-	content: "☮";
-	color: #ffed78;
+	content: "📜";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-against-our-kingdom::before {
-	content: "⚔";
-	color: #f56767;
+	content: "🛡️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-dragon::before {
-	content: "♅";
-	color: #a1e882;
+	content: "🔥";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-ritual::before {
-	content: "☥";
-	color: #ffd278;
+	content: "🙏";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
-	content: "⚔";
-	color: #6bdfff;
+	content: "⚔️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
-	content: "✛";
-	color: #ff9999;
+	content: "💰";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
-	content: "✝";
-	color: #bababa;
+	content: "☠️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-province-modification::before {
-	content: "⚒";
+	content: "⚒️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
@@ -708,10 +703,12 @@ input[name=change_kingdom] {
 
 .news-incident-date {
 	width: 136px;
+	font-size: 1.3rem !important;
 }
 
 .news-incident-report {
 	text-align: left;
+	font-size: 1.3rem !important;
 }
 
 /* Explore */
@@ -724,6 +721,33 @@ input[name=change_kingdom] {
 /* Growth */
 #hideshow {
 	margin: 20px !important;
+}
+
+input#growth_delete.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
+}
+
+input#growth_save.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
+}
+
+input#growth_fill_in.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
 }
 
 /* Sciences */
@@ -758,7 +782,7 @@ input[name="reassign"], input[name="allocate"] {
 }
 
 /* Thievery */
-form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
+form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc { 
 	font-size: 1.3rem !important;
 	width: 65px !important;
 	height: 22px !important;
@@ -781,12 +805,21 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 }
 
 /* War Room */
+form [id='get_def'], form [id='auto_fill_submit'] { 
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
+}
+
 .form br {
 	display: block;
 }
 
 #autodef {
-	margin-right: 4px important!;
+	margin-right: 4px !important;
 }
 
 #calculator-separator {
