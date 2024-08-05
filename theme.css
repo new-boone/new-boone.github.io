@@ -315,7 +315,9 @@ a, a:visited {
 	line-height: 2em;
 	z-index: 1 !important;
 	color: #ffd17a;
-	width: max-content;
+	width: 83.33%;
+	overflow-x: auto;
+	white-space: nowrap;
 	/*
 	position: -webkit-sticky !important;
 	position: sticky !important;
