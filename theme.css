@@ -321,7 +321,8 @@ a, a:visited {
 	line-height: 2em;
 	z-index: 1 !important;
 	color: #ffd17a;
-	width: 83.33%;
+	width: auto;
+	max-width: 8.33%;
 	overflow-x: auto;
 	white-space: nowrap;
 	/*
