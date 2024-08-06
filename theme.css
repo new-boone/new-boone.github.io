@@ -823,13 +823,14 @@ input[type="text"] {
 /* Style for build count boxes */
 #buildtool .td_center_bottom div {
     background-color: grey;
-    color: white;
+    color: #eeeeee;
     width: 40px;
-    height: 30px;
-    line-height: 30px;
+    height: 22px;
+    line-height: 22px;
     margin: auto;
-    border-radius: 4px;
-    font-size: 16px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+	display: block;
 }
 
 /* Styling for rows that are hidden or displayed */
