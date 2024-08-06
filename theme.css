@@ -785,9 +785,7 @@ input#growth_fill_in.button-link {
 
 /* Styling for buttons */
 .button-link {
-    background-color: #007bff;
     border: none;
-    color: white;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -796,10 +794,6 @@ input#growth_fill_in.button-link {
     margin: 5px;
     cursor: pointer;
     border-radius: 4px;
-}
-
-.button-link:hover {
-    background-color: #0056b3;
 }
 
 /* Selector styling */
