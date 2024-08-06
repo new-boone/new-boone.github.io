@@ -1,1 +1,154 @@
-test
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
+
+/* Global */
+body {
+	background: #111111;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.6rem;
+	color: #eeeeee;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+li {
+	list-style-type: none;
+}
+
+td br {
+	display: none;
+}
+
+label {
+	white-space: nowrap;
+}
+
+thead th {
+	font-weight: bold;
+	color: #ffd17a;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	white-space: nowrap;
+}
+
+.selector {
+	padding-left: 0 !important;
+	width: 179px !important;
+	font-size: 1.2rem !important;
+	border-radius: 5px !important;
+	text-indent: 10px !important;
+}
+
+input {
+	border: none;
+	outline: none;
+	font-family: 'Quicksand', sans-serif;
+	padding: 3px !important;
+	margin: 0 1px !important;
+	border-radius: 3px;
+}
+
+input[type="checkbox"] {
+	height: 15px;
+	vertical-align: middle;
+}
+
+input:focus {
+	border: none;
+	padding: 0 3px !important;
+	height: 22px;
+}
+
+.two-digit-input, .four-digit-input {
+	width: 45px;
+}
+
+.three-digit-input {
+	width: 173px;
+}
+
+.max {
+	padding: 3px 5px;
+}
+
+form p {
+	text-align: center !important;
+	text-transform: uppercase;
+	color: #ffd17a;
+	font-size: 0.8em;
+	letter-spacing: 0.5px;
+}
+
+input[type=submit] {
+	text-align: center !important;
+	background: #ffd17a;
+	border-radius: 5px;
+	outline: none;
+	text-transform: uppercase;
+	width: 100%;
+	height: 40px;
+	font-size: 2.5rem !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.repeat {
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	border-bottom: 1px dashed gray;
+	background: transparent;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	padding: 0;
+	margin: 0 5px;
+}
+
+a, a:visited {
+	color: #ffd17a;
+	text-decoration: none;
+}
+
+/* Layout */
+#inner-container {
+	width: 83.33%;
+	position: unset;
+	margin-top: 0;
+}
+
+#middle {
+	overflow: inherit;
+	min-height: calc(100vh - 150px);
+}
+
+#left-column {
+	width: 100%;
+	float: none;
+}
+
+#content-area {
+	padding-top: 5px !important;
+}
+
+.game-content {
+	width: 66.66%;
+	padding: 0;
+	margin-left: 16.66%;
+	float: none;
+	font-size: 1.4rem;
+}
+
+.game-content tr:nth-child(even) {
+  background-color: #222222;
+}
