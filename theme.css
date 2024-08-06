@@ -780,6 +780,7 @@ input#growth_fill_in.button-link {
 #buildtool tbody td {
     padding: 10px;
     text-align: center;
+	display: block;
     vertical-align: bottom;
 }
 
@@ -853,7 +854,7 @@ tbody tr td div {
 }
 
 /* Make sure the table adjusts nicely on smaller screens */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #buildtool thead th, #buildtool tbody td {
         font-size: 12px;
     }
@@ -862,7 +863,7 @@ tbody tr td div {
         padding: 3px 6px;
         font-size: 12px;
     }
-}
+} */
 
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
