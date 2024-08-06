@@ -764,6 +764,10 @@ input#growth_fill_in.button-link {
 	border-radius: 3px !important;
 }
 
+#buildtool {
+	width: 50%;
+}
+
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
