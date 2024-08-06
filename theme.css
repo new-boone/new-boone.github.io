@@ -737,105 +737,32 @@ input[name=change_kingdom] {
 	margin: 20px !important;
 }
 
-/* General table styling */
-#buildtool {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+input#growth_delete.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
 }
 
-#buildtool thead th {
-    background-color: #111111;
-    padding: 10px;
-    text-align: center;
+input#growth_save.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
 }
 
-#buildtool tbody td {
-    padding: 10px;
-    text-align: center;
-    vertical-align: bottom;
+input#growth_fill_in.button-link {
+	font-size: 1.3rem !important;
+	width: 65px !important;
+	height: 22px !important;
+	padding: 0 !important;
+	margin: 0 0 3px 5px !important;
+	border-radius: 3px !important;
 }
-
-/* Styling for buttons */
-#buildtool .button-link {
-    border: none;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.3rem;
-    margin: 0 0 3px 5px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-/* Selector styling */
-.selector {
-    display: inline-block;
-    position: relative;
-}
-
-.selector span {
-    display: inline-block;
-    background: #eeeeee;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-/* Text input styling */
-input[type="text"] {
-    width: 60px;
-	height: 24px;
-	line-height: 24px;
-    text-align: center;
-    padding: 2px;
-	font-size: 1.2rem;
-    border-radius: 3px;
-}
-
-/* Style for build count boxes */
-#buildtool .td_center_bottom {
-    background-color: grey;
-    color: #eeeeee;
-    width: 40px;
-    height: 22px;
-    line-height: 22px;
-    border-radius: 3px;
-    font-size: 1.2rem;
-	display: block;
-}
-
-/* Styling for rows that are hidden or displayed */
-#row_build_name {
-    display: none;
-}
-
-/* Total and cost summary styling */
-#growth_total, #growth_construct_total, #growth_raze_total, #growth_cost_total {
-    font-weight: bold;
-}
-
-tbody tr:last-child td {
-    text-align: center;
-}
-
-tbody tr td div {
-    display: inline-block;
-    margin: 5px;
-}
-
-/* Make sure the table adjusts nicely on smaller screens */
-/* @media (max-width: 768px) {
-    #buildtool thead th, #buildtool tbody td {
-        font-size: 12px;
-    }
-
-    .button-link {
-        padding: 3px 6px;
-        font-size: 12px;
-    }
-} */
 
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
