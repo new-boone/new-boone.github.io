@@ -821,7 +821,7 @@ input[type="text"] {
 }
 
 /* Style for build count boxes */
-#buildtool .td_center_bottom div {
+#buildtool .td_center_bottom {
     background-color: grey;
     color: #eeeeee;
     width: 40px;
