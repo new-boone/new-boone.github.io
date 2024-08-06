@@ -764,17 +764,8 @@ input#growth_fill_in.button-link {
 	border-radius: 3px !important;
 }
 
-#buildtool {
-	width: 100%;
-	margin-left: 0;
-}
-
-#buildtool thead th {
-	text-align: left;
-}
-
 #buildtool tbody td {
-	text-align: left;
+	text-align: center;
 }
 
 #buildtool input[type="text"],
