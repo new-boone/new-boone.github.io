@@ -765,7 +765,21 @@ input#growth_fill_in.button-link {
 }
 
 #buildtool {
-	width: 50%;
+	width: 100%;
+	margin-left: 0;
+}
+
+#buildtool thead th {
+	text-align: left;
+}
+
+#buildtool tbody td {
+	text-align: left;
+}
+
+#buildtool input[type="text"],
+#buildtool .td_center_bottom div {
+	text-align: left;
 }
 
 /* Sciences */
