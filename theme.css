@@ -791,7 +791,6 @@ input[type="text"] {
     text-align: center;
     padding: 2px;
 	font-size: 1.2rem;
-	margin: auto;
     border-radius: 3px;
 }
 
@@ -802,7 +801,6 @@ input[type="text"] {
     width: 40px;
     height: 22px;
     line-height: 22px;
-    margin: auto;
     border-radius: 3px;
     font-size: 1.2rem;
 	display: block;
