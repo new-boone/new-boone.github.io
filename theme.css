@@ -323,7 +323,7 @@ a, a:visited {
 	color: #ffd17a;
 	width: auto;
 	max-width: 8.33%;
-	overflow: ellipsis;
+	text-overflow: ellipsis;
 	white-space: nowrap;
 	/*
 	position: -webkit-sticky !important;
