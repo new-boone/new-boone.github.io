@@ -128,6 +128,11 @@ a, a:visited {
 	display: none !important;
 }
 
+/* Facebook */
+#fb-root {
+	display: none !important;
+}
+
 /* Layout */
 #inner-container {
 	width: 90%;
