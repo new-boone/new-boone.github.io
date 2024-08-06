@@ -764,15 +764,6 @@ input#growth_fill_in.button-link {
 	border-radius: 3px !important;
 }
 
-#buildtool tbody td {
-	text-align: center;
-}
-
-#buildtool input[type="text"],
-#buildtool .td_center_bottom div {
-	text-align: left;
-}
-
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
