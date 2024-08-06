@@ -331,51 +331,6 @@ a, a:visited {
 	*/
 }
 
-/* Chat */
-#ircchat {
-	width: calc(100% - 10px) !important;
-	border-radius: 5px;
-	background-color: #eeeeee !important;
-	color: #111111 !important;
-	font-size: 1.2rem;
-	letter-spacing: 0.5px;
-	padding: 0 !important;
-	margin-bottom: 10px;
-}
-
-#ircchat table {
-	border-collapse: separate !important;
-	border-spacing: 5px !important;
-}
-
-#irconline {
-	padding: 8px 0 0 10px;
-	line-height: 1.5em;
-	width: calc(20% - 10px) !important;
-	font-size: 1rem;
-}
-
-#irconline hr {
-	width: 93%;
-	margin-left: 0;
-}
-
-#ircchat center {
-	padding: 0 0 8px 0;
-	margin-top: -10px;
-}
-
-#ircchat input {
-	width: 35%;
-	border: 1px dashed gray;
-}
-
-#irccontainer {
-	border: none !important;
-	padding: 0 0 0 5px;
-	width: calc(100% - 5px) !important;
-}
-
 /* Resource Bar */
 #resource-bar {
 	width: 70%;
@@ -422,6 +377,51 @@ a, a:visited {
 
 #overlay td {
 	font-size: 1rem;
+}
+
+/* Chat */
+#ircchat {
+	width: calc(100% - 10px) !important;
+	border-radius: 5px;
+	background-color: #eeeeee !important;
+	color: #111111 !important;
+	font-size: 1.2rem;
+	letter-spacing: 0.5px;
+	padding: 0 !important;
+	margin-bottom: 10px;
+}
+
+#ircchat table {
+	border-collapse: separate !important;
+	border-spacing: 5px !important;
+}
+
+#irconline {
+	padding: 8px 0 0 10px;
+	line-height: 1.5em;
+	width: calc(20% - 10px) !important;
+	font-size: 1rem;
+}
+
+#irconline hr {
+	width: 93%;
+	margin-left: 0;
+}
+
+#ircchat center {
+	padding: 0 0 8px 0;
+	margin-top: -10px;
+}
+
+#ircchat input {
+	width: 35%;
+	border: 1px dashed gray;
+}
+
+#irccontainer {
+	border: none !important;
+	padding: 0 0 0 5px;
+	width: calc(100% - 5px) !important;
 }
 
 /* Game Header */
