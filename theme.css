@@ -764,6 +764,114 @@ input#growth_fill_in.button-link {
 	border-radius: 3px !important;
 }
 
+/* General table styling */
+#buildtool {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#buildtool thead th {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+#buildtool tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+/* Styling for buttons */
+.button-link {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+/* Selector styling */
+.selector {
+    display: inline-block;
+    position: relative;
+}
+
+.selector span {
+    display: inline-block;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Text input styling */
+input[type="text"] {
+    width: 60px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for build count boxes */
+#buildtool .td_center_bottom div {
+    background-color: grey;
+    color: white;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling for rows that are hidden or displayed */
+#row_build_name {
+    display: none;
+}
+
+/* Total and cost summary styling */
+#growth_total, #growth_construct_total, #growth_raze_total, #growth_cost_total {
+    font-size: large;
+    font-weight: bold;
+}
+
+tbody tr:last-child td {
+    text-align: center;
+}
+
+tbody tr td div {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Make sure the table adjusts nicely on smaller screens */
+@media (max-width: 768px) {
+    #buildtool thead th, #buildtool tbody td {
+        font-size: 12px;
+    }
+
+    .button-link {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+}
+
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
