@@ -344,6 +344,11 @@ a, a:visited {
 	letter-spacing: 1px;
 }
 
+/* Recruitment Chat */
+#recruitment-chat {
+	display: none !important;
+}
+
 /* Bot Commands */
 #overlay {
 	width: 70% !important;
