@@ -325,7 +325,6 @@ a, a:visited {
 	max-width: 8.33%;
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
 	/*
 	position: -webkit-sticky !important;
 	position: sticky !important;
