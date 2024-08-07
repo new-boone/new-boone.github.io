@@ -137,10 +137,9 @@ a, a:visited {
 
 /* Layout */
 #inner-container {
-	width: 90%;
+	width: 83.33%;
 	position: unset;
 	margin-top: 0;
-	padding: 0 30px;
 }
 
 #middle {
@@ -148,21 +147,25 @@ a, a:visited {
 	min-height: calc(100vh - 150px);
 }
 
-#content-area {
-	padding-top: 5px !important;
-}
-
 #left-column {
 	width: 100%;
 	float: none;
 }
 
+#content-area {
+	padding-top: 5px !important;
+}
+
 .game-content {
-	width: 70%;
+	width: 66.66%;
 	padding: 0;
-	margin-left: 15%;
+	margin-left: 16.66%;
 	float: none;
 	font-size: 1.4rem;
+}
+
+.game-content tr:nth-child(even) {
+	background-color: #222222;
 }
 
 /* Account */
