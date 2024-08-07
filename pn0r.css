@@ -10,14 +10,14 @@ body {
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 li {
@@ -252,7 +252,7 @@ a, a:visited {
 }
 
 .game-content tr:nth-child(even) {
-  background-color: #222222;
+	background-color: #222222;
 }
 
 /* Recruitment Chat */
