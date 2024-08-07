@@ -254,3 +254,59 @@ a, a:visited {
 .game-content tr:nth-child(even) {
   background-color: #222222;
 }
+
+/* Recruitment Chat */
+#recruitment-chat {
+	display: none !important;
+}
+
+/* Bot Intel */
+#toggler {
+	background-color: #111111 !important;
+	border: 1px solid gray;
+	border-radius: 0 !important;
+	top: 9px !important;
+	left: 5% !important;
+	margin-left: 10px !important;
+	text-transform: uppercase;
+	padding: 0 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em !important;
+	letter-spacing: 2px;
+	line-height: 2em;
+	width: 83px !important;
+	z-index: 2 !important;
+	/*
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	margin-top: -1000% !important;
+	margin-bottom: -1000%;
+	*/
+}
+
+#botlinks, #botupdate {
+	left: 5% !important;
+	top: 10px !important;
+	border-radius: 0 !important;
+	margin-left: 104px !important;
+	background: #111111;
+	border: none;
+	outline: 1px dashed #ffd17a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0 5px;
+	line-height: 2em;
+	z-index: 1 !important;
+	color: #ffd17a;
+	width: auto;
+	max-width: 8.33%;
+	white-space: nowrap;
+	overflow: hidden;
+	/*
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	margin-bottom: -1000%;
+	*/
+}
