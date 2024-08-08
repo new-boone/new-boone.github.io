@@ -215,10 +215,10 @@ h1, h2, h3 {
 .race-changes h2, .trait-changes h2 {
 }
 
-.campaigns .basic-details .campaign-summary h2{
+.campaigns .basic-details .campaign-summary h2 {
 }
 
-.campaigns .basic-details .campaign-summary .highlight-keyword{
+.campaigns .basic-details .campaign-summary .highlight-keyword {
 }
 
 .good {
@@ -234,25 +234,15 @@ h1, h2, h3 {
 
 .message {
     /* positioning and size */
-    border: 1px dashed white;
-
-    /* internal styling - padding etc. */
-    /* typography */
-    font-weight: bold;
-    line-height: 1.5em;
+    border: 1px dashed;
 }
 
-.good.message
-{
-    /* colors */
-    background-color: green;
-    color: white;
+.good.message {
+    color: #90ee90;
 }
 
-.bad.message
-{
-    background-color: #400000;
-    color: white;
+.bad.message {
+    color: #eb5252;
 }
 
 .info.message
