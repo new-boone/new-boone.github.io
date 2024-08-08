@@ -225,7 +225,7 @@ h1, h2, h3 {
     color: #90ee90;
 }
 .bad {
-    color: red;
+    color: #eb5252
 }
 
 .duration_operation{
@@ -234,7 +234,7 @@ h1, h2, h3 {
 
 .message {
     /* positioning and size */
-    border: 1px solid white;
+    border: 1px dashed white;
 
     /* internal styling - padding etc. */
     /* typography */
