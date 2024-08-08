@@ -229,7 +229,7 @@ h1, h2, h3 {
 }
 
 .duration_operation{
-    color: #FDE89A;
+    color: #eedc82;
 }
 
 .message {
@@ -245,34 +245,26 @@ h1, h2, h3 {
     color: #eb5252;
 }
 
-.info.message
-{
-    background-color: #C46500;
-    color: white;
+.info.message {
 }
 
-
-
-/* User profile page
--------------------------------------------------------------- */
+/* User profile page */
 .lobby-panel .statement {
-    background: url('./images/province_profile/scroll.png') no-repeat;
 }
 
 .lobby-panel .statement h2 {
-    line-height: 16px;
 }
 
 .advice-message {
-    color: #F93;
+    color: #90ee90
 }
 
 .warning {
-    color: #e55700;
+    color: #eb5252;
 }
 
 .error {
-    color: #e55700;
+    color: #eb5252;
 }
 
 #game-navigation .current-date {
