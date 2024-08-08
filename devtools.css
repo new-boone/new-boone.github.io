@@ -268,27 +268,16 @@ h1, h2, h3 {
 }
 
 #game-navigation .current-date {
-    margin-top: 5px;
-    padding: 15px 0px;
-    font-size: 13px;
-
-    /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-    border-color: #103041;
-
-    background: #222526;
+    margin-bottom: 20px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 #game-navigation a {
-    line-height: 0.6em;
 }
 
 #game-navigation a:hover {
-    box-shadow: -10px 0px 6px -6px #fff;
 }
 
 #resource-bar
