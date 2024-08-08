@@ -179,89 +179,46 @@ h1, h2, h3 {
 .overlay .close {
 }
 
-.age-changes,
-.lobby-panel,
-.campaigns {
-    /* border styling */
-    border: 2px solid;
-    border-radius: 12px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-
-    /* internal styling - padding etc. */
-
-    /* typography */
-
-    /* colors */
-    border-color: #555555;
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000;
-
+.age-changes, .lobby-panel, .campaigns {
 }
 
 .lobby-panel h1 {
-    font-size: 25px;
-    line-height: 25px;
-    color: #0361CC;
 }
+
 .lobby-panel h1 a {
-    color: #0361CC;
 }
 
 .lobby-panel h1 a:hover {
-
 }
 
 .divider {
-    background-image: url(./images/divider.png);
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .divider-small {
-    background-image: url(./images/divider-small.png);
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .lobby-panel table th {
-    font-size: 14px;
 }
 
 .lobby-panel table td {
-    font-size: 12px;
 }
 
 .lobby-panel h2 {
-    font-size: 18px;
-    line-height: 24px;
 }
 
-.age-changes h3,
-.campaigns h3 {
-    font-size: 18px;
-    line-height: 22px;
+.age-changes h3, .campaigns h3 {
 }
 
-.recruitment-campaigns h1,
-.race-changes h1,
-.trait-changes h1 {
-    font-size: 30px;
-    line-height: 35px;
+.recruitment-campaigns h1, .race-changes h1, .trait-changes h1 {
 }
 
-.race-changes h2,
-.trait-changes h2 {
-    font-size: 25px;
+.race-changes h2, .trait-changes h2 {
 }
 
 .campaigns .basic-details .campaign-summary h2{
-    font-size: 14px;
 }
 
 .campaigns .basic-details .campaign-summary .highlight-keyword{
-    font-size: 18px;
 }
 
 .good {
