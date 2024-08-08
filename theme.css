@@ -1,133 +1,139 @@
-@import url("default-theme.css");
+
+/*
+FOLLOW THIS FORMAT:
+
+.my-first-selector,
+.my-second-selector {
+    - positioning and size
+    - border styling
+    - internal styling - padding etc.
+    - typography
+    - colors
+    - display, opacity and special effects
+}
+*/
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
 
-/* Global */
 body {
-	background: #111111;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.6rem;
-	color: #eeeeee;
+    color: #eeeeee;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+    background-color: #111111;
 }
 
-h1 {
+#header-logo {
+    display: none;
+}
+
+.navigation {
+    /* typography */
+    text-align: left;
+}
+
+.navigation_underline {
+}
+
+.navigation a {
+    /*text-decoration: none;*/
+    color: #ffd17a;
+}
+
+.navigation a:hover {
+    /* colors */
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.chooser-nav-class {
+}
+
+.chooser-nav-class a {
+}
+
+.chooser-nav-class a:hover {
+}
+
+#header-navigation div {
+}
+
+#header-navigation div:hover a {
+    /* colors */
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#header-navigation div:hover {
+}
+
+#header-navigation-2nd-level div:hover a {
+    /* colors */
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+#header-navigation-2nd-level div:hover {
+}
+
+#header-navigation-3rd-level div:hover a {
+}
+
+#header-navigation-3rd-level div:hover {
+}
+
+#chooser-nav div:hover a {
+}
+
+#chooser-nav div:hover {
+}
+
+#account-container {
+}
+
+#account-header .account-image {
+    display: none;
+}
+
+#account-header {
+}
+
+#account-header:hover {
+}
+
+#account-header.selected {
+}
+
+#account-details {
+    background: #111111;
+	border: 1px dashed dimgrey;
+}
+
+#account-details .account-title {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	font-size: ;
 	text-transform: uppercase;
+	border-bottom: 1px solid #eeeeee;
 }
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
+#account-details .alert a {
 }
 
-li {
-	list-style-type: none;
+#account-details a:hover {
 }
 
-td br {
-	display: none;
+#account-details .account-summary {
 }
 
-label {
-	white-space: nowrap;
-}
-
-thead th {
-	font-weight: bold;
-	color: #ffd17a;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	white-space: nowrap;
-}
-
-.selector {
-	padding-left: 0 !important;
-	width: 179px !important;
-	font-size: 1.2rem !important;
-	border-radius: 5px !important;
-	text-indent: 10px !important;
-}
-
-input {
-	border: none;
-	outline: none;
-	font-family: 'Quicksand', sans-serif;
-	padding: 3px !important;
-	margin: 0 1px !important;
-	border-radius: 3px;
-}
-
-input[type="checkbox"] {
-	height: 15px;
-	vertical-align: middle;
-}
-
-input:focus {
-	border: none;
-	padding: 0 3px !important;
-	height: 22px;
-}
-
-.two-digit-input, .four-digit-input {
-	width: 45px;
-}
-
-.three-digit-input {
-	width: 173px;
-}
-
-.max {
-	padding: 3px 5px;
-}
-
-form p {
-	text-align: center !important;
-	text-transform: uppercase;
-	color: #ffd17a;
-	font-size: 0.8em;
-	letter-spacing: 0.5px;
-}
-
-input[type=submit] {
-	text-align: center !important;
-	background: #ffd17a;
-	border-radius: 5px;
-	outline: none;
-	text-transform: uppercase;
-	width: 100%;
-	height: 40px;
-	font-size: 2.5rem !important;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.repeat {
-	margin-bottom: 20px;
-}
-
-button {
-	border: none;
-	border-bottom: 1px dashed gray;
-	background: transparent;
-	font-family: 'Quicksand', sans-serif;
-	cursor: pointer;
-	padding: 0;
-	margin: 0 5px;
-}
-
-a, a:visited {
-	color: #ffd17a;
-	text-decoration: none;
+#account-details .account-signout {
 }
 
 /* Ads */
 .google_ads {
-	/* margin: 10px auto 0px;
-	margin-left: auto !important;
-	height: auto !important;
-	padding-top: 0 !important; */
-	display: none !important;
+    display: none !important;
 }
 
 /* Facebook */
@@ -135,853 +141,776 @@ a, a:visited {
 	display: none !important;
 }
 
-/* Layout */
-#inner-container {
-	width: 83.33%;
-	position: unset;
-	margin-top: 0;
-}
-
 #middle {
-	overflow: inherit;
-	min-height: calc(100vh - 150px);
 }
 
-#left-column {
-	width: 90%;
-	float: none;
+a {
+    color: #ffd17a;
+    text-decoration: none;
 }
 
-#content-area {
-	padding-top: 5px !important;
+a.highlighted {
 }
 
-.game-content {
-	width: 66.66%;
-	padding: 0;
-	margin-left: 16.66%;
-	float: none;
-	font-size: 1.4rem;
+a:focus, a:hover {
+    color: #eeeeee;
 }
 
-.game-content tr:nth-child(even) {
-	background-color: #222222;
-}
-
-/* Account */
-#account-container {
-	position: unset;
-}
-
-#account-header {
-	top: 1px;
-	right: 5%;
-}
-
-#account-header .down-arrow {
-	top: 15px;
-}
-
-#account-details {
-	background: #111111;
-	line-height: 2em;
-	padding: 10px 15px;
-	right: calc(5% + 10px);
-	top: 35px;
-	border: 1px dashed gray;
-}
-
-#account-details .account-title {
-	padding: 0;
-	margin-bottom: 5px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	border-bottom: 1px solid #eeeeee;
-}
-
-#account-details .account-summary {
-	margin-bottom: 10px;
-}
-
-#account-details .account-signout {
-	padding: 0;
-	margin-top: 10px;
-}
-
-.account-name {
-	margin: 5px 15px;
-	text-transform: uppercase;
-}
-
-.page-summary {
-	text-align: center;
-	margin: 20px auto;
-}
-
-.lobby-panel {
-	width: 50%;
-}
-
-.lobby-panel .form {
-	width: 100%;
-}
-
-.lobby-panel .selector {
-	margin-right: 5px;	
-}
-
-.lobby-panel input[type=text] {
-	width: 172px;
-}
-
-/* Top Navigation */
-#header {
-	height: 40px;
-	width: auto;
-	font-size: 0.7em;
-	margin-left: 5px;
-	padding-top: 30px;
-}
-
-#header-navigation, #header-navigation-2nd-level {
-	position: unset;
-	width: auto;
-	text-transform: uppercase;
-}
-
-#header-navigation div, #header-navigation-2nd-level div {
-	margin: 9px 5px;
-}
-
-#header a, #header a:visited {
-	color: #eeeeee;
-	text-decoration: none;
-}
-
-.navigation {
-	padding: 0;
-}
-
-/* Lobby */
-#chooser-nav {
-	width: 100%;
-}
-
-.chooser-nav-class, #chooser-nav .divider {
-	display: none;
-}
-
-#chooser-nav {
-	margin: 3% 0;
-}
-
-#chooser-nav h1 {
-	font-size: 3rem;
-	margin: 30px 0 15px 0;
-}
-
-.divider {
-	height: 5px;
-}
-
-/* Bot Intel */
-#toggler {
-	background-color: #111111 !important;
-	border: 1px solid gray;
-	border-radius: 0 !important;
-	top: 9px !important;
-	left: 5% !important;
-	margin-left: 10px !important;
-	text-transform: uppercase;
-	padding: 0 5px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
-	letter-spacing: 2px;
-	line-height: 2em;
-	width: 83px !important;
-	z-index: 2 !important;
-	/*
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-top: -1000% !important;
-	margin-bottom: -1000%;
-	*/
-}
-
-#botlinks, #botupdate {
-	left: 5% !important;
-	top: 10px !important;
-	border-radius: 0 !important;
-	margin-left: 104px !important;
-	background: #111111;
-	border: none;
-	outline: 1px dashed #ffd17a;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 0 5px;
-	line-height: 2em;
-	z-index: 1 !important;
-	color: #ffd17a;
-	width: auto;
-	max-width: 8.33%;
-	white-space: nowrap;
-	overflow: hidden;
-	/*
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-bottom: -1000%;
-	*/
-}
-
-/* Resource Bar */
-#resource-bar {
-	width: 70%;
-	margin-left: 15%;
-	/* margin-top: -780px; */
-	margin-bottom: 15px;
-}
-
-#resource-bar tbody {
-	font-size: 0.8em;
-	letter-spacing: 1px;
-}
-
-/* Recruitment Chat */
-#recruitment-chat {
-	display: none !important;
-}
-
-/* Bot Commands */
-#overlay {
-	width: 70% !important;
-	margin-top: 0 !important;
-	margin-left: auto !important;
-	float: none !important;
-	color: #111111 !important;
-	text-align: center !important;
-	line-height: 35px;
-	border-radius: 5px;
-	font-size: 1rem;
-	padding-top: 6px;
-	padding-bottom: 3px;
-	letter-spacing: 0.5px;
-}
-
-#overlay p {
-	margin-top: 20px;
-}
-
-#overlay input {
-	width: 40%;
-	margin: 0 5px;
-	border: 1px dashed gray;
-}
-
-#overlay table {
-	font-size: 1.3rem;
-	line-height: 1.3rem;
-}
-
-#overlay td {
-	font-size: 1rem;
-}
-
-/* Chat */
-#ircchat {
-	width: calc(100% - 10px) !important;
-	border-radius: 5px;
-	background-color: #eeeeee !important;
-	color: #111111 !important;
-	font-size: 1.2rem;
-	letter-spacing: 0.5px;
-	padding: 0 !important;
-	margin-bottom: 10px;
-}
-
-#ircchat table {
-	border-collapse: separate !important;
-	border-spacing: 5px !important;
-}
-
-#irconline {
-	padding: 8px 0 0 10px;
-	line-height: 1.5em;
-	width: calc(20% - 10px) !important;
-	font-size: 1rem;
-}
-
-#irconline hr {
-	width: 93%;
-	margin-left: 0;
-}
-
-#ircchat center {
-	padding: 0 0 8px 0;
-	margin-top: -10px;
-}
-
-#ircchat input {
-	width: 35%;
-	border: 1px dashed gray;
-}
-
-#irccontainer {
-	border: none !important;
-	padding: 0 0 0 5px;
-	width: calc(100% - 5px) !important;
-}
-
-/* Game Header */
-.game-header {
-	width: 70%;
-	float: none;
-	background: #222222;
-	margin: 15px auto 10px;
-	white-space: nowrap;
-}
-
-.game-header h1, .game-header a {
-	display: inline-block;
-	float: none;
-	margin: 0 2px;
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	padding: 5px 0;
-}
-
-/* Game Navigation */
-#game-navigation {
-	width: calc(15% - 20px);
-	margin-right: 0;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 40px;
-	font-size: 1.6rem;
-	line-height: 1.7rem;
-}
-
-#game-navigation .current-date {
-	margin-bottom: 20px;
-	text-align: left;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 1.1em;
-}
-
-#game-navigation .navigation {
-	margin-bottom: 20px;
-	text-align: left;
-}
-
-.munkbutton {
-	outline: none;
-	border-radius: 3px;
-	margin: 0 0 5px 0 !important;
-}
-
-#game-navigation img {
-	height: 14px !important;
-	margin: 0 2px;
-}
-
-/* Throne */
-#orders a {
-	font-size: 1.2rem;
-	margin: 5px;
-}
-
-#throne-game-message, #throne-monarch-message {
-	font-size: 1.4rem;
-	outline: 1px dashed #ffd17a;
-	padding: 10px;
-	overflow: auto;
-}
-
-#throne-game-message {
-	margin-top: 20px;
-}
-
-#throne-monarch-message {
-	margin: 20px 0;
-}
-
-.game-content h2 {
-	text-transform: uppercase;
-	margin: 5px 0 !important;
-	font-size: 1.5rem;
-}
-
-.game-content tr:nth-child(even) {
-	background-color: #222222;
-}
-
-.game-content .advice-message {
-	text-align: center;
-	margin: 30px 0;
-	font-size: 1.4rem;
-}
-
-.game-content .throne-notice, .game-content p {
-	margin: 0 10px 15px;
-}
-
-.game-content table.three-column-stats th {
-	text-align: center !important;
-}
-
-.game-content table {
-	margin-bottom: 0 !important;	
-}
-
-/* Kingdom */
-.game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
-	margin: 0;
-	position: static;
-}
-
-input[name=change_kingdom] {
-	font-size: 1.4rem !important;
-	width: 35px !important;
-	height: 22px !important;
-	border-radius: 3px !important;
-	margin-left: 5px !important;
-	padding: 0 !important;
-}
-
-.change-kingdom-heading {
-	width: 80% !important;
-	padding: 5px;
-	margin: 5px;
-}
-
-.change-kingdom-nav {
-	width: 100%;
-	text-align: center;
-}
-
-.change-kingdom-nav a {
-	width: 70px !important;
-	font-size: 1.3rem !important;
-	margin: 0 20px;
-}
-
-.change-kingdom-form {
-	top: 3px !important;
-	width: 20%;
-}
-
-.game-content table.two-column-stats th, .game-content table.two-column-stats td {
-	width: 25%;
-	font-size: 1.4rem;
-}
-
-.game-content th, .game-content td {
-	padding: 5px;
-	font-size: 1.2rem;
-}
-
-#clone_kingdom td {
-	padding: 5px 0;
-	font-size: 1.3rem;
-}
-
-#clone_kingdom th {
-	letter-spacing: 0;
-	text-transform: none;
-	font-size: 1.3rem;
-}
-
-.order-icon {
-	height: 0 !important;
-	width: 0 !important;
-}
-
-.order-icon::before {
-	content: "⇅";
-	font-weight: normal;
-	padding-left: 2px;
-}
-
-/* Kingdom Intel */
-#newintel {
-	max-height: 80vh;
-}
-
-#newintel .header th, #newintel td {
-	font-size: 1rem;
-	letter-spacing: 1.5px;
-}
-
-#newintel td font {
-	color: #eeeeee !important;
-}
-
-#newintel td img {
-	display: none;
-}
-
-#newintel .header th {
-	padding: 0 10px;
-}
-
-#newintel .header .order-icon {
-	display: inline-block;
-}
-
-#newintel tr {
-	color: #eeeeee !important;	
-}
-
-#newintel tr:nth-child(odd) {
-	background-color: #111111 !important;	
-}
-
-#newintel tr:nth-child(even) {
-	background-color: #222222 !important;	
-}
-
-/* News */
-.news-legend {
-	margin-bottom: 15px;
-	margin-top: 0;
-}
-
-#news {
-	margin-top: 15px;
-}
-
-.news-legend span {
-	font-size: 1rem;
-	margin: 0 5px
-}
-
-.news-intra-kingdom-conflict::before {
-	content: "🗡️";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-relations::before {
-	content: "📜";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-actions-against-our-kingdom::before {
-	content: "🛡️";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-dragon::before {
-	content: "🔥";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-ritual::before {
-	content: "🙏";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-actions-by-our-kingdom::before {
-	content: "⚔️";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-aid::before {
-	content: "💰";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-obituaries::before {
-	content: "☠️";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-province-modification::before {
-	content: "⚒️";
-	font-size: 1.5rem;
-	padding: 0 5px;
-}
-
-.news-incident-type {
-	height: 20px;
-	width: 20px;
-	padding: 0 0 0 8px !important;
-	font-size: 1.6rem;
-}
-
-.news-incident-date {
-	width: 136px;
-	font-size: 1.3rem !important;
-}
-
-.news-incident-report {
-	text-align: left;
-	font-size: 1.3rem !important;
-}
-
-/* Explore */
-#btnExplore {
-	width: 168%;
-	margin-left: -68% !important;
-	margin-bottom: 0;
-}
-
-/* Growth */
-#hideshow {
-	margin: 20px !important;
-}
-
-input#growth_delete.button-link {
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
-input#growth_save.button-link {
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
-input#growth_fill_in.button-link {
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
-/* Sciences */
-input[name="reassign"], input[name="allocate"] {
-	margin-bottom: 50px !important;
-}
-
-.scientist-type div.selector select, .scientist-type div.selector option, .scientist-type div.selector span {
-	width: 158px !important;
-}
-
-/* Military */
-.data th {
-	font-size: 1rem !important;
-	font-weight: normal !important;
-}
-
-/* Wizards */
-.game-content ul {
-	text-align: center;
-	margin: 0 0 20px 0;
-}
-
-/* Mystics */
-.helptext {
-	font-size: 1rem;
-	display: block;
-}
-
-#spellslist {
-	margin-top: 20px;
-}
-
-/* Thievery */
-form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc { 
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
-#robcalc {
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	font-size: 1rem;
-	border-radius: 5px;
-	width: 50%;
-	margin: 5px auto;
-}
-
-#robcalc br {
-	display: block;
-}
-
-/* War Room */
-form [id='get_def'], form [id='auto_fill_submit'] { 
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
-	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
-}
-
-.form br {
-	display: block;
-}
-
-#autodef {
-	margin-right: 4px !important;
-}
-
-#calculator-separator {
-	border-top: none !important;
-	outline: 1px dashed #ffd17a;
-}
-
-/* Aid */
-#showaids {
-	text-transform: none;
-	font-weight: normal;
-	margin-bottom: 30px;
-}
-
-#id_land {
-	margin-left: -32px !important;
-}
-
-/* Mail */
-strong {
-	font-size: 1.5rem;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.reportable, .mail-view {
-	width: 100% !important;
-}
-
-.formatted-text {
-	outline: 1px dashed #ffd17a;
-	padding: 15px !important;
-}
-
-.warning {
-	text-align: center !important;
-	margin: 20px 0 !important;
-}
-
-.current.page {
-	color: #ffd17a;
-	padding: 0 10px;
-}
-
-.pagination {
-	margin-bottom: 30px;
-}
-
-form input[type=submit], .button-link {
-	margin: 0 20px 0 -2px;
-	font-size: 1.3rem;
-}
-
-/* Forum */
-.game-content table.mail-view tr td {
-	font-size: 1.4rem;
-	padding: 10px;
-}
-
-#id_subject {
-	width: 99%;
-}
-
-#id_body {
-	width: 95%;
-	outline: none;
-}
-
-.mail-view br {
-	display: block;
-}
-
-.mail-view p {
-	margin: 0;
-}
-
-/* Preferences */
-.preference-box h3 {
-	margin: 0 10px !important;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-}
-
-.preference-box {
-	outline: 1px dashed;
-	padding: 10px 0 !important;
-	margin: 15px 0 !important;
-}
-
-.preference-box .advice-message {
-	margin: 10px 0 !important;
-}
-
-/* Misc. */
-#loadstatus {
-	outline: 1px dashed;
-	width: 70%;
-	margin: 10px auto;
-	text-transform: uppercase;
-	padding: 0 0 22px 0;
-	color: #ffd17a;
-}
-
-.message {
-	outline: 1px dashed;
-	padding: 2em;
-}
-
-#right-column {
-	width: 15%;
-	margin-top: -620px;
-}
-
-.advice-message {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.4rem;
-	font-weight: normal;
-}
-
-.good, .protected, .advice-message {
-	color: #a1e882;
-}
-
-.bad, .monarch, .negative, .warning {
-	color: #f56767;
-}
-
-.you {
-	color: #ffed78;
-}
-
-.chamberlain {
-	color: #ffd278;
-}
-
-#aidnum {
-	color: #f56767;
-	letter-spacing: 1px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.4rem;
-	font-weight: bold;
+h1, h2, h3 {
 }
 
 #footer {
-	width: auto;
-	font-size: 0.7em;
+    color: #dimgrey;
+    font-size: 1rem;
+}
+
+.report-this {
+}
+
+.report-this:hover {
+}
+
+.reported-content {
+}
+
+.overlay {
+}
+
+.overlay .close {
+}
+
+.age-changes, .lobby-panel, .campaigns {
+}
+
+.lobby-panel h1 {
+}
+
+.lobby-panel h1 a {
+}
+
+.lobby-panel h1 a:hover {
+}
+
+.divider {
+}
+
+.divider-small {
+}
+
+.lobby-panel table th {
+}
+
+.lobby-panel table td {
+}
+
+.lobby-panel h2 {
+}
+
+.age-changes h3, .campaigns h3 {
+}
+
+.recruitment-campaigns h1, .race-changes h1, .trait-changes h1 {
+}
+
+.race-changes h2, .trait-changes h2 {
+}
+
+.campaigns .basic-details .campaign-summary h2 {
+}
+
+.campaigns .basic-details .campaign-summary .highlight-keyword {
+}
+
+.good {
+    color: #90ee90;
+}
+.bad {
+    color: #eb5252
+}
+
+.duration_operation{
+    color: #eedc82;
+}
+
+.message {
+    /* positioning and size */
+    border: 1px dashed;
+}
+
+.good.message {
+    color: #90ee90;
+}
+
+.bad.message {
+    color: #eb5252;
+}
+
+.info.message {
+}
+
+/* User profile page */
+.lobby-panel .statement {
+}
+
+.lobby-panel .statement h2 {
+}
+
+.advice-message {
+    color: #90ee90
+}
+
+.warning {
+    color: #eb5252;
+}
+
+.error {
+    color: #eb5252;
+}
+
+#game-navigation .current-date {
+    margin-bottom: 20px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+#game-navigation a {
+}
+
+#game-navigation a:hover {
+}
+
+#resource-bar
+{
+    /* border styling */
+    border-collapse: separate;
+    border-spacing: 3px 3px;
+
+    /* internal styling - padding etc. */
+    padding: 3px 6px 3px 6px;
+
+    /* colors */
+}
+
+#resource-bar thead {
+}
+
+#resource-bar thead th {
+    /* internal styling - padding etc. */
+    padding: 3px 6px 3px 6px;
+
+    font-weight: normal;
+    color: #fff;
+}
+
+#resource-bar tbody th,
+#resource-bar tbody td{
+
+    padding: 3px 6px 3px 6px;
+
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-align: right;
+    color: #fff;
+}
+
+#resource-bar tbody th {
+    background-color: #400000;
+}
+
+#resource-bar tbody td {
+    background-color: #1A1A1A;
+}
+
+#resource-bar thead th {
+    background-color: #400000;
+}
+
+
+#resource-bar .positive {
+    color: green;
+}
+
+#resource-bar .negative {
+    color: red;
+}
+
+.game-content form,
+.game-content h2 {
+    /* internal styling - padding etc. */
+
+    /* colors */
+    color: #fff;
+}
+
+.game-content h2 {
+    /* colors */
+    background-color: #000040;
+}
+
+.game-content h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.game-content form {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+form ul.errorlist {
+    color: red;
+}
+
+.game-content form.change-kingdom {
+    /* typography */
+    font-size: 14px;
+
+    background-color: #400000;
+}
+
+.game-content form.change-kingdom .change-kingdom-heading {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.game-content form.change-kingdom .change-kingdom-nav a {
+    width: 80px;
+}
+
+.game-content form.change-kingdom #royal-commands {
+    border-top: 2px dotted #3B4041;
+}
+
+.game-content form.change-kingdom #royal-commands table tbody td {
+    font-weight: normal;
+}
+
+.game-content form.change-kingdom .change-kingdom-form {
+    width: 210px;
+    font-size: 20px;
+    color: #a9a9a9;
+}
+
+.game-content form.change-kingdom.change-kingdom-target {
+    border-top: 2px solid;
+    border-color: #555;
+}
+
+form textarea,
+form input[type=text],
+form input[type=number],
+form input[type=password] {
+    border-width: 1px;
+    border-color: #d7d7d7;
+    padding-left: 3px;
+    font-size: 12px;
+    text-align: left;
+
+    color: #000;
+    background: #fff;
+}
+
+form input[type=text],
+form input[type=number],
+form input[type=password] {
+    height: 16px;
+    font-size: 12px;
+}
+
+form .errorlist {
+    font-size: 12px;
+}
+
+form input[type=submit],
+.button-link { 
+    /* positioning and size */
+    border: 1px solid;
+    padding: 3px 3px 3px 3px;
+
+    /* border styling */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    /* internal styling - padding etc. */
+    /* typography */
+    font-size: 16px;
+    font-weight: normal;
+
+    /* colors */
+    background-color: #D8D8D8;
+
+    color: #000;
+}
+
+form input[type=submit]:hover,
+.button-link:hover {
+    /* colors */
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+
+form input[type=submit]:active,
+.button-link:active {
+    /* colors */
+    background-color: #F2F2F2;
+}
+
+div.selector span,
+div.uploader span.filename,
+div.uploader span.action
+{
+    padding-left: 5px;
+    /* typography */
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+div.uploader span.filename,
+div.uploader span.action
+{
+    font-size: 12px;
+}
+
+div.uploader span.action {
+    background: transparent;
+    color: #000;
+}
+
+.game-content form table {
+    margin-bottom: 10px;
+
+    text-align: left;
+}
+
+.game-content form table thead th {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.game-content form tbody th {
+}
+
+.game-content form tbody th:first-child {
+    border-left: none;
+}
+
+.game-content form tbody td {
+    padding-right: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.game-content form tbody tr {
+    border: none;
+}
+.game-content form tbody tr:nth-child(even) {
+    /* display, opacity and special effects*/
+    background: rgb(48, 48, 48);
+    background: rgba(48, 48, 48, 0.6);
+}
+
+/* KINGDOM NEWS */
+
+.news-legend span.news-aid:before {
+    content: url(./images/kingdom_news/aid_inline.png);
+}
+.news-legend span.news-intra-kingdom-conflict:before {
+    content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png);
+}
+.news-legend span.news-actions-against-our-kingdom:before {
+    content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png);
+}
+.news-legend span.news-actions-by-our-kingdom:before {
+    content: url(./images/kingdom_news/actions_by_our_kingdom_inline.png);
+}
+.news-legend span.news-dragon:before {
+    content: url(./images/kingdom_news/dragon_inline.png);
+}
+.news-legend span.news-obituaries:before {
+    content: url(./images/kingdom_news/obituaries_inline.png);
+}
+.news-legend span.news-relations:before {
+    content: url(./images/kingdom_news/relations_inline.png);
+}
+.news-province-modification:before {
+    content: url(./images/kingdom_news/province_modification_inline.png);
+}
+.news-legend span.news-ritual:before {
+    content: url(./images/kingdom_news/ritual_inline.png);
+}
+
+
+td.news-aid {
+    background-image: url(./images/kingdom_news/aid.png);
+}
+td.news-intra-kingdom-conflict {
+    background-image: url(./images/kingdom_news/intra_kingdom_conflict.png);
+}
+td.news-actions-against-our-kingdom {
+    background-image: url(./images/kingdom_news/actions_against_our_kingdom.png);
+}
+td.news-actions-by-our-kingdom {
+    background-image: url(./images/kingdom_news/actions_by_our_kingdom.png);
+}
+td.news-dragon {
+    background-image: url(./images/kingdom_news/dragon.png);
+}
+td.news-obituaries {
+    background-image: url(./images/kingdom_news/obituaries.png);
+}
+td.news-relations {
+    background-image: url(./images/kingdom_news/relations.png);
+}
+td.news-province-modification {
+    background-image: url(./images/kingdom_news/province_modification.png);
+}
+td.news-ritual {
+    background-image: url(./images/kingdom_news/ritual.png);
+}
+
+/* KINGDOM DETAILS */
+.unused-slot { color: #B0B0B0; }
+.protected,
+.intel-fresh { color: #99ffbb; }
+.monarch,
+.at-war,
+.intel-rotten { color: #F28585; }
+.chamberlain,
+.intel-stale { color: #FFC583; }
+.you { font-weight: bold; }
+.slot-number { font-size: 0.8em; color: #B0B0B0; }
+
+.provinces-legend {
+    font-size: 0.8em;
+}
+
+.provinces-legend .invitations {
+    font-size: 1.2em;
+}
+
+.dip-status
+{
+    color: #000;
+}
+
+.dip-status-NORMAL
+{
+    background-color: #01DF01;
+}
+
+.dip-status-UNFRIENDLY
+{
+    background-color: #FFBF00;
+}
+
+.dip-status-HOSTILE
+{
+    background-color:#FF4000;
+    background-image: url(./images/hostile_meter/hostile_gradient.png);
+    background-repeat:repeat-y;
+}
+
+.dip-status-WAR
+{
+    background-color: #FF0000;
+}
+
+.own-meter-value
+{
+    background-image: url(./images/hostile_meter/up.png);
+}
+
+.their-meter-value
+{
+    background-image: url(./images/hostile_meter/down.png);
+}
+
+.war-button-meter-value
+{
+    background-image: url(./images/hostile_meter/war.png);
+}
+
+#hostility-meter-example {
+    background-image: url(./images/hostile_meter/example.png);
+}
+
+#id_taunt_top_image {
+    color: white;
+}
+
+/* Province profile page
+-------------------------------------------------------------- */
+
+.province-flag .flagpole {
+    background: url('./images/province_profile/flagpole.png') no-repeat;
+}
+
+.province-flag .flag-image .default-flag{
+    background: url('./images/province_profile/default_flag.png') no-repeat;
+}
+
+.motto {
+    background: url('./images/province_profile/scroll.png') no-repeat;
+}
+
+
+.game-header
+{
+    height: 25px;
+}
+
+.game-header h1
+{
+    height: 20px;
+    margin: 0px 2px;
+    padding: 6px 6px 1px 6px;
+
+    font-size: 14px;
+    text-decoration: none;
+
+    -moz-box-shadow: -1px -1px 1px 1px #788183;
+    -webkit-box-shadow: -1px -1px 1px 1px #788183;
+    box-shadow: -1px -1px 1px 1px #788183;
+
+    background: #3B4041; /* Old browsers */
+
+    color: #fff;
+}
+
+.game-header a h1 {
+    color: silver;
+    background: #222526; /* Old browsers */
+}
+
+.game-header a:hover {
+    text-decoration: none;
+}
+
+.game-header a h1:hover
+{
+    background: #3B4041; /* Old browsers */
+
+    color: #fff;
+
+    -moz-box-shadow: -1px -1px 1px 1px #B5B9BA;
+    -webkit-box-shadow: -1px -1px 1px 1px #B5B9BA;
+    box-shadow: -1px -1px 1px 1px #B5B9BA;
+}
+
+.game-content {
+    border: 2px solid;
+
+    /* border styling */
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    /* colors */
+    border-color: #3B4041;
+}
+
+.game-content h2 {
+    margin-top: 15px;
+
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.game-content thead th {
+    font-weight: normal;
+    font-size: 12px;
+    color : #fff;
+    background-color: #000040;
+}
+
+.game-content tbody th {
+    color: silver;
+}
+
+.game-content tbody th:first-child {
+    border-left: none;
+}
+
+.game-content tbody td {
+    padding-right: 20px;
+}
+
+.game-content tbody td.forum-moderator-buttons {
+    padding-right: 10px;
+}
+
+.game-content tbody tr {
+}
+
+.game-content tbody tr:nth-child(even) {
+    /* display, opacity and special effects*/
+    background: rgb(48, 48, 48);
+    background: rgba(48, 48, 48, 0.6);
+}
+
+.game-content tbody tr.sub-total {
+    background: none;
+}
+.game-content tr.sub-total td
+{
+    border-top: 2px solid #B9B9B9;
+    padding-bottom: 25px;
+}
+
+.game-content table.schedule
+{
+    font-size:0.8em;
+    border-collapse: separate;
+    border-spacing: 3px 3px;
+}
+
+.two-digit-input {
+    width: 30px;
+}
+.three-digit-input {
+    width: 40px;
+}
+
+.four-digit-input {
+    width: 50px;
+}
+
+.five-digit-input {
+    width: 60px;
+}
+
+.six-digit-input {
+    width: 70px;
+}
+
+/* GAME PREFERENCES */
+.game-content div.preference-box {
+    background-color: #400000;
+}
+
+.game-content div.preference-box.disabled {
+    background-color: #444;
+}
+
+div.wysiwyg {
+    border: 1px solid #999;
+    padding: 5px;
+    background: rgb(83, 83, 83);
+}
+
+div.wysiwyg ul.toolbar li {
+    background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
+    border: 1px outset #83817d;
+}
+
+body.wysiwyg {
+    color: #fff;
+    background: #2B3849; /* Old browsers */
+    font-size: 12px;
+}
+
+#bookmark-header {
+    background-image: url(./images/silver_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}
+
+#bookmark-header:hover,
+#bookmark-header.selected
+{
+    background-color: #103041;
+}
+
+#bookmark-details
+{
+    font-size: 12px;
+    background-color: black;
+}
+
+#bookmark-details a
+{
+    text-decoration: none;
+}
+
+#bookmark-details #bookmarks {
+    border-top: 1px solid #103041;
+    border-bottom: 1px solid #103041;
+    -moz-box-shadow: 0px 2px 1px -1px #103041;
+    -webkit-box-shadow: 0px 2px 1px -1px #103041;
+    box-shadow: 0px 2px 1px -1px #103041;
+}
+
+#royal-command-icon {
+    background-image: url(./images/silver_crown.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}
+
+#royal-command-icon:hover {
+    background-color: #103041;
+}
+
+.tablesorter th .order-icon {
+    background-image: url(./images/order_none.png);
+}
+
+.tablesorter th.headerSortUp .order-icon {
+    background-image: url(./images/order_asc.png);
+}
+
+.tablesorter th.headerSortDown .order-icon {
+    background-image: url(./images/order_desc.png);
+}
+
+.campaign-meter-level div {
+    border: 1px solid green;
+}
+
+.campaign-meter-level div.full {
+    background-color: green;
+}
+
+.campaign-meter-level div.unknown {
+    color: green;
+}
+
+.fails-criteria div {
+    border: 1px solid red;
+}
+
+.fails-criteria div.full {
+    background-color: red;
+}
+
+.two-column ul {
+   margin-left: 0px;
+}
+
+.two-column li {
+    margin-right: 10px;
+}
+
+.recruitment-header h2 {
+    font-size: 16px;
+}
+
+.recruitment-header .rank-bar,
+.campaigns .rank-bar {
+    background-color: #04B404;
+}
+
+.recruitment-header .selected-rank,
+.campaigns .selected-rank {
+    background-color: #40FF00;
+}
+
+.campaigns .campaign-message-intro {
+    font-size: 14px;
 }
