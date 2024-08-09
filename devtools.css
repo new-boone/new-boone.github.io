@@ -621,8 +621,7 @@ div.uploader span.action {
     color: white;
 }
 
-/* Province profile page
--------------------------------------------------------------- */
+/* Province profile page */
 
 .province-flag .flagpole {
     background: url('./images/province_profile/flagpole.png') no-repeat;
@@ -636,48 +635,23 @@ div.uploader span.action {
     background: url('./images/province_profile/scroll.png') no-repeat;
 }
 
-
-.game-header
-{
-    height: 25px;
+.game-header {
+    background: #222222;
+    margin: 1.2rem 0px;
 }
 
-.game-header h1
-{
-    height: 20px;
-    margin: 0px 2px;
-    padding: 6px 6px 1px 6px;
-
-    font-size: 14px;
-    text-decoration: none;
-
-    -moz-box-shadow: -1px -1px 1px 1px #788183;
-    -webkit-box-shadow: -1px -1px 1px 1px #788183;
-    box-shadow: -1px -1px 1px 1px #788183;
-
-    background: #3B4041; /* Old browsers */
-
-    color: #fff;
-}
-
-.game-header a h1 {
-    color: silver;
-    background: #222526; /* Old browsers */
+.game-header h1, .game-header a {
+    display: inline-block;
+    float: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 0.4rem;
 }
 
 .game-header a:hover {
-    text-decoration: none;
 }
 
-.game-header a h1:hover
-{
-    background: #3B4041; /* Old browsers */
-
-    color: #fff;
-
-    -moz-box-shadow: -1px -1px 1px 1px #B5B9BA;
-    -webkit-box-shadow: -1px -1px 1px 1px #B5B9BA;
-    box-shadow: -1px -1px 1px 1px #B5B9BA;
+.game-header a h1:hover {
 }
 
 .game-content {
