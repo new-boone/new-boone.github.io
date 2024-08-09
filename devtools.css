@@ -25,6 +25,10 @@ body {
     background-color: #111111;
 }
 
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+
 #header-logo {
     display: none;
 }
@@ -157,6 +161,7 @@ a:focus, a:hover {
 }
 
 h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 #footer {
@@ -280,60 +285,39 @@ h1, h2, h3 {
 #game-navigation a:hover {
 }
 
-#resource-bar
-{
-    /* border styling */
-    border-collapse: separate;
-    border-spacing: 3px 3px;
-
-    /* internal styling - padding etc. */
-    padding: 3px 6px 3px 6px;
-
-    /* colors */
+#resource-bar {
 }
 
 #resource-bar thead {
 }
 
 #resource-bar thead th {
-    /* internal styling - padding etc. */
-    padding: 3px 6px 3px 6px;
-
-    font-weight: normal;
-    color: #fff;
 }
 
-#resource-bar tbody th,
-#resource-bar tbody td{
-
-    padding: 3px 6px 3px 6px;
-
-    font-size: 12px;
-    font-weight: lighter;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    text-align: right;
-    color: #fff;
+#resource-bar tbody th, #resource-bar tbody td {
+    padding: ;
+    font-size: ;
+    font-weight: ;
+    font-family: ;
+    text-align: ;
+    color: ;
 }
 
 #resource-bar tbody th {
-    background-color: #400000;
 }
 
 #resource-bar tbody td {
-    background-color: #1A1A1A;
 }
 
 #resource-bar thead th {
-    background-color: #400000;
 }
 
-
 #resource-bar .positive {
-    color: green;
+    color: #90ee90;
 }
 
 #resource-bar .negative {
-    color: red;
+    color: #eb5252;
 }
 
 .game-content form,
