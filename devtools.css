@@ -491,31 +491,31 @@ div.uploader span.action {
 /* KINGDOM NEWS */
 
 .news-legend span.news-aid:before {
-    content: url(./images/kingdom_news/aid_inline.png);
+    content: 💰;
 }
 .news-legend span.news-intra-kingdom-conflict:before {
-    content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png);
+    content: 🗡️;
 }
 .news-legend span.news-actions-against-our-kingdom:before {
-    content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png);
+    content: 🛡️;
 }
 .news-legend span.news-actions-by-our-kingdom:before {
-    content: url(./images/kingdom_news/actions_by_our_kingdom_inline.png);
+    content: ⚔️;
 }
 .news-legend span.news-dragon:before {
-    content: url(./images/kingdom_news/dragon_inline.png);
+    content: 🔥;
 }
 .news-legend span.news-obituaries:before {
-    content: url(./images/kingdom_news/obituaries_inline.png);
+    content: ☠️;
 }
 .news-legend span.news-relations:before {
-    content: url(./images/kingdom_news/relations_inline.png);
+    content: 📜;
 }
 .news-province-modification:before {
-    content: url(./images/kingdom_news/province_modification_inline.png);
+    content: ⚒️;
 }
 .news-legend span.news-ritual:before {
-    content: url(./images/kingdom_news/ritual_inline.png);
+    content: 🙏;
 }
 
 
