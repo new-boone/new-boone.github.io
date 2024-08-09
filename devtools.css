@@ -320,22 +320,14 @@ h1, h2, h3 {
     color: #eb5252;
 }
 
-.game-content form,
-.game-content h2 {
-    /* internal styling - padding etc. */
-
-    /* colors */
-    color: #fff;
+.game-content form, .game-content h2 {
 }
 
 .game-content h2 {
-    /* colors */
-    background-color: #000040;
+    background-color: #002040;
 }
 
 .game-content h3 {
-    font-size: 20px;
-    color: #fff;
 }
 
 .game-content form {
@@ -344,13 +336,10 @@ h1, h2, h3 {
 }
 
 form ul.errorlist {
-    color: red;
+    color: #eb5252;
 }
 
 .game-content form.change-kingdom {
-    /* typography */
-    font-size: 14px;
-
     background-color: #400000;
 }
 
@@ -365,7 +354,7 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom #royal-commands {
-    border-top: 2px dotted #3B4041;
+    border-top: 1px dashed dimgrey;
 }
 
 .game-content form.change-kingdom #royal-commands table tbody td {
@@ -375,12 +364,11 @@ form ul.errorlist {
 .game-content form.change-kingdom .change-kingdom-form {
     width: 210px;
     font-size: 20px;
-    color: #a9a9a9;
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
     border-top: 2px solid;
-    border-color: #555;
+    border-color: #90ee90;
 }
 
 form textarea,
@@ -806,29 +794,21 @@ body.wysiwyg {
     background-position: center 3px;
 }
 
-#bookmark-header:hover,
-#bookmark-header.selected
-{
+#bookmark-header:hover, #bookmark-header.selected {
     background-color: #103041;
 }
 
 #bookmark-details
 {
-    font-size: 12px;
-    background-color: black;
+    font-size: 1.2rem;
+    background-color: #111111;
 }
 
-#bookmark-details a
-{
+#bookmark-details a {
     text-decoration: none;
 }
 
 #bookmark-details #bookmarks {
-    border-top: 1px solid #103041;
-    border-bottom: 1px solid #103041;
-    -moz-box-shadow: 0px 2px 1px -1px #103041;
-    -webkit-box-shadow: 0px 2px 1px -1px #103041;
-    box-shadow: 0px 2px 1px -1px #103041;
 }
 
 #royal-command-icon {
@@ -838,7 +818,7 @@ body.wysiwyg {
 }
 
 #royal-command-icon:hover {
-    background-color: #103041;
+    background-color: #002040;
 }
 
 .tablesorter th .order-icon {
@@ -854,23 +834,23 @@ body.wysiwyg {
 }
 
 .campaign-meter-level div {
-    border: 1px solid green;
+    border: 1px dashed #90ee90;
 }
 
 .campaign-meter-level div.full {
-    background-color: green;
+    background-color: #90ee90;
 }
 
 .campaign-meter-level div.unknown {
-    color: green;
+    color: #90ee90;
 }
 
 .fails-criteria div {
-    border: 1px solid red;
+    border: 1px solid #eb5252;
 }
 
 .fails-criteria div.full {
-    background-color: red;
+    background-color: #eb5252;
 }
 
 .two-column ul {
@@ -887,12 +867,12 @@ body.wysiwyg {
 
 .recruitment-header .rank-bar,
 .campaigns .rank-bar {
-    background-color: #04B404;
+    background-color: #90ee90;
 }
 
 .recruitment-header .selected-rank,
 .campaigns .selected-rank {
-    background-color: #40FF00;
+    background-color: #90ee90;
 }
 
 .campaigns .campaign-message-intro {
