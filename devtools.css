@@ -655,22 +655,13 @@ div.uploader span.action {
 }
 
 .game-content {
-    border: 2px solid;
-
-    /* border styling */
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-
-    /* colors */
-    border-color: #3B4041;
+    padding: 0;
 }
 
 .game-content h2 {
-    margin-top: 15px;
-
-    line-height: 20px;
-    font-size: 14px;
+    text-transform: uppercase;
+	margin: 5px 0 !important;
+	font-size: 1.6rem;
 }
 
 .game-content thead th {
