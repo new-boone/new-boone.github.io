@@ -32,7 +32,40 @@ h1, h2, h3 {
 }
 
 li {
-	list-style-type: none;
+}
+
+td br {
+    /* display: none; */
+}
+
+label {
+	white-space: nowrap;
+}
+
+thead th {
+	font-weight: bold;
+	color: #ffd17a;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: ;
+	white-space: nowrap;
+}
+
+.selector {
+	padding-left: ;
+	width: ;
+	font-size: ;
+	border-radius: ;
+	text-indent: ;
+}
+
+div#build_select_container.selector {
+    background-size: contain;
+    padding: 0;
+}
+
+select#build_select {
+    width: auto;
 }
 
 input[type="checkbox"] {
@@ -441,10 +474,10 @@ div.selector span,
 div.uploader span.filename,
 div.uploader span.action
 {
-    padding-left: 5px;
+    padding-left: px;
     /* typography */
-    font-size: 12px;
-    font-weight: normal;
+    font-size: ;
+    font-weight: ;
     text-align: left;
 }
 div.uploader span.filename,
