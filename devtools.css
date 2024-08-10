@@ -188,7 +188,16 @@ input[type="checkbox"] {
 	display: none !important;
 }
 
+#inner-container {
+    width:;
+}
+
 #middle {
+    width:;
+}
+
+#left-column {
+    width:;
 }
 
 a {
