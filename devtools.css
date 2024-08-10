@@ -736,20 +736,17 @@ div.uploader span.action {
 }
 
 div.wysiwyg {
-    border: 1px solid #999;
-    padding: 5px;
-    background: rgb(83, 83, 83);
+    border: 0.1rem solid dimgrey;
+    padding: 0.8rem;
+    background: #111111
 }
 
 div.wysiwyg ul.toolbar li {
     background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
-    border: 1px outset #83817d;
+    border: 0.1rem outset dimgrey;
 }
 
 body.wysiwyg {
-    color: #fff;
-    background: #2B3849; /* Old browsers */
-    font-size: 12px;
 }
 
 #bookmark-header {
