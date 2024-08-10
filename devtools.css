@@ -808,7 +808,7 @@ body.wysiwyg {
 }
 
 .fails-criteria div {
-    border: 0.1rem solid #eb5252;
+    border: 0.1rem solid dimgrey;
 }
 
 .fails-criteria div.full {
