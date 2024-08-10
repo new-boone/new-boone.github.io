@@ -796,7 +796,7 @@ body.wysiwyg {
 }
 
 .campaign-meter-level div {
-    border: 1px dashed #90ee90;
+    border: 0.1rem solid dimgrey;
 }
 
 .campaign-meter-level div.full {
@@ -808,7 +808,7 @@ body.wysiwyg {
 }
 
 .fails-criteria div {
-    border: 1px solid #eb5252;
+    border: 0.1rem solid #eb5252;
 }
 
 .fails-criteria div.full {
