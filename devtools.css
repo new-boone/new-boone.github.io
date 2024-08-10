@@ -660,26 +660,29 @@ div.uploader span.action {
     padding: 0;
 }
 
+.game-content th, .game-content td {
+	padding: 5px;
+}
+
 .game-content h2 {
 }
 
 .game-content thead th {
     font-weight: normal;
-    font-size: 12px;
-    color : #fff;
-    background-color: #000040;
+    font-size: 1.2rem;
+    color : #eeeeee;
+    background-color: #002040;
 }
 
 .game-content tbody th {
-    color: silver;
+    color:
 }
 
 .game-content tbody th:first-child {
-    border-left: none;
 }
 
 .game-content tbody td {
-    padding-right: 20px;
+    padding-right:;
 }
 
 .game-content tbody td.forum-moderator-buttons {
@@ -690,44 +693,35 @@ div.uploader span.action {
 }
 
 .game-content tbody tr:nth-child(even) {
-    /* display, opacity and special effects*/
-    background: rgb(48, 48, 48);
-    background: rgba(48, 48, 48, 0.6);
+    background: #222222;
 }
 
 .game-content tbody tr.sub-total {
-    background: none;
-}
-.game-content tr.sub-total td
-{
-    border-top: 2px solid #B9B9B9;
-    padding-bottom: 25px;
 }
 
-.game-content table.schedule
-{
-    font-size:0.8em;
-    border-collapse: separate;
-    border-spacing: 3px 3px;
+.game-content tr.sub-total td {
+}
+
+.game-content table.schedule {
 }
 
 .two-digit-input {
-    width: 30px;
+    width: 1.6rem;
 }
 .three-digit-input {
-    width: 40px;
+    width: 3.2rem;
 }
 
 .four-digit-input {
-    width: 50px;
+    width: 4.8rem;
 }
 
 .five-digit-input {
-    width: 60px;
+    width: 6.4rem;
 }
 
 .six-digit-input {
-    width: 70px;
+    width: 8rem;
 }
 
 /* GAME PREFERENCES */
