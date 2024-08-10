@@ -816,15 +816,12 @@ body.wysiwyg {
 }
 
 .two-column ul {
-   margin-left: 0px;
 }
 
 .two-column li {
-    margin-right: 10px;
 }
 
 .recruitment-header h2 {
-    font-size: 16px;
 }
 
 .recruitment-header .rank-bar,
@@ -838,5 +835,4 @@ body.wysiwyg {
 }
 
 .campaigns .campaign-message-intro {
-    font-size: 14px;
 }
