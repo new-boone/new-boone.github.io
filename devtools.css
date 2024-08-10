@@ -326,7 +326,7 @@ a:focus, a:hover {
 }
 
 .game-content h2 {
-    background-color: #002040;
+    background-color:;
 }
 
 .game-content h3 {
@@ -488,6 +488,22 @@ div.uploader span.action {
     /* display, opacity and special effects*/
     background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.6);
+}
+
+/* THRONE PAGE */
+#throne-game-message, #throne-monarch-message {
+	font-size: 1.6rem;
+	outline: 0.1rem dashed dimgrey;
+	padding: 1.2rem;
+	overflow: auto;
+}
+
+#throne-game-message {
+	margin-top: 1.2rem;
+}
+
+#throne-monarch-message {
+	margin: 1.2rem 0;
 }
 
 /* KINGDOM NEWS */
