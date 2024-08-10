@@ -470,19 +470,16 @@ form input[type=submit]:active,
     background-color: #F2F2F2;
 }
 
-div.selector span,
-div.uploader span.filename,
-div.uploader span.action
-{
-    padding-left: px;
-    /* typography */
-    font-size: ;
-    font-weight: ;
+/* BUILD TOOL */
+div.selector span, div.uploader span.filename, div.uploader span.action {
     text-align: left;
 }
-div.uploader span.filename,
-div.uploader span.action
-{
+
+#build_select_container {
+    /*display: inline;*/
+}
+
+div.uploader span.filename, div.uploader span.action {
     font-size: 12px;
 }
 
