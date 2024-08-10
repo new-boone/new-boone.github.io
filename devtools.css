@@ -824,14 +824,12 @@ body.wysiwyg {
 .recruitment-header h2 {
 }
 
-.recruitment-header .rank-bar,
-.campaigns .rank-bar {
+.recruitment-header .rank-bar, .campaigns .rank-bar {
     background-color: #90ee90;
 }
 
-.recruitment-header .selected-rank,
-.campaigns .selected-rank {
-    background-color: #90ee90;
+.recruitment-header .selected-rank, .campaigns .selected-rank {
+    background-color: #7aeb7a;
 }
 
 .campaigns .campaign-message-intro {
