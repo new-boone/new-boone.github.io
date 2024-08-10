@@ -755,12 +755,17 @@ body.wysiwyg {
     background-position: center 3px;
 }
 
-#bookmark-header:hover, #bookmark-header.selected {
-    background-color: #103041;
+#bookmark-header::before {
+    content: "⭐";
 }
 
-#bookmark-details
-{
+#bookmark-header:hover, #bookmark-header.selected {
+    background-image: url(./images/gold_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}
+
+#bookmark-details {
     font-size: 1.2rem;
     background-color: #111111;
 }
@@ -773,13 +778,9 @@ body.wysiwyg {
 }
 
 #royal-command-icon {
-    background-image: url(./images/silver_crown.png);
-    background-repeat: no-repeat;
-    background-position: center 3px;
 }
 
 #royal-command-icon:hover {
-    background-color: #002040;
 }
 
 .tablesorter th .order-icon {
