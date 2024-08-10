@@ -35,7 +35,7 @@ li {
 }
 
 td br {
-    /* display: none; */
+    /*display: none;*/
 }
 
 label {
@@ -52,11 +52,6 @@ thead th {
 }
 
 .selector {
-	padding-left: ;
-	width: ;
-	font-size: ;
-	border-radius: ;
-	text-indent: ;
 }
 
 div#build_select_container.selector {
