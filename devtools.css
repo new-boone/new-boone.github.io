@@ -31,6 +31,10 @@ h1, h2, h3 {
     font-size: 1.6rem;
 }
 
+li {
+	list-style-type: none;
+}
+
 input[type="checkbox"] {
 	vertical-align: middle;
 }
@@ -687,7 +691,7 @@ div.uploader span.action {
     font-weight: normal;
     font-size: 1.2rem;
     color : #eeeeee;
-    background-color: #002040;
+    background-color:;
 }
 
 .game-content tbody th {
