@@ -639,7 +639,7 @@ div.uploader span.action {
 
 .game-header {
     background: #222222;
-    margin: 1.2rem 0px;
+    margin: 1.2rem 0;
 }
 
 .game-header h1, .game-header a {
@@ -708,6 +708,7 @@ div.uploader span.action {
 .two-digit-input {
     width: 1.6rem;
 }
+
 .three-digit-input {
     width: 3.2rem;
 }
@@ -726,11 +727,12 @@ div.uploader span.action {
 
 /* GAME PREFERENCES */
 .game-content div.preference-box {
-    background-color: #400000;
+    outline: 1px dashed dimgrey;
+    margin-bottom: 1.2rem;
+    padding: 1.2rem 0 1.2rem 0;
 }
 
 .game-content div.preference-box.disabled {
-    background-color: #444;
 }
 
 div.wysiwyg {
