@@ -54,6 +54,15 @@ thead th {
 .selector {
 }
 
+input {
+	border: none;
+	outline: none;
+	font-family: 'Quicksand', sans-serif;
+	padding: 0.4rem !important;
+	margin: 0 0.4rem !important;
+	border-radius: 0.4rem;
+}
+
 div#build_select_container.selector {
     background-size: contain;
     padding: 0;
