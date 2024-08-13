@@ -54,17 +54,89 @@ thead th {
 .selector {
 }
 
-div#build_select_container.selector {
+#build_select_container {
     background-size: contain;
     padding: 0;
 }
 
-select#build_select {
-    width: auto;
+#build_select {
+    /*width: auto;*/
+}
+
+#autofill_select {
+	background-size: contain;
+}
+
+input {
+	border: none;
+	outline: none;
+	font-family: 'Quicksand', sans-serif;
+	padding: 0.3rem !important;
+	margin: 0 0.1rem !important;
+	border-radius: 0.4rem;
 }
 
 input[type="checkbox"] {
 	vertical-align: middle;
+}
+
+input:focus {
+}
+
+.two-digit-input {
+    width: 1.6rem;
+}
+
+.three-digit-input {
+    width: 3.2rem;
+}
+
+.four-digit-input {
+    width: 4.8rem;
+}
+
+.five-digit-input {
+    width: 6.4rem;
+}
+
+.six-digit-input {
+    width: 8rem;
+}
+
+.max {
+	padding: 3px 5px !important;
+}
+
+form p {
+	text-align: center !important;
+	text-transform: uppercase;
+	color: #ffd17a;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+}
+
+input[type=submit] {
+	text-align: center !important;
+	background: #ffd17a !important;
+	border-radius: 0.5rem !important;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 1.6rem !important;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 60px;
+}
+
+.repeat {
+}
+
+button {
+	border: none;
+	border-bottom: 1px dashed gray;
+	background: transparent;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	padding: 0;
+	margin: 0 5px;
 }
 
 #header-logo {
@@ -183,16 +255,25 @@ input[type="checkbox"] {
 	display: none !important;
 }
 
+body {
+}
+
+#outer-container {
+}
+
 #inner-container {
-    width:;
 }
 
 #middle {
-    width:;
 }
 
 #left-column {
-    width:;
+}
+
+#content-area {
+}
+
+#content-area > div.game-content {
 }
 
 a {
@@ -756,26 +837,6 @@ div.uploader span.action {
 }
 
 .game-content table.schedule {
-}
-
-.two-digit-input {
-    width: 1.6rem;
-}
-
-.three-digit-input {
-    width: 3.2rem;
-}
-
-.four-digit-input {
-    width: 4.8rem;
-}
-
-.five-digit-input {
-    width: 6.4rem;
-}
-
-.six-digit-input {
-    width: 8rem;
 }
 
 /* GAME PREFERENCES */
