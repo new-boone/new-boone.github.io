@@ -255,16 +255,25 @@ button {
 	display: none !important;
 }
 
+body {
+}
+
+#outer-container {
+}
+
 #inner-container {
-    width:;
 }
 
 #middle {
-    width:;
 }
 
 #left-column {
-    width:;
+}
+
+#content-area {
+}
+
+#content-area > div.game-content {
 }
 
 a {
