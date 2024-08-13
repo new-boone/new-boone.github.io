@@ -139,6 +139,53 @@ button {
 	margin: 0 5px;
 }
 
+a {
+    color: #ffd17a;
+    text-decoration: none;
+}
+
+a.highlighted {
+}
+
+a:focus, a:hover {
+	color: #eeeeee;
+}
+
+/* Ads */
+.google_ads {
+    display: none !important;
+}
+
+/* Facebook */
+#fb-root {
+	display: none !important;
+}
+
+/* Layout */
+html {
+}
+
+body {
+}
+
+#outer-container {
+}
+
+#inner-container {
+}
+
+#middle {
+}
+
+#left-column {
+}
+
+#content-area {
+}
+
+#content-area > div.game-content {
+}
+
 #header-logo {
     display: none;
 }
@@ -243,49 +290,6 @@ button {
 }
 
 #account-details .account-signout {
-}
-
-/* Ads */
-.google_ads {
-    display: none !important;
-}
-
-/* Facebook */
-#fb-root {
-	display: none !important;
-}
-
-body {
-}
-
-#outer-container {
-}
-
-#inner-container {
-}
-
-#middle {
-}
-
-#left-column {
-}
-
-#content-area {
-}
-
-#content-area > div.game-content {
-}
-
-a {
-    color: #ffd17a;
-    text-decoration: none;
-}
-
-a.highlighted {
-}
-
-a:focus, a:hover {
-    color: #eeeeee;
 }
 
 #footer {
