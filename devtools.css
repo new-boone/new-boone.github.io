@@ -54,6 +54,19 @@ thead th {
 .selector {
 }
 
+#build_select_container {
+    background-size: contain;
+    padding: 0;
+}
+
+#build_select {
+    /*width: auto;*/
+}
+
+#autofill_select {
+	background-size: contain;
+}
+
 input {
 	border: none;
 	outline: none;
@@ -63,17 +76,31 @@ input {
 	border-radius: 0.4rem;
 }
 
-div#build_select_container.selector {
-    background-size: contain;
-    padding: 0;
-}
-
-select#build_select {
-    width: auto;
-}
-
 input[type="checkbox"] {
 	vertical-align: middle;
+}
+
+input:focus {
+}
+
+.two-digit-input {
+    width: 1.6rem;
+}
+
+.three-digit-input {
+    width: 3.2rem;
+}
+
+.four-digit-input {
+    width: 4.8rem;
+}
+
+.five-digit-input {
+    width: 6.4rem;
+}
+
+.six-digit-input {
+    width: 8rem;
 }
 
 #header-logo {
@@ -765,26 +792,6 @@ div.uploader span.action {
 }
 
 .game-content table.schedule {
-}
-
-.two-digit-input {
-    width: 1.6rem;
-}
-
-.three-digit-input {
-    width: 3.2rem;
-}
-
-.four-digit-input {
-    width: 4.8rem;
-}
-
-.five-digit-input {
-    width: 6.4rem;
-}
-
-.six-digit-input {
-    width: 8rem;
 }
 
 /* GAME PREFERENCES */
