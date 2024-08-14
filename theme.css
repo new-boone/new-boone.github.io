@@ -108,7 +108,12 @@ a, a:visited {
 }
 
 a:hover {
-    color: #eeeeee;
+	color: #eeeeee;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #ffd17a;
 	text-decoration: none;
 }
 
