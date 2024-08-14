@@ -2,28 +2,23 @@
 
 /* Global */
 body {
-	background: #111111;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5rem;
-	letter-spacing: 0.1px;
 	color: #eeeeee;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+	letter-spacing: 0.01rem;
+    background-color: #111111;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-}
-
-h2 {
-	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 li {
-	list-style-type: none;
 }
 
 td br {
-	display: none;
 }
 
 label {
@@ -40,51 +35,46 @@ thead th {
 }
 
 .selector {
-	padding-left: 0 !important;
-	width: 179px !important;
-	font-size: 1.2rem !important;
-	border-radius: 5px;
-	text-indent: 10px;
 }
 
 input {
 	border: none;
 	outline: none;
 	font-family: 'Quicksand', sans-serif;
-	padding: 3px !important;
-	margin: 0 1px !important;
-	border-radius: 3px;
+	padding: 0.3rem !important;
+	margin: 0 0.1rem !important;
+	border-radius: 0.3rem;
 }
 
 input[type="checkbox"] {
-	height: 15px;
+	height: 1.5rem;
 	vertical-align: middle;
 }
 
 input:focus {
 	border: none;
-	padding: 0 3px !important;
-	height: 22px;
+	padding: 0 0.3rem !important;
+	height: 2.2rem;
 }
 
 .two-digit-input, .four-digit-input {
-	width: 45px;
+	width: 4.8rem;
 }
 
-.three-digit-input {
-	width: 173px;
+.three-digit-input, .five-digit-input, .six-digit-input {
+	width: 14.4rem;
 }
 
 .max {
-	padding: 3px 5px;
+	padding: 0.3rem 0.5rem !important;
 }
 
 form p {
 	text-align: center !important;
 	text-transform: uppercase;
 	color: #ffd17a;
-	font-size: 0.8em;
-	letter-spacing: 0.5px;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
 }
 
 input[type=submit] {
@@ -725,6 +715,11 @@ input[name=change_kingdom] {
 	margin: 20px !important;
 }
 
+#build_select_container {
+    background-size: contain;
+    padding: 0;
+}
+
 /* Sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
@@ -782,6 +777,10 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 /* War Room */
 .form br {
 	display: block;
+}
+
+#autofill_select {
+	background-size: contain;
 }
 
 #autodef {
