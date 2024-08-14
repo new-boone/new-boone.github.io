@@ -172,7 +172,7 @@ a:hover {
 	padding: 10px 15px;
 	right: calc(5% + 10px);
 	top: 35px;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #account-details .account-title {
@@ -349,7 +349,7 @@ a:hover {
 
 #ircchat input {
 	width: 35%;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #irccontainer {
@@ -394,7 +394,7 @@ a:hover {
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #overlay table {
