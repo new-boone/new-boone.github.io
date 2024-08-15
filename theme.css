@@ -634,7 +634,7 @@ input[name=change_kingdom] {
 }
 
 .news-intra-kingdom-conflict::before {
-	content: "🗡";
+	content: "🗡️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
