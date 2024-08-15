@@ -675,21 +675,21 @@ input[name=change_kingdom] {
 }
 
 .news-aid::before {
-	content: "✛";
+	content: "💰";
 	color: #ff9999;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
-	content: "✝";
+	content: "☠️";
 	color: #bababa;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-province-modification::before {
-	content: "⚒";
+	content: "⚒️";
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
