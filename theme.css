@@ -640,35 +640,35 @@ input[name=change_kingdom] {
 }
 
 .news-relations::before {
-	content: "☮";
+	content: "📜";
 	color: #ffed78;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-against-our-kingdom::before {
-	content: "⚔";
+	content: "🛡️";
 	color: #f56767;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-dragon::before {
-	content: "♅";
+	content: "🔥";
 	color: #a1e882;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-ritual::before {
-	content: "☥";
+	content: "🙏";
 	color: #ffd278;
 	font-size: 1.5rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
-	content: "⚔";
+	content: "⚔️";
 	color: #6bdfff;
 	font-size: 1.5rem;
 	padding: 0 5px;
