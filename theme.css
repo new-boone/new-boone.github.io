@@ -661,10 +661,6 @@ input[name=change_kingdom] {
     background-image: url(./images/hostile_meter/example.png);
 }
 
-#id_taunt_top_image {
-    color: white;
-}
-
 /* kingdom intel */
 #bOriginal, #bGeneral, #bArmies, #bWar, #bTM, #bCalced, #bResources, #bMilitary, #bPopulation, #bSurvey, #bSoS, #bSoM {
 	cursor: pointer;
