@@ -1057,11 +1057,11 @@ form input[type=submit], .button-link {
 }
 
 /*.duration_operation {
-	color: #eedc82;
+	color: #f9e36b;
 }*/
 
 .you {
-	color: #f9e36b;
+	font-weight: bold;
 }
 
 .chamberlain, .intel-stale {
