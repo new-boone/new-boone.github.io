@@ -891,6 +891,31 @@ form input[type=submit], .button-link {
 	margin: 10px 0 !important;
 }
 
+/* Recruitment */
+.campaign-meter-level div, .fails-criteria div {
+    border: 0.1rem solid dimgrey;
+}
+
+.campaign-meter-level div.full {
+    background-color: #a1e882;
+}
+
+.campaign-meter-level div.unknown {
+    color: #a1e882;
+}
+
+.fails-criteria div.full {
+    background-color: #eb5252;
+}
+
+.recruitment-header .rank-bar, .campaigns .rank-bar {
+    background-color: #a1e882;
+}
+
+.recruitment-header .selected-rank, .campaigns .selected-rank {
+	background-color: #7cfc00;
+}
+
 /* Misc. */
 #loadstatus {
 	outline: 1px dashed;
