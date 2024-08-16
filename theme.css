@@ -22,6 +22,10 @@ li {
 td br {
 }
 
+#content-area > div.game-content > form > p {
+	white-space: normal;
+}
+
 label {
 	white-space: nowrap;
 }
@@ -510,10 +514,6 @@ a:hover {
 
 .game-content table {
 	margin-bottom: 0 !important;	
-}
-
-#content-area > div.game-content > form {
-	overflow-wrap: break-word;
 }
 
 /* kingdom details */
