@@ -16,7 +16,6 @@ h1, h2, h3 {
 }
 
 li {
-	list-style: none;
 }
 
 td br {
@@ -825,6 +824,10 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	display: block;
 }
 
+#content-area > div.game-content > ul > li {
+	list-style: none;
+}
+
 /* War Room */
 .form br {
 	display: block;
@@ -920,13 +923,30 @@ form input[type=submit], .button-link {
 }
 
 .preference-box {
-	outline: 1px dashed dimgrey;
+	outline: 1px dashed;
 	padding: 10px 0 !important;
 	margin: 15px 0 !important;
 }
 
 .preference-box .advice-message {
 	margin: 10px 0 !important;
+}
+
+/* province profile */
+.province-flag .flagpole {
+}
+
+.province-flag .flag-image .default-flag{
+	background-color: white;
+}
+
+.motto {
+}
+
+#content-area > div.game-content > div > div.reportable {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Recruitment */
