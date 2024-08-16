@@ -22,6 +22,10 @@ li {
 td br {
 }
 
+hr {
+	display: none;
+}
+
 label {
 	white-space: nowrap;
 }
@@ -532,7 +536,7 @@ input[name=change_kingdom] {
 }
 
 .change-kingdom-heading {
-	width: 64% !important;
+	width: 60% !important;
 	padding: 5px;
 	margin: 5px;
 	font-size: 1.4rem;
