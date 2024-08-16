@@ -51,6 +51,17 @@ input[type="checkbox"] {
 	vertical-align: middle;
 }
 
+input[type=submit] {
+	text-align: center !important;
+	background: #ffd17a !important;
+	border-radius: 0.5rem !important;
+	outline: none;
+	text-transform: uppercase;
+	min-width: 6rem;
+	font-size: 1.6rem !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .two-digit-input, .four-digit-input {
 	width: 4.8rem;
 }
@@ -69,17 +80,6 @@ form p {
 	color: #ffd17a;
 	font-size: 1.2rem;
 	letter-spacing: 0.05rem;
-}
-
-input[type=submit] {
-	text-align: center !important;
-	background: #ffd17a !important;
-	border-radius: 0.5rem !important;
-	outline: none;
-	text-transform: uppercase;
-	min-width: 6rem;
-	font-size: 1.6rem !important;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .repeat {
@@ -159,6 +159,10 @@ a:hover {
 
 #account-header .down-arrow {
 	top: 15px;
+}
+
+#account-header .account-image {
+    display: none;
 }
 
 #account-details {
@@ -241,6 +245,10 @@ a:hover {
 
 .navigation {
 	padding: 0;
+}
+
+#header-logo {
+    display: none;
 }
 
 /* Lobby */
@@ -917,6 +925,10 @@ form input[type=submit], .button-link {
 	color: #f56767;
 }
 
+/*.duration_operation {
+	color: #eedc82;
+}*/
+
 .you {
 	color: #ffed78;
 }
@@ -935,5 +947,5 @@ form input[type=submit], .button-link {
 
 #footer {
 	width: auto;
-	font-size: 0.7em;
+	font-size: 1.1rem;
 }
