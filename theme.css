@@ -780,7 +780,7 @@ input[name=change_kingdom] {
 }
 
 .news-province-modification::before {
-	content: "⚒️";
+	content: "♻️";
 	font-size: 1.6rem;
 	padding: 0 5px;
 }
