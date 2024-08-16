@@ -511,7 +511,7 @@ a:hover {
 	margin-bottom: 0 !important;	
 }
 
-/* Kingdom */
+/* kingdom details */
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
 	margin: 0;
 	position: static;
@@ -618,6 +618,50 @@ input[name=change_kingdom] {
 
 #bookmarks tbody a {
 	color: #ffd17a;
+}
+
+.dip-status {
+    color: #111111;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+.dip-status-NORMAL {
+    background-color: #01DF01;
+}
+
+.dip-status-UNFRIENDLY {
+    background-color: #FFBF00;
+}
+
+.dip-status-HOSTILE {
+    background-color:#FF4000;
+    background-image: url(./images/hostile_meter/hostile_gradient.png);
+    background-repeat: repeat-y;
+}
+
+.dip-status-WAR {
+    background-color: #FF0000;
+}
+
+.own-meter-value {
+    background-image: url(./images/hostile_meter/up.png);
+}
+
+.their-meter-value {
+    background-image: url(./images/hostile_meter/down.png);
+}
+
+.war-button-meter-value {
+    background-image: url(./images/hostile_meter/war.png);
+}
+
+#hostility-meter-example {
+    background-image: url(./images/hostile_meter/example.png);
+}
+
+#id_taunt_top_image {
+    color: white;
 }
 
 /* Kingdom Intel */
