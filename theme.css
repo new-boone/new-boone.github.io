@@ -502,7 +502,6 @@ a:hover {
 
 .game-content .throne-notice, .game-content p {
 	margin: 0 10px 15px;
-	overflow-wrap: break-word;
 }
 
 .game-content table.three-column-stats th {
@@ -511,6 +510,10 @@ a:hover {
 
 .game-content table {
 	margin-bottom: 0 !important;	
+}
+
+#content-area > div.game-content > form {
+	overflow-wrap: break-word;
 }
 
 /* kingdom details */
