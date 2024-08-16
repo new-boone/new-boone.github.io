@@ -664,7 +664,7 @@ input[name=change_kingdom] {
     color: white;
 }
 
-/* Kingdom Intel */
+/* kingdom intel */
 #newintel {
 	max-height: 80vh;
 }
@@ -702,7 +702,7 @@ input[name=change_kingdom] {
 	background-color: #222222 !important;	
 }
 
-/* News */
+/* news */
 .news-legend {
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -719,62 +719,55 @@ input[name=change_kingdom] {
 
 .news-intra-kingdom-conflict::before {
 	content: "🗡️";
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-relations::before {
 	content: "📜";
-	color: #ffed78;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-actions-against-our-kingdom::before {
 	content: "🛡️";
-	color: #f56767;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-dragon::before {
 	content: "🔥";
-	color: #a1e882;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-ritual::before {
 	content: "🙏";
-	color: #ffd278;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔️";
-	color: #6bdfff;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
 	content: "💰";
-	color: #ff9999;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
 	content: "☠️";
-	color: #bababa;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-province-modification::before {
 	content: "⚒️";
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
@@ -793,14 +786,14 @@ input[name=change_kingdom] {
 	text-align: left;
 }
 
-/* Explore */
+/* explore */
 #btnExplore {
 	width: 168%;
 	margin-left: -68% !important;
 	margin-bottom: 0;
 }
 
-/* Growth */
+/* growth */
 #hideshow {
 	margin: 20px !important;
 }
@@ -814,7 +807,7 @@ input[name=change_kingdom] {
 	width: 11.11%;
 }
 
-/* Sciences */
+/* sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
 }
@@ -823,19 +816,19 @@ input[name="reassign"], input[name="allocate"] {
 	width: 158px !important;
 }
 
-/* Military */
+/* military */
 .data th {
 	font-size: 1rem !important;
 	font-weight: normal !important;
 }
 
-/* Wizards */
+/* wizards */
 .game-content ul {
 	text-align: center;
 	margin: 0 0 20px 0;
 }
 
-/* Mystics */
+/* mystics */
 .helptext {
 	font-size: 1rem;
 	display: block;
@@ -845,7 +838,7 @@ input[name="reassign"], input[name="allocate"] {
 	margin-top: 20px;
 }
 
-/* Thievery */
+/* thievery */
 form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
 	font-size: 1.3rem !important;
 	width: 65px !important;
@@ -872,7 +865,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	list-style: none;
 }
 
-/* War Room */
+/* war room */
 .form br {
 	display: block;
 }
@@ -890,7 +883,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	outline: 1px dashed #ffd17a;
 }
 
-/* Aid */
+/* aid */
 #showaids {
 	text-transform: none;
 	font-weight: normal;
@@ -901,7 +894,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	margin-left: -32px !important;
 }
 
-/* Mail */
+/* mail */
 strong {
 	font-size: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
@@ -936,7 +929,7 @@ form input[type=submit], .button-link {
 	font-weight: bold;
 }
 
-/* Forum */
+/* forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
 	padding: 10px;
@@ -1021,7 +1014,7 @@ form input[type=submit], .button-link {
 	background-color: #7cfc00;
 }
 
-/* Misc. */
+/* miscellaneous */
 #loadstatus {
 	outline: 1px dashed;
 	width: 70%;
