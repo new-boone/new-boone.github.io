@@ -687,6 +687,7 @@ input[name=change_kingdom] {
 #newintel .header th {
 	padding: 0 10px;
 	text-transform: none;
+	cursor: pointer;
 }
 
 #newintel .header .order-icon {
