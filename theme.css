@@ -959,7 +959,7 @@ form input[type=submit], .button-link {
 	margin: 0;
 }
 
-/* Preferences */
+/* preferences */
 .preference-box h3 {
 	margin: 0 10px !important;
 	font-family: 'Open Sans', sans-serif;
@@ -967,7 +967,7 @@ form input[type=submit], .button-link {
 }
 
 .preference-box {
-	outline: 1px dashed;
+	outline: 1px dashed dimgrey;
 	padding: 10px 0 !important;
 	margin: 15px 0 !important;
 }
