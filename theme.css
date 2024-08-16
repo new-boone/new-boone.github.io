@@ -167,7 +167,7 @@ a:hover {
 
 #account-details {
 	background: #111111;
-	line-height: 2em;
+	line-height: 2.4rem;
 	padding: 10px 15px;
 	right: calc(5% + 10px);
 	top: 35px;
@@ -604,15 +604,16 @@ input[name=change_kingdom] {
 
 #bookmark-details {
 	background: #111111;
-	line-height: 2rem;
-	padding: 10px 15px;
-	border: 1px dashed dimgrey;
+	line-height: 2.4rem;
+	padding: 1rem 1.5rem;
+	border: 0.1rem dashed dimgrey;
 }
 
 #bookmark-details a {
 	color: #eeeeee;
     text-decoration: none;
 	font-size: 1.2rem;
+	font-weight: normal;
 }
 
 #bookmarks tbody a {
