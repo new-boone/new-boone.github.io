@@ -468,18 +468,19 @@ a:hover {
 	margin: 5px;
 }
 
-#throne-game-message, #throne-monarch-message {
+#throne-game-message {
 	font-size: 1.4rem;
-	outline: 1px dashed #ffd17a;
+	outline: 1px dashed dimgrey;
 	padding: 10px;
 	overflow: auto;
-}
-
-#throne-game-message {
 	margin-top: 20px;
 }
 
 #throne-monarch-message {
+	font-size: 1.4rem;
+	outline: 1px dashed #ffd17a;
+	padding: 10px;
+	overflow: auto;
 	margin: 20px 0;
 }
 
