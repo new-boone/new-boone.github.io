@@ -50,12 +50,6 @@ input, input:focus {
 	padding: 0.3rem !important;
 	margin: 0 0.1rem !important;
 	border-radius: 0.3rem;
-	box-sizing: border-box;
-	-webkit-text-size-adjust: 100%;
-}
-
-.game-content {
-	position: relative;
 }
 
 input[type="checkbox"] {
