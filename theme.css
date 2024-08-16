@@ -1,30 +1,29 @@
-@import url("default-theme.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@300;400;700&display=swap');
 
-/* Global */
+/* global */
 body {
-	background: #111111;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5rem;
-	letter-spacing: 0.1px;
 	color: #eeeeee;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+	letter-spacing: 0.01rem;
+    background-color: #111111;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-}
-
-h2 {
-	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 li {
-	list-style-type: none;
+	list-style: none;
 }
 
 td br {
-	display: none;
+}
+
+#content-area > div.game-content > form > p {
+	white-space: normal;
 }
 
 label {
@@ -41,63 +40,51 @@ thead th {
 }
 
 .selector {
-	padding-left: 0 !important;
-	width: 179px !important;
-	font-size: 1.2rem !important;
-	border-radius: 5px;
-	text-indent: 10px;
 }
 
-input {
+input, input:focus {
 	border: none;
 	outline: none;
 	font-family: 'Quicksand', sans-serif;
-	padding: 3px !important;
-	margin: 0 1px !important;
-	border-radius: 3px;
+	padding: 0.3rem !important;
+	margin: 0 0.1rem !important;
+	border-radius: 0.3rem;
 }
 
 input[type="checkbox"] {
-	height: 15px;
+	height: 1.5rem;
 	vertical-align: middle;
 }
 
-input:focus {
-	border: none;
-	padding: 0 3px !important;
-	height: 22px;
+input[type=submit] {
+	text-align: center !important;
+	background: #ffd17a !important;
+	border-radius: 0.5rem !important;
+	outline: none;
+	text-transform: uppercase;
+	min-width: 6rem;
+	font-size: 1.6rem !important;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .two-digit-input, .four-digit-input {
-	width: 45px;
+	width: 4.8rem;
 }
 
-.three-digit-input {
-	width: 173px;
+.three-digit-input, .five-digit-input, .six-digit-input {
+	width: 14.4rem;
 }
 
 .max {
-	padding: 3px 5px;
+	padding: 0.3rem 0.5rem !important;
 }
 
 form p {
 	text-align: center !important;
 	text-transform: uppercase;
 	color: #ffd17a;
-	font-size: 0.8em;
-	letter-spacing: 0.5px;
-}
-
-input[type=submit] {
-	text-align: center !important;
-	background: #ffd17a;
-	border-radius: 5px;
-	outline: none;
-	text-transform: uppercase;
-	width: 100%;
-	height: 40px;
-	font-size: 2.5rem !important;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
 }
 
 .repeat {
@@ -106,12 +93,13 @@ input[type=submit] {
 
 button {
 	border: none;
-	border-bottom: 1px dashed gray;
+	border-bottom: 1px dashed dimgrey;
 	background: transparent;
+	color: #000000;
 	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
 	padding: 0;
-	margin: 0 5px;
+	margin: 0 0.5rem;
 }
 
 a, a:visited {
@@ -119,15 +107,22 @@ a, a:visited {
 	text-decoration: none;
 }
 
-/* Ads */
-.google_ads {
-	margin: 10px auto 0px;
-	margin-left: auto !important;
-	height: auto !important;
-	padding-top: 0 !important;
+a:hover {
+	color: #eeeeee;
+	text-decoration: none;
 }
 
-/* Layout */
+/* ads */
+.google_ads {
+    display: none !important;
+}
+
+/* facebook */
+#fb-root {
+	display: none !important;
+}
+
+/* layout */
 #inner-container {
 	width: 90%;
 	position: unset;
@@ -154,10 +149,10 @@ a, a:visited {
 	padding: 0;
 	margin-left: 15%;
 	float: none;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 }
 
-/* Account */
+/* account */
 #account-container {
 	position: unset;
 }
@@ -171,13 +166,17 @@ a, a:visited {
 	top: 15px;
 }
 
+#account-header .account-image {
+    display: none;
+}
+
 #account-details {
 	background: #111111;
-	line-height: 2em;
+	line-height: 2.4rem;
 	padding: 10px 15px;
 	right: calc(5% + 10px);
 	top: 35px;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #account-details .account-title {
@@ -225,7 +224,7 @@ a, a:visited {
 	width: 172px;
 }
 
-/* Top Navigation */
+/* top navigation */
 #header {
 	height: 40px;
 	width: auto;
@@ -253,7 +252,11 @@ a, a:visited {
 	padding: 0;
 }
 
-/* Lobby */
+#header-logo {
+    display: none;
+}
+
+/* lobby */
 #chooser-nav {
 	width: 100%;
 }
@@ -275,10 +278,10 @@ a, a:visited {
 	height: 5px;
 }
 
-/* Bot Intel */
+/* bot intel */
 #toggler {
 	background-color: #111111 !important;
-	border: 1px solid gray;
+	border: 1px solid dimgrey;
 	border-radius: 0 !important;
 	top: 9px !important;
 	left: 5% !important;
@@ -286,17 +289,12 @@ a, a:visited {
 	text-transform: uppercase;
 	padding: 0 5px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
+	font-size: 1rem !important;
 	letter-spacing: 2px;
 	line-height: 2em;
 	width: 83px !important;
 	z-index: 2 !important;
-	/*
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-top: -1000% !important;
-	margin-bottom: -1000%;
-	*/
+	white-space: nowrap;
 }
 
 #botlinks, #botupdate {
@@ -323,14 +321,12 @@ a, a:visited {
 	*/
 }
 
-/* Chat */
+/* chat */
 #ircchat {
 	width: calc(100% - 10px) !important;
 	border-radius: 5px;
-	background-color: #eeeeee !important;
-	color: #111111 !important;
-	font-size: 1.2rem;
-	letter-spacing: 0.5px;
+	color: #000000!important;
+	font-size: 1.3rem;
 	padding: 0 !important;
 	margin-bottom: 10px;
 }
@@ -358,8 +354,9 @@ a, a:visited {
 }
 
 #ircchat input {
+	background-color: #eeeee;
 	width: 35%;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #irccontainer {
@@ -368,7 +365,7 @@ a, a:visited {
 	width: calc(100% - 5px) !important;
 }
 
-/* Resource Bar */
+/* resource bar */
 #resource-bar {
 	width: 70%;
 	margin-left: 15%;
@@ -381,7 +378,7 @@ a, a:visited {
 	letter-spacing: 1px;
 }
 
-/* Bot Commands */
+/* bot commands */
 #overlay {
 	width: 70% !important;
 	margin-top: 0 !important;
@@ -404,7 +401,7 @@ a, a:visited {
 #overlay input {
 	width: 40%;
 	margin: 0 5px;
-	border: 1px dashed gray;
+	border: 1px dashed dimgrey;
 }
 
 #overlay table {
@@ -416,7 +413,7 @@ a, a:visited {
 	font-size: 1rem;
 }
 
-/* Game Header */
+/* game header */
 .game-header {
 	width: 70%;
 	float: none;
@@ -434,7 +431,7 @@ a, a:visited {
 	padding: 5px 0;
 }
 
-/* Game Navigation */
+/* game navigation */
 #game-navigation {
 	width: calc(15% - 20px);
 	margin-right: 0;
@@ -469,24 +466,25 @@ a, a:visited {
 	margin: 0 2px;
 }
 
-/* Throne */
+/* throne */
 #orders a {
 	font-size: 1.2rem;
 	margin: 5px;
 }
 
-#throne-game-message, #throne-monarch-message {
+#throne-game-message {
 	font-size: 1.4rem;
-	outline: 1px dashed #ffd17a;
+	outline: 1px dashed dimgrey;
 	padding: 10px;
 	overflow: auto;
-}
-
-#throne-game-message {
 	margin-top: 20px;
 }
 
 #throne-monarch-message {
+	font-size: 1.4rem;
+	outline: 1px dashed #ffd17a;
+	padding: 10px;
+	overflow: auto;
 	margin: 20px 0;
 }
 
@@ -518,7 +516,7 @@ a, a:visited {
 	margin-bottom: 0 !important;	
 }
 
-/* Kingdom */
+/* kingdom details */
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
 	margin: 0;
 	position: static;
@@ -562,7 +560,7 @@ input[name=change_kingdom] {
 
 .game-content th, .game-content td {
 	padding: 5px;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 #clone_kingdom td {
@@ -585,14 +583,105 @@ input[name=change_kingdom] {
 	padding-left: 2px;
 }
 
-/* Kingdom Intel */
+#bookmark-header {
+	width: 2.5rem;
+	height: 2.25rem;
+	top: -0.5rem;
+}
+
+#bookmark-header::before {
+    content: "⭐";
+	font-size: 2rem;
+	position: relative;
+}
+
+/*#bookmark-header {
+    background-image: url(./images/silver_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}
+
+#bookmark-header:hover, #bookmark-header.selected {
+    background-image: url(./images/gold_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}*/
+
+#bookmark-details {
+	background: #111111;
+	line-height: 2.4rem;
+	padding: 1rem 1.5rem;
+	border: 0.1rem dashed dimgrey;
+}
+
+#bookmark-details a {
+	color: #eeeeee;
+    text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+#bookmarks tbody a {
+	color: #ffd17a;
+}
+
+.dip-status {
+    color: #111111;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+.dip-status-NORMAL {
+    background-color: #01DF01;
+}
+
+.dip-status-UNFRIENDLY {
+    background-color: #FFBF00;
+}
+
+.dip-status-HOSTILE {
+    background-color:#FF4000;
+    background-image: url(./images/hostile_meter/hostile_gradient.png);
+    background-repeat: repeat-y;
+}
+
+.dip-status-WAR {
+    background-color: #FF0000;
+}
+
+.own-meter-value {
+    background-image: url(./images/hostile_meter/up.png);
+}
+
+.their-meter-value {
+    background-image: url(./images/hostile_meter/down.png);
+}
+
+.war-button-meter-value {
+    background-image: url(./images/hostile_meter/war.png);
+}
+
+#hostility-meter-example {
+    background-image: url(./images/hostile_meter/example.png);
+}
+
+#id_taunt_top_image {
+    color: white;
+}
+
+/* kingdom intel */
+#bOriginal, #bGeneral, #bArmies, #bWar, #bTM, #bCalced, #bResources, #bMilitary, #bPopulation, #bSurvey, #bSoS, #bSoM {
+	cursor: pointer;
+	margin-right: 0.3rem !important;
+}
+
 #newintel {
 	max-height: 80vh;
 }
 
 #newintel .header th, #newintel td {
-	font-size: 1rem;
-	letter-spacing: 1.5px;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
 }
 
 #newintel td font {
@@ -605,6 +694,8 @@ input[name=change_kingdom] {
 
 #newintel .header th {
 	padding: 0 10px;
+	text-transform: none;
+	cursor: pointer;
 }
 
 #newintel .header .order-icon {
@@ -623,7 +714,7 @@ input[name=change_kingdom] {
 	background-color: #222222 !important;	
 }
 
-/* News */
+/* news */
 .news-legend {
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -639,63 +730,56 @@ input[name=change_kingdom] {
 }
 
 .news-intra-kingdom-conflict::before {
-	content: "✁";
-	font-size: 1.5rem;
+	content: "🗡️";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-relations::before {
-	content: "☮";
-	color: #ffed78;
-	font-size: 1.5rem;
+	content: "📜";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-actions-against-our-kingdom::before {
-	content: "⚔";
-	color: #f56767;
-	font-size: 1.5rem;
+	content: "🛡️";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-dragon::before {
-	content: "♅";
-	color: #a1e882;
-	font-size: 1.5rem;
+	content: "🔥";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-ritual::before {
-	content: "☥";
-	color: #ffd278;
-	font-size: 1.5rem;
+	content: "🙏";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-actions-by-our-kingdom::before {
-	content: "⚔";
-	color: #6bdfff;
-	font-size: 1.5rem;
+	content: "⚔️";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-aid::before {
-	content: "✛";
-	color: #ff9999;
-	font-size: 1.5rem;
+	content: "💰";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-obituaries::before {
-	content: "✝";
-	color: #bababa;
-	font-size: 1.5rem;
+	content: "☠️";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
 .news-province-modification::before {
-	content: "⚒";
-	font-size: 1.5rem;
+	content: "⚒️";
+	font-size: 1.6rem;
 	padding: 0 5px;
 }
 
@@ -714,40 +798,45 @@ input[name=change_kingdom] {
 	text-align: left;
 }
 
-/* Explore */
+/* explore */
 #btnExplore {
 	width: 168%;
 	margin-left: -68% !important;
 	margin-bottom: 0;
 }
 
-/* Growth */
+/* growth */
 #hideshow {
 	margin: 20px !important;
 }
 
-/* Sciences */
+#build_select_container {
+    background-size: contain;
+    padding: 0;
+}
+
+#id_0, #id_1, #id_2, #id_3, #id_4, #id_5, #id_6, #id_7, #id_8, #id_9, #id_10, #id_11, #id_12, #id_13, #id_14, #id_15, #id_16, #id_17 {
+	width: 11.11%;
+}
+
+/* sciences */
 input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
 }
 
-.scientist-type div.selector select, .scientist-type div.selector option, .scientist-type div.selector span {
-	width: 158px !important;
-}
-
-/* Military */
+/* military */
 .data th {
 	font-size: 1rem !important;
 	font-weight: normal !important;
 }
 
-/* Wizards */
+/* wizards */
 .game-content ul {
 	text-align: center;
 	margin: 0 0 20px 0;
 }
 
-/* Mystics */
+/* mystics */
 .helptext {
 	font-size: 1rem;
 	display: block;
@@ -757,14 +846,22 @@ input[name="reassign"], input[name="allocate"] {
 	margin-top: 20px;
 }
 
-/* Thievery */
-form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc { 
-	font-size: 1.3rem !important;
-	width: 65px !important;
-	height: 22px !important;
+/* thievery */
+form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc { 
+	font-size: 1.2rem !important;
+	width: 6.5rem !important;
+	height: 2.2rem !important;
 	padding: 0 !important;
 	margin: 0 0 3px 5px !important;
 	border-radius: 3px !important;
+}
+
+#content-area > div.game-content > form:nth-child(6) > table:nth-child(2) > tbody > tr:nth-child(3) > td > br:nth-child(5) {
+	display: none;
+}
+
+#content-area > div.game-content > form:nth-child(5) > table:nth-child(2) > tbody > tr:nth-child(3) > td > br:nth-child(5) {
+	display: none;
 }
 
 #robcalc {
@@ -780,9 +877,13 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	display: block;
 }
 
-/* War Room */
+/* war room */
 .form br {
 	display: block;
+}
+
+#autofill_select {
+	background-size: contain;
 }
 
 #autodef {
@@ -794,7 +895,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	outline: 1px dashed #ffd17a;
 }
 
-/* Aid */
+/* aid */
 #showaids {
 	text-transform: none;
 	font-weight: normal;
@@ -805,7 +906,7 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	margin-left: -32px !important;
 }
 
-/* Mail */
+/* mail */
 strong {
 	font-size: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
@@ -837,9 +938,10 @@ strong {
 form input[type=submit], .button-link {
 	margin: 0 20px 0 -2px;
 	font-size: 1.3rem;
+	font-weight: bold;
 }
 
-/* Forum */
+/* forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
 	padding: 10px;
@@ -862,7 +964,7 @@ form input[type=submit], .button-link {
 	margin: 0;
 }
 
-/* Preferences */
+/* preferences */
 .preference-box h3 {
 	margin: 0 10px !important;
 	font-family: 'Open Sans', sans-serif;
@@ -870,7 +972,7 @@ form input[type=submit], .button-link {
 }
 
 .preference-box {
-	outline: 1px dashed;
+	outline: 1px dashed dimgrey;
 	padding: 10px 0 !important;
 	margin: 15px 0 !important;
 }
@@ -879,7 +981,52 @@ form input[type=submit], .button-link {
 	margin: 10px 0 !important;
 }
 
-/* Misc. */
+/* province profile */
+.flagpole {
+	display: none;
+}
+
+.province-flag .flag-image {
+	margin: 0 0 0 -0.6rem;
+}
+
+.motto {
+	word-wrap: break-word;
+}
+
+#content-area > div.game-content > div > div.reportable {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	right: -1rem;
+}
+
+/* recruitment */
+.campaign-meter-level div, .fails-criteria div {
+    border: 0.1rem solid dimgrey;
+}
+
+.campaign-meter-level div.full {
+    background-color: #a1e882;
+}
+
+.campaign-meter-level div.unknown {
+    color: #a1e882;
+}
+
+.fails-criteria div.full {
+    background-color: #eb5252;
+}
+
+.recruitment-header .rank-bar, .campaigns .rank-bar {
+    background-color: #a1e882;
+}
+
+.recruitment-header .selected-rank, .campaigns .selected-rank {
+	background-color: #7cfc00;
+}
+
+/* miscellaneous */
 #loadstatus {
 	outline: 1px dashed;
 	width: 70%;
@@ -905,20 +1052,24 @@ form input[type=submit], .button-link {
 	font-weight: normal;
 }
 
-.good, .protected, .advice-message {
+.good, .protected, .advice-message, .intel-fresh {
 	color: #a1e882;
 }
 
-.bad, .monarch, .negative, .warning {
+.bad, .monarch, .negative, .warning, .intel-rotten, .at-war {
 	color: #f56767;
 }
 
+/*.duration_operation {
+	color: #eedc82;
+}*/
+
 .you {
-	color: #ffed78;
+	color: #f9e36b;
 }
 
-.chamberlain {
-	color: #ffd278;
+.chamberlain, .intel-stale {
+	color: #f6b53f;
 }
 
 #aidnum {
@@ -931,5 +1082,5 @@ form input[type=submit], .button-link {
 
 #footer {
 	width: auto;
-	font-size: 0.7em;
+	font-size: 1.1rem;
 }
