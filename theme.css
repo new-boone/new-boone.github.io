@@ -25,7 +25,6 @@ td br {
 hr {
     border: none;
     margin: 0.4rem 0 0 0;
-    background: transparent;
 }
 
 label {
@@ -562,7 +561,7 @@ input[name=change_kingdom] {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
-	font-size: 1.4rem !important;
+	font-size: 1.4rem;
 }
 
 .game-content th, .game-content td {
