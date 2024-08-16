@@ -937,26 +937,22 @@ form input[type=submit], .button-link {
 	display: none;
 }
 
-#content-area > div.game-content > div.province-flag > div.flag {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.province-flag .flag-image .default-flag{
-	background-color: white;
+.province-flag .flag-image {
+	margin: 0 0 0 -0.6rem;
 }
 
 .motto {
+	word-wrap: break-word;
 }
 
 #content-area > div.game-content > div > div.reportable {
-	display: flex;
+	display: grid;
 	justify-content: center;
 	align-items: center;
+	right: -1rem;
 }
 
-/* Recruitment */
+/* recruitment */
 .campaign-meter-level div, .fails-criteria div {
     border: 0.1rem solid dimgrey;
 }
