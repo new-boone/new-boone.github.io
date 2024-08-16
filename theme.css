@@ -513,6 +513,10 @@ a:hover {
 }
 
 /* kingdom details */
+.unused-slot {
+	display: none;
+}
+
 .game-content form.change-kingdom.change-kingdom-target #change-kingdom-button {
 	margin: 0;
 	position: static;
