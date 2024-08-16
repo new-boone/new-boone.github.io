@@ -24,7 +24,6 @@ td br {
 
 label {
 	white-space: nowrap;
-	overflow-wrap: break-word;
 }
 
 thead th {
@@ -503,6 +502,7 @@ a:hover {
 
 .game-content .throne-notice, .game-content p {
 	margin: 0 10px 15px;
+	overflow-wrap: break-word;
 }
 
 .game-content table.three-column-stats th {
