@@ -23,7 +23,9 @@ td br {
 }
 
 hr {
-	display: none;
+    border: none;
+    margin: 0.4rem 0 0 0;
+    background: transparent;
 }
 
 label {
