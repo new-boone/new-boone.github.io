@@ -814,10 +814,6 @@ input[name="reassign"], input[name="allocate"] {
 	margin-bottom: 50px !important;
 }
 
-.scientist-type div.selector select, .scientist-type div.selector option, .scientist-type div.selector span {
-	width: 158px !important;
-}
-
 /* military */
 .data th {
 	font-size: 1rem !important;
