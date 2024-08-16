@@ -16,6 +16,7 @@ h1, h2, h3 {
 }
 
 li {
+	list-style: none;
 }
 
 td br {
@@ -824,10 +825,6 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 	display: block;
 }
 
-#content-area > div.game-content > ul > li {
-	list-style: none;
-}
-
 /* War Room */
 .form br {
 	display: block;
@@ -923,7 +920,7 @@ form input[type=submit], .button-link {
 }
 
 .preference-box {
-	outline: 1px dashed;
+	outline: 1px dashed dimgrey;
 	padding: 10px 0 !important;
 	margin: 15px 0 !important;
 }
