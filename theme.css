@@ -806,6 +806,10 @@ input[name=change_kingdom] {
 	margin: 20px !important;
 }
 
+#content-area > div.game-content > form > p {
+	max-width: 100%;
+}
+
 #build_select_container {
     background-size: contain;
     padding: 0;
