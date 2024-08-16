@@ -1047,11 +1047,11 @@ form input[type=submit], .button-link {
 	font-weight: normal;
 }
 
-.good, .protected, .advice-message {
+.good, .protected, .advice-message, .intel-fresh {
 	color: #a1e882;
 }
 
-.bad, .monarch, .negative, .warning {
+.bad, .monarch, .negative, .warning, .intel-rotten, .at-war {
 	color: #f56767;
 }
 
@@ -1060,11 +1060,11 @@ form input[type=submit], .button-link {
 }*/
 
 .you {
-	color: #ffed78;
+	color: #f9e36b;
 }
 
-.chamberlain {
-	color: #ffb429;
+.chamberlain, .intel-stale {
+	color: #f6b53f;
 }
 
 #aidnum {
