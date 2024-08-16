@@ -667,6 +667,11 @@ input[name=change_kingdom] {
 }
 
 /* kingdom intel */
+#bOriginal, #bGeneral, #bArmies, #bWar, #bTM, #bCalced, #bResources, #bMilitary, #bPopulation, #bSurvey, #bSoS, #bSoM {
+	cursor: pointer;
+	margin-right: 0.3rem !important;
+}
+
 #newintel {
 	max-height: 80vh;
 }
