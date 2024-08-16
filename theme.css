@@ -532,9 +532,10 @@ input[name=change_kingdom] {
 }
 
 .change-kingdom-heading {
-	width: 80% !important;
+	width: 64% !important;
 	padding: 5px;
 	margin: 5px;
+	font-size: 1.4rem;
 }
 
 .change-kingdom-nav {
