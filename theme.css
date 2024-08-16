@@ -933,7 +933,14 @@ form input[type=submit], .button-link {
 }
 
 /* province profile */
-.province-flag .flagpole {
+.flagpole {
+	display: none;
+}
+
+#content-area > div.game-content > div.province-flag > div.flag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .province-flag .flag-image .default-flag{
