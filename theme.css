@@ -578,6 +578,47 @@ input[name=change_kingdom] {
 	padding-left: 2px;
 }
 
+#bookmark-header {
+	width: 2.5rem;
+	height: 2.25rem;
+	top: -0.5rem;
+}
+
+#bookmark-header::before {
+    content: "⭐";
+	font-size: 2rem;
+	position: relative;
+}
+
+/*#bookmark-header {
+    background-image: url(./images/silver_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}
+
+#bookmark-header:hover, #bookmark-header.selected {
+    background-image: url(./images/gold_star.png);
+    background-repeat: no-repeat;
+    background-position: center 3px;
+}*/
+
+#bookmark-details {
+	background: #111111;
+	line-height: 2rem;
+	padding: 10px 15px;
+	border: 1px dashed dimgrey;
+}
+
+#bookmark-details a {
+	color: #eeeeee;
+    text-decoration: none;
+	font-size: 1.2rem;
+}
+
+#bookmarks tbody a {
+	color: #ffd17a;
+}
+
 /* Kingdom Intel */
 #newintel {
 	max-height: 80vh;
@@ -848,7 +889,6 @@ form input[type=submit], .button-link {
 	margin: 0 20px 0 -2px;
 	font-size: 1.3rem;
 	font-weight: bold;
-	color: #111111;
 }
 
 /* Forum */
