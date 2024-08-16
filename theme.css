@@ -808,6 +808,7 @@ input[name=change_kingdom] {
 
 #content-area > div.game-content > form > p {
 	max-width: 100%;
+	white-space: normal;
 }
 
 #build_select_container {
