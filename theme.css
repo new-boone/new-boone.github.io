@@ -16,6 +16,7 @@ h1, h2, h3 {
 }
 
 li {
+	list-style: none;
 }
 
 td br {
@@ -860,10 +861,6 @@ form [id='10thief'], form [id='10proc'], form [id='100proc'], #calc {
 
 #robcalc br {
 	display: block;
-}
-
-#content-area > div.game-content > ul > li {
-	list-style: none;
 }
 
 /* war room */
