@@ -562,7 +562,7 @@ input[name=change_kingdom] {
 
 .game-content table.two-column-stats th, .game-content table.two-column-stats td {
 	width: 25%;
-	font-size: 1.4rem;
+	font-size: 1.4rem !important;
 }
 
 .game-content th, .game-content td {
