@@ -89,12 +89,12 @@ form p {
 }
 
 .repeat {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 button {
 	border: none;
-	border-bottom: 1px dashed dimgrey;
+	border-bottom: 0.1rem dashed dimgrey;
 	background: transparent;
 	color: #000000;
 	font-family: 'Quicksand', sans-serif;
@@ -128,16 +128,16 @@ a:hover {
 	width: 90%;
 	position: unset;
 	margin-top: 0;
-	padding: 0 30px;
+	padding: 0 3rem;
 }
 
 #middle {
 	overflow: inherit;
-	min-height: calc(100vh - 150px);
+	min-height: calc(100vh - 15rem);
 }
 
 #content-area {
-	padding-top: 5px !important;
+	padding-top: 0.5rem !important;
 }
 
 #left-column {
@@ -159,12 +159,12 @@ a:hover {
 }
 
 #account-header {
-	top: 1px;
+	top: 0.1rem;
 	right: 5%;
 }
 
 #account-header .down-arrow {
-	top: 15px;
+	top: 1.5rem;
 }
 
 #account-header .account-image {
@@ -174,39 +174,39 @@ a:hover {
 #account-details {
 	background: #111111;
 	line-height: 2.4rem;
-	padding: 10px 15px;
-	right: calc(5% + 10px);
-	top: 35px;
-	border: 1px dashed dimgrey;
+	padding: 1rem 1.5rem;
+	right: calc(5% + 1rem);
+	top: 3.5rem;
+	border: 0.1rem dashed dimgrey;
 }
 
 #account-details .account-title {
 	padding: 0;
-	margin-bottom: 5px;
+	margin-bottom: 0.5rem;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.4rem;
 	text-transform: uppercase;
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 0.1rem solid #eeeeee;
 }
 
 #account-details .account-summary {
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 }
 
 #account-details .account-signout {
 	padding: 0;
-	margin-top: 10px;
+	margin-top: 1rem;
 }
 
 .account-name {
-	margin: 5px 15px;
+	margin: 0.5rem 1.5rem;
 	text-transform: uppercase;
 }
 
 .page-summary {
 	text-align: center;
-	margin: 20px auto;
+	margin: 2rem auto;
 }
 
 .lobby-panel {
@@ -218,20 +218,20 @@ a:hover {
 }
 
 .lobby-panel .selector {
-	margin-right: 5px;	
+	margin-right: 0.5rem;	
 }
 
 .lobby-panel input[type=text] {
-	width: 172px;
+	width: 17.2rem;
 }
 
 /* top navigation */
 #header {
-	height: 40px;
+	height: 4rem;
 	width: auto;
-	font-size: 0.7em;
-	margin-left: 5px;
-	padding-top: 30px;
+	font-size: 1.1rem;
+	margin-left: 0.5rem;
+	padding-top: 3rem;
 }
 
 #header-navigation, #header-navigation-2nd-level {
@@ -241,7 +241,7 @@ a:hover {
 }
 
 #header-navigation div, #header-navigation-2nd-level div {
-	margin: 9px 5px;
+	margin: 0.9rem 0.5rem;
 }
 
 #header a, #header a:visited {
@@ -272,76 +272,71 @@ a:hover {
 
 #chooser-nav h1 {
 	font-size: 3rem;
-	margin: 30px 0 15px 0;
+	margin: 3rem 0 1.5rem 0;
 }
 
 .divider {
-	height: 5px;
+	height: 0.5rem;
 }
 
 /* bot intel */
 #toggler {
 	background-color: #111111 !important;
-	border: 1px solid dimgrey;
+	border: 0.1rem solid dimgrey;
 	border-radius: 0 !important;
-	top: 9px !important;
+	top: 0.9rem !important;
 	left: 5% !important;
-	margin-left: 10px !important;
+	margin-left: 1rem !important;
 	text-transform: uppercase;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1rem !important;
-	letter-spacing: 2px;
-	line-height: 2em;
-	width: 83px !important;
+	letter-spacing: 0.2rem;
+	line-height: 2rem;
+	width: 8.6rem !important;
 	z-index: 2 !important;
 	white-space: nowrap;
 }
 
 #botlinks, #botupdate {
 	left: 5% !important;
-	top: 10px !important;
+	top: 1rem !important;
 	border-radius: 0 !important;
-	margin-left: 104px !important;
+	margin-left: 10.4rem !important;
 	background: #111111;
 	border: none;
-	outline: 1px dashed #ffd17a;
+	outline: 0.1rem dashed #ffd17a;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.6em !important;
+	font-size: 1rem !important;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 0 5px;
-	line-height: 2em;
+	letter-spacing: 0.2rem;
+	padding: 0 0.5rem;
+	line-height: 2rem;
 	z-index: 1 !important;
 	color: #ffd17a;
 	width: max-content;
-	/*
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	margin-bottom: -1000%;
-	*/
 }
 
 /* chat */
 #ircchat {
-	width: calc(100% - 10px) !important;
-	border-radius: 5px;
+	width: calc(100% - 1rem) !important;
+	border-radius: 0.5rem;
 	color: #000000!important;
 	font-size: 1.3rem;
 	padding: 0 !important;
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 }
 
 #ircchat table {
 	border-collapse: separate !important;
-	border-spacing: 5px !important;
+	border-spacing: 0.5rem !important;
 }
 
 #irconline {
-	padding: 8px 0 0 10px;
-	line-height: 1.5em;
-	width: calc(20% - 10px) !important;
-	font-size: 1rem;
+	padding: 0.8rem 0 0 1rem;
+	line-height: 1.5rem;
+	width: calc(20% - 1rem) !important;
+	font-size: 1.1rem;
 }
 
 #irconline hr {
@@ -350,33 +345,32 @@ a:hover {
 }
 
 #ircchat center {
-	padding: 0 0 8px 0;
-	margin-top: -10px;
+	padding: 0 0 0.8rem 0;
+	margin-top: -1rem;
 }
 
 #ircchat input {
 	background-color: #eeeee;
 	width: 35%;
-	border: 1px dashed dimgrey;
+	border: 0.1rem dashed dimgrey;
 }
 
 #irccontainer {
 	border: none !important;
-	padding: 0 0 0 5px;
-	width: calc(100% - 5px) !important;
+	padding: 0 0 0 0.5rem;
+	width: calc(100% - 0.5rem) !important;
 }
 
 /* resource bar */
 #resource-bar {
 	width: 70%;
 	margin-left: 15%;
-	/* margin-top: -780px; */
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 }
 
 #resource-bar tbody {
-	font-size: 0.8em;
-	letter-spacing: 1px;
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
 }
 
 /* bot commands */
@@ -387,22 +381,22 @@ a:hover {
 	float: none !important;
 	color: #111111 !important;
 	text-align: center !important;
-	line-height: 35px;
-	border-radius: 5px;
+	line-height: 3.5rem;
+	border-radius: 0.5rem;
 	font-size: 1rem;
-	padding-top: 6px;
-	padding-bottom: 3px;
-	letter-spacing: 0.5px;
+	padding-top: 0.6rem;
+	padding-bottom: 0.3rem;
+	letter-spacing: 0.05rem;
 }
 
 #overlay p {
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 #overlay input {
 	width: 40%;
-	margin: 0 5px;
-	border: 1px dashed dimgrey;
+	margin: 0 0.5rem;
+	border: 0.1rem dashed dimgrey;
 }
 
 #overlay table {
@@ -419,79 +413,79 @@ a:hover {
 	width: 70%;
 	float: none;
 	background: #222222;
-	margin: 15px auto 10px;
+	margin: 1.5rem auto 1rem;
 	white-space: nowrap;
 }
 
 .game-header h1, .game-header a {
 	display: inline-block;
 	float: none;
-	margin: 0 2px;
+	margin: 0 0.2rem;
 	font-size: 1.2rem;
 	text-transform: uppercase;
-	padding: 5px 0;
+	padding: 0.5rem 0;
 }
 
 /* game navigation */
 #game-navigation {
-	width: calc(15% - 20px);
+	width: calc(15% - 2rem);
 	margin-right: 0;
-	position: -webkit-sticky;
+	/*position: -webkit-sticky;*/
 	position: sticky;
-	top: 40px;
+	top: 4rem;
 	font-size: 1.6rem;
 	line-height: 1.7rem;
 }
 
 #game-navigation .current-date {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1.7rem;
 }
 
 #game-navigation .navigation {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 	text-align: left;
 }
 
 .munkbutton {
 	outline: none;
-	border-radius: 3px;
-	margin: 0 0 5px 0 !important;
+	border-radius: 0.3rem;
+	margin: 0 0 0.5rem 0 !important;
 }
 
 #game-navigation img {
-	height: 14px !important;
-	margin: 0 2px;
+	height: 1.4rem !important;
+	margin: 0 0.2rem;
 }
 
 /* throne */
 #orders a {
 	font-size: 1.2rem;
-	margin: 5px;
+	margin: 0.2rem;
 }
 
 #throne-game-message {
 	font-size: 1.4rem;
-	outline: 1px dashed dimgrey;
-	padding: 10px;
+	outline: 0.1rem dashed dimgrey;
+	padding: 1rem;
 	overflow: auto;
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 #throne-monarch-message {
 	font-size: 1.4rem;
-	outline: 1px dashed #ffd17a;
-	padding: 10px;
+	outline: 0.1rem dashed #ffd17a;
+	padding: 1rem;
 	overflow: auto;
-	margin: 20px 0;
+	margin: 2rem 0;
 }
 
 .game-content h2 {
 	text-transform: uppercase;
-	margin: 5px 0 !important;
+	margin: 0.5rem 0 !important;
 	font-size: 1.5rem;
 }
 
@@ -501,12 +495,12 @@ a:hover {
 
 .game-content .advice-message {
 	text-align: center;
-	margin: 30px 0;
+	margin: 3rem 0;
 	font-size: 1.4rem;
 }
 
 .game-content .throne-notice, .game-content p {
-	margin: 0 10px 15px;
+	margin: 0 1rem 1.5rem;
 }
 
 .game-content table.three-column-stats th {
@@ -529,17 +523,17 @@ a:hover {
 
 input[name=change_kingdom] {
 	font-size: 1.4rem !important;
-	width: 35px !important;
-	height: 22px !important;
-	border-radius: 3px !important;
-	margin-left: 5px !important;
+	width: 3.5rem !important;
+	height: 2.2rem !important;
+	border-radius: 0.3rem !important;
+	margin-left: 0.5rem !important;
 	padding: 0 !important;
 }
 
 .change-kingdom-heading {
 	width: 60% !important;
-	padding: 5px;
-	margin: 5px;
+	padding: 0.5rem;
+	margin: 0.5rem;
 	font-size: 1.4rem;
 }
 
@@ -549,13 +543,13 @@ input[name=change_kingdom] {
 }
 
 .change-kingdom-nav a {
-	width: 70px !important;
+	width: 7rem !important;
 	font-size: 1.3rem !important;
-	margin: 0 20px;
+	margin: 0 2rem;
 }
 
 .change-kingdom-form {
-	top: 3px !important;
+	top: 0.3rem !important;
 	width: 20%;
 }
 
@@ -565,12 +559,12 @@ input[name=change_kingdom] {
 }
 
 .game-content th, .game-content td {
-	padding: 5px;
+	padding: 0.5rem;
 	font-size: 1.3rem;
 }
 
 #clone_kingdom td {
-	padding: 5px 0;
+	padding: 0.5rem 0;
 }
 
 #clone_kingdom th {
@@ -586,7 +580,7 @@ input[name=change_kingdom] {
 .order-icon::before {
 	content: "⇅";
 	font-weight: normal;
-	padding-left: 2px;
+	padding-left: 0.2rem;
 }
 
 #bookmark-header {
@@ -695,7 +689,7 @@ input[name=change_kingdom] {
 }
 
 #newintel .header th {
-	padding: 0 10px;
+	padding: 0 1rem;
 	text-transform: none;
 	cursor: pointer;
 }
@@ -718,82 +712,82 @@ input[name=change_kingdom] {
 
 /* news */
 .news-legend {
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 	margin-top: 0;
 }
 
 #news {
-	margin-top: 15px;
+	margin-top: 1.5rem;
 }
 
 .news-legend span {
 	font-size: 1rem;
-	margin: 0 5px
+	margin: 0 0.5rem;
 }
 
 .news-intra-kingdom-conflict::before {
 	content: "🗡️";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-relations::before {
 	content: "📜";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-actions-against-our-kingdom::before {
 	content: "🛡️";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-dragon::before {
 	content: "🔥";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-ritual::before {
 	content: "🙏";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-actions-by-our-kingdom::before {
 	content: "⚔️";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-aid::before {
 	content: "💰";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-obituaries::before {
 	content: "☠️";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-province-modification::before {
 	content: "♻️";
 	font-size: 1.6rem;
-	padding: 0 5px;
+	padding: 0 0.5rem;
 }
 
 .news-incident-type {
-	height: 20px;
-	width: 20px;
-	padding: 0 0 0 8px !important;
+	height: 2rem;
+	width: 2rem;
+	padding: 0 0 0 0.8rem !important;
 	font-size: 1.6rem;
 }
 
 .news-incident-date {
-	width: 136px;
+	width: 13.6rem;
 }
 
 .news-incident-report {
@@ -809,7 +803,7 @@ input[name=change_kingdom] {
 
 /* growth */
 #hideshow {
-	margin: 20px !important;
+	margin: 2rem !important;
 }
 
 #build_select_container {
@@ -823,7 +817,7 @@ input[name=change_kingdom] {
 
 /* sciences */
 input[name="reassign"], input[name="allocate"] {
-	margin-bottom: 50px !important;
+	margin-bottom: 5rem !important;
 }
 
 /* military */
@@ -835,7 +829,7 @@ input[name="reassign"], input[name="allocate"] {
 /* wizards */
 .game-content ul {
 	text-align: center;
-	margin: 0 0 20px 0;
+	margin: 0 0 2rem 0;
 }
 
 /* mystics */
@@ -845,7 +839,7 @@ input[name="reassign"], input[name="allocate"] {
 }
 
 #spellslist {
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 /* thievery */
@@ -854,8 +848,8 @@ form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc {
 	width: 6.5rem !important;
 	height: 2.2rem !important;
 	padding: 0 !important;
-	margin: 0 0 3px 5px !important;
-	border-radius: 3px !important;
+	margin: 0 0 0.3rem 0.5rem !important;
+	border-radius: 0.3rem !important;
 }
 
 #content-area > div.game-content > form:nth-child(6) > table:nth-child(2) > tbody > tr:nth-child(3) > td > br:nth-child(5) {
@@ -867,12 +861,12 @@ form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc {
 }
 
 #robcalc {
-	letter-spacing: 0.5px;
+	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 	font-size: 1rem;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 	width: 50%;
-	margin: 5px auto;
+	margin: 0.5rem auto;
 }
 
 #robcalc br {
@@ -889,23 +883,23 @@ form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc {
 }
 
 #autodef {
-	margin-right: 4px important!;
+	margin-right: 0.4rem important!;
 }
 
 #calculator-separator {
 	border-top: none !important;
-	outline: 1px dashed #ffd17a;
+	outline: 0.1rem dashed #ffd17a;
 }
 
 /* aid */
 #showaids {
 	text-transform: none;
 	font-weight: normal;
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 
 #id_land {
-	margin-left: -32px !important;
+	margin-left: -3.2rem !important;
 }
 
 /* mail */
@@ -919,26 +913,26 @@ strong {
 }
 
 .formatted-text {
-	outline: 1px dashed #ffd17a;
-	padding: 15px !important;
+	outline: 0.1rem dashed #ffd17a;
+	padding: 1.5rem !important;
 }
 
 .warning {
 	text-align: center !important;
-	margin: 20px 0 !important;
+	margin: 2rem 0 !important;
 }
 
 .current.page {
 	color: #ffd17a;
-	padding: 0 10px;
+	padding: 0 1rem;
 }
 
 .pagination {
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 
 form input[type=submit], .button-link {
-	margin: 0 20px 0 -2px;
+	margin: 0 2rem 0 -0.2rem;
 	font-size: 1.3rem;
 	font-weight: bold;
 }
@@ -946,7 +940,7 @@ form input[type=submit], .button-link {
 /* forum */
 .game-content table.mail-view tr td {
 	font-size: 1.4rem;
-	padding: 10px;
+	padding: 1rem;
 }
 
 #id_subject {
@@ -968,19 +962,19 @@ form input[type=submit], .button-link {
 
 /* preferences */
 .preference-box h3 {
-	margin: 0 10px !important;
+	margin: 0 1rem !important;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 }
 
 .preference-box {
-	outline: 1px dashed dimgrey;
-	padding: 10px 0 !important;
-	margin: 15px 0 !important;
+	outline: 0.1rem dashed dimgrey;
+	padding: 1rem 0 !important;
+	margin: 1.5rem 0 !important;
 }
 
 .preference-box .advice-message {
-	margin: 10px 0 !important;
+	margin: 1rem 0 !important;
 }
 
 /* province profile */
@@ -1030,7 +1024,7 @@ form input[type=submit], .button-link {
 
 /* miscellaneous */
 #loadstatus {
-	outline: 1px dashed;
+	outline: 0.1rem dashed;
 	width: 70%;
 	margin: 10px auto;
 	text-transform: uppercase;
