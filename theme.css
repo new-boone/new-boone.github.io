@@ -19,9 +19,6 @@ li {
 	list-style: none;
 }
 
-td br {
-}
-
 hr {
     border: none;
     margin: 0.4rem 0 0 0;
@@ -38,9 +35,6 @@ thead th {
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	white-space: nowrap;
-}
-
-.selector {
 }
 
 input, input:focus {
