@@ -1026,20 +1026,20 @@ form input[type=submit], .button-link {
 #loadstatus {
 	outline: 0.1rem dashed;
 	width: 70%;
-	margin: 10px auto;
+	margin: 1rem auto;
 	text-transform: uppercase;
-	padding: 0 0 22px 0;
+	padding: 0 0 2.2rem 0;
 	color: #ffd17a;
 }
 
 .message {
-	outline: 1px dashed;
+	outline: 0.1rem dashed;
 	padding: 2em;
 }
 
 #right-column {
 	width: 15%;
-	margin-top: -620px;
+	margin-top: -62rem;
 }
 
 .advice-message {
@@ -1070,7 +1070,7 @@ form input[type=submit], .button-link {
 
 #aidnum {
 	color: #f56767;
-	letter-spacing: 1px;
+	letter-spacing: 0.1rem;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.4rem;
 	font-weight: bold;
