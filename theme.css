@@ -883,7 +883,7 @@ form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc {
 }
 
 #autodef {
-	margin-right: 0.4rem important!;
+	margin-right: 0.4rem !important;
 }
 
 #calculator-separator {
