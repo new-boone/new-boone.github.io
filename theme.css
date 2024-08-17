@@ -424,7 +424,6 @@ a:hover {
 #game-navigation {
 	width: calc(15% - 2rem);
 	margin-right: 0;
-	/*position: -webkit-sticky;*/
 	position: sticky;
 	top: 4rem;
 	font-size: 1.6rem;
