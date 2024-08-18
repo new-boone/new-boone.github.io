@@ -575,6 +575,15 @@ input[name=change_kingdom] {
 	width: 0 !important;
 }
 
+.provinces-legend {
+	font-size: 1.2rem;
+}
+
+.invitations {
+	font-size: 1.1rem;
+	position: absolute;
+}
+
 .order-icon::before {
 	content: "⇅";
 	font-weight: normal;
@@ -653,6 +662,7 @@ input[name=change_kingdom] {
 
 /* kingdom intel */
 #bOriginal, #bGeneral, #bArmies, #bWar, #bTM, #bCalced, #bResources, #bMilitary, #bPopulation, #bSurvey, #bSoS, #bSoM {
+	font-size: 1.2rem;
 	cursor: pointer;
 	margin-right: 0.2rem !important;
 }
@@ -890,7 +900,7 @@ form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc {
 
 /* mail */
 strong {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-family: 'Open Sans', sans-serif;
 }
 
