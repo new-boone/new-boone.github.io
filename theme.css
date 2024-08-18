@@ -109,7 +109,7 @@ a:hover {
 
 /* ads */
 .google_ads {
-    display: none !important;
+	display: none !important;
 }
 
 /* facebook */
@@ -162,7 +162,7 @@ a:hover {
 }
 
 #account-header .account-image {
-    display: none;
+	display: none;
 }
 
 #account-details {
@@ -248,7 +248,7 @@ a:hover {
 }
 
 #header-logo {
-    display: none;
+	display: none;
 }
 
 /* lobby */
