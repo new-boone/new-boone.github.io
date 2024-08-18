@@ -607,43 +607,43 @@ input[name=change_kingdom] {
 }
 
 .dip-status {
-    color: #111111;
-    font-weight: bold;
-    line-height: 1.6rem;
+	color: #111111;
+	font-weight: bold;
+	line-height: 1.6rem;
 }
 
 .dip-status-NORMAL {
-    background-color: #01DF01;
+	background-color: #01DF01;
 }
 
 .dip-status-UNFRIENDLY {
-    background-color: #FFBF00;
+	background-color: #FFBF00;
 }
 
 .dip-status-HOSTILE {
-    background-color:#FF4000;
-    background-image: url(./images/hostile_meter/hostile_gradient.png);
-    background-repeat: repeat-y;
+	background-color:#FF4000;
+	background-image: url(./images/hostile_meter/hostile_gradient.png);
+	background-repeat: repeat-y;
 }
 
 .dip-status-WAR {
-    background-color: #FF0000;
+	background-color: #FF0000;
 }
 
 .own-meter-value {
-    background-image: url(./images/hostile_meter/up.png);
+	background-image: url(./images/hostile_meter/up.png);
 }
 
 .their-meter-value {
-    background-image: url(./images/hostile_meter/down.png);
+	background-image: url(./images/hostile_meter/down.png);
 }
 
 .war-button-meter-value {
-    background-image: url(./images/hostile_meter/war.png);
+	background-image: url(./images/hostile_meter/war.png);
 }
 
 #hostility-meter-example {
-    background-image: url(./images/hostile_meter/example.png);
+	background-image: url(./images/hostile_meter/example.png);
 }
 
 /* kingdom intel */
@@ -788,8 +788,8 @@ input[name=change_kingdom] {
 }
 
 #build_select_container {
-    background-size: contain;
-    padding: 0;
+	background-size: contain;
+	padding: 0;
 }
 
 #id_0, #id_1, #id_2, #id_3, #id_4, #id_5, #id_6, #id_7, #id_8, #id_9, #id_10, #id_11, #id_12, #id_13, #id_14, #id_15, #id_16, #id_17 {
@@ -980,23 +980,23 @@ form input[type=submit], .button-link {
 
 /* recruitment */
 .campaign-meter-level div, .fails-criteria div {
-    border: 0.1rem solid dimgrey;
+	border: 0.1rem solid dimgrey;
 }
 
 .campaign-meter-level div.full {
-    background-color: #a1e882;
+	background-color: #a1e882;
 }
 
 .campaign-meter-level div.unknown {
-    color: #a1e882;
+	color: #a1e882;
 }
 
 .fails-criteria div.full {
-    background-color: #eb5252;
+	background-color: #eb5252;
 }
 
 .recruitment-header .rank-bar, .campaigns .rank-bar {
-    background-color: #a1e882;
+	background-color: #a1e882;
 }
 
 .recruitment-header .selected-rank, .campaigns .selected-rank {
