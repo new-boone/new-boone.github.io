@@ -2,7 +2,7 @@
 
 /* ios test */
 html {
-	line-height: 1.15;
+	line-height:;
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -10,12 +10,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-	-webkit-appearance: button;
-}
-
-::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	font: inherit;
+	-webkit-appearance:;
 }
 
 /* global */
