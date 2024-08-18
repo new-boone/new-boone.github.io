@@ -583,22 +583,10 @@ input[name=change_kingdom] {
 }
 
 #bookmark-header::before {
-    content: "⭐";
+	content: "⭐";
 	font-size: 2rem;
 	position: relative;
 }
-
-/*#bookmark-header {
-    background-image: url(./images/silver_star.png);
-    background-repeat: no-repeat;
-    background-position: center 3px;
-}
-
-#bookmark-header:hover, #bookmark-header.selected {
-    background-image: url(./images/gold_star.png);
-    background-repeat: no-repeat;
-    background-position: center 3px;
-}*/
 
 #bookmark-details {
 	background: #111111;
@@ -609,7 +597,7 @@ input[name=change_kingdom] {
 
 #bookmark-details a {
 	color: #eeeeee;
-    text-decoration: none;
+	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: normal;
 }
