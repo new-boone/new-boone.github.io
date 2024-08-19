@@ -892,6 +892,17 @@ form [id='10thief'], form [id='5proc'], form [id='10proc'], form [id='100proc'],
 	outline: 0.1rem dashed #ffd17a;
 }
 
+#send-armies-form > p:nth-child(4) {
+	margin-bottom: 3.2rem;
+}
+
+#id_def_info {
+	outline: 0.1rem dashed #ffd17a;
+	line-height: 3.2rem;
+	background-color: #222222;
+	margin-bottom: 3.2rem !important;
+}
+
 /* aid */
 #showaids {
 	text-transform: none;
