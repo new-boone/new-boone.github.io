@@ -318,6 +318,7 @@ a:hover {
 
 /* chat */
 #ircchat {
+	background-color: #eeeeee !important;
 	width: calc(100% - 1rem) !important;
 	border-radius: 0.5rem;
 	color: #000000!important;
@@ -374,6 +375,7 @@ a:hover {
 
 /* bot commands */
 #overlay {
+	background-color: #eeeeee !important;
 	width: 70% !important;
 	margin-top: 0 !important;
 	margin-left: auto !important;
