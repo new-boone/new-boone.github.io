@@ -844,7 +844,7 @@ input[name="reassign"], input[name="allocate"] {
 }
 
 /* thievery */
-form [id='10thief'], form [id='5proc'], form [id='100proc'], #calc { 
+form [id='10thief'], form [id='5proc'], form [id='10proc'], form [id='100proc'], #calc { 
 	font-size: 1.2rem !important;
 	width: 6.5rem !important;
 	height: 2.2rem !important;
