@@ -93,9 +93,9 @@ form p {
 
 button {
 	border: none;
-	border-bottom: 0.1rem dashed dimgrey;
+	border-bottom: 0.1rem dashed #aaaaaa;
 	background: transparent;
-	color: #000000;
+	color: #eeeeee;
 	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
 	padding: 0;
@@ -318,10 +318,10 @@ a:hover {
 
 /* chat */
 #ircchat {
-	background-color: #eeeeee !important;
+	background-color: #222222 !important;
 	width: calc(100% - 1rem) !important;
 	border-radius: 0.5rem;
-	color: #000000!important;
+	color: #eeeeee!important;
 	font-size: 1.3rem;
 	padding: 0 !important;
 	margin-bottom: 1rem;
@@ -350,15 +350,17 @@ a:hover {
 }
 
 #ircchat input {
-	background-color: #eeeee;
 	width: 35%;
-	border: 0.1rem dashed dimgrey;
 }
 
 #irccontainer {
 	border: none !important;
 	padding: 0 0 0 0.5rem;
 	width: calc(100% - 0.5rem) !important;
+}
+
+#showchat > table {
+	border: none !important;
 }
 
 /* resource bar */
@@ -375,12 +377,12 @@ a:hover {
 
 /* bot commands */
 #overlay {
-	background-color: #eeeeee !important;
+	background-color: #222222 !important;
 	width: 70% !important;
 	margin-top: 0 !important;
 	margin-left: auto !important;
 	float: none !important;
-	color: #000000 !important;
+	color: #eeeeee !important;
 	text-align: center !important;
 	line-height: 3.5rem;
 	border-radius: 0.5rem;
@@ -396,8 +398,7 @@ a:hover {
 
 #overlay input {
 	width: 40%;
-	margin: 0 0.5rem;
-	border: 0.1rem dashed dimgrey;
+	margin: 0 0.5rem !important;
 }
 
 #overlay table {
