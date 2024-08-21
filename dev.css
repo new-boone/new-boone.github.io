@@ -329,6 +329,9 @@ a:hover {
 	margin-bottom: 1rem;
 }
 
+#showchat {
+	height: 11.8rem;
+
 #ircchat table {
 	border-collapse: separate !important;
 	border-spacing: 0.5rem !important;
