@@ -388,6 +388,7 @@ a:hover {
 	margin-left: auto !important;
 	float: none !important;
 	color: #eeeeee !important;
+	opacity: 1 !important;
 	text-align: center !important;
 	line-height: 3.5rem;
 	border-radius: 0.5rem;
