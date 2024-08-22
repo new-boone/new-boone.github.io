@@ -870,6 +870,7 @@ form [id='10thief'], form [id='5proc'], form [id='10proc'], form [id='100proc'],
 }
 
 #robcalc {
+	background-color: #eeeeee;
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 	font-size: 1rem;
