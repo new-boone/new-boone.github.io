@@ -43,6 +43,7 @@ thead th {
 }
 
 input, input:focus {
+	background-color: #eeeeee;
 	border: none;
 	outline: none;
 	font-family: 'Quicksand', sans-serif;
