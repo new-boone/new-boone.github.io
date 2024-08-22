@@ -809,6 +809,10 @@ input[name=change_kingdom] {
 	margin: 2rem !important;
 }
 
+#buildtool {
+	margin-top: 1.5rem;
+}
+
 #build_select_container {
 	background-size: contain;
 	padding: 0;
