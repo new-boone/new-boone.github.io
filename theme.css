@@ -3,6 +3,7 @@
 /* ios reset */
 html {
 	-webkit-text-size-adjust: 100%;
+	-webkit-overflow-scrolling: touch;
 }
 
 /* global */
