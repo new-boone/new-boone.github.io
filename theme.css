@@ -46,6 +46,7 @@ input, input:focus {
 	background-color: #eeeeee;
 	border: none;
 	outline: none;
+	color: #000000;
 	font-family: 'Quicksand', sans-serif;
 	padding: 0.3rem !important;
 	margin: 0 0.1rem !important;
@@ -80,7 +81,6 @@ input[type=submit] {
 
 .max, .max:focus {
 	padding: 0.3rem 0.5rem !important;
-	color: #000000;
 }
 
 form p {
