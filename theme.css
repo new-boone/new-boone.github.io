@@ -991,6 +991,16 @@ form input[type=submit], .button-link {
 	margin: 0;
 }
 
+form input[name="unstick"], form input[name="stick"], form input[name="close"], form input[name="delete"] {
+	font-size: 1.3rem !important;
+	min-width: auto;
+	padding: 0 1rem !important;
+}
+
+td.forum-moderator-buttons {
+	white-space: nowrap;
+}
+
 /* preferences */
 .preference-box h3 {
 	margin: 0 1rem !important;
