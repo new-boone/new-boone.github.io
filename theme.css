@@ -416,7 +416,12 @@ a:hover {
 }
 
 #overlay td {
+	background-color: #222222;
 	font-size: 1rem;
+}
+
+#overlay span {
+	color: #f56767 !important;
 }
 
 /* game header */
