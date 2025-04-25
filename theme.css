@@ -983,10 +983,6 @@ form input[type=submit], .button-link {
 	outline: none;
 }
 
-.mail-view br {
-	display: block;
-}
-
 .mail-view p {
 	margin: 0;
 }
