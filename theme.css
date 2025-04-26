@@ -974,6 +974,14 @@ form input[type=submit], .button-link {
 	padding: 1rem;
 }
 
+.game-content .reportable:nth-child(odd) {
+    background-color: #000000;
+}
+
+.game-content .reportable:nth-child(even) {
+    background-color: #222222;
+}
+
 #id_subject {
 	width: 99%;
 }
